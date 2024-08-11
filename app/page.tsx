@@ -9,7 +9,6 @@ const Home = () => {
 
   return (
     <div className="flex flex-col bg-slate-50 scroll-smooth">
-      <p className="text-6xl">Figment Studios</p>
 
       <Faq />
       <Footer />
