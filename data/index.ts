@@ -1,11 +1,21 @@
-// export const footerData: 
-//     company: {
-//         data: [
-            
-//         ]
-//     }
-   
-//   ]
+export const faqData = [
+    {
+        id: 1,
+        item: 'Is wearing a mask mandatory?',
+        content: 'At the present time, wearing a mask is now optional but we do ask that if you have any type of respiratory symptoms that you do wear a mask.'
+    },
+    {
+        id: 2,
+        item: 'When is it suitable to use the after office hours ?',
+        content: 'This is only for URGENT appointments and not meant for routine visits. In case of a same day URGENT problem, please call our office first to request an appointment and we will try to fit you in the same or next day. Otherwise, if it is after 5 pm, please call the FHO phone line at 905-815-9177 and you will be informed of the location and phone number of the FHO Clinic for that night or the Saturday or Sunday.'
+    },
+    {
+        id: 3,
+        item: 'How can I book an appointment',
+        content: 'Yes. It adheres to the WAI-ARIA design pattern. PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition. Yes. It adheres to the WAI-ARIA design pattern. PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition.'
+    }
+]
+
 export const supportData = [
     {
         id:1,
