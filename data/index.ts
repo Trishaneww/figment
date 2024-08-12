@@ -1,3 +1,10 @@
+export const navItems = [
+    { name: "FAQ", link: "/#faq" },
+    { name: "Contact", link: "/contact" },
+    { name: "Holiday Hours", link: "/holidayhours" },
+    { name: "After Hours Care", link: "/afterhours" },
+];
+
 export const faqData = [
     {
         id: 1,

@@ -13,7 +13,6 @@ const Home = () => {
 
   return (
     <div className="flex flex-col bg-slate-50 scroll-smooth">
-
       <Navbar />
       <Hero />
       {/* <Approach /> */}

@@ -10,6 +10,7 @@ import {
 import { Button } from './ui/button'
 import { FaCheck } from "react-icons/fa6";
 import { pricingData } from '@/data';
+import '../styles/global.scss';
   
 
 const Pricing = () => {
@@ -31,7 +32,7 @@ const Pricing = () => {
                         <ul className="mt-6 flex flex-col gap-2">
                             {card.packageList.map((item) => (
                                 <li className="flex gap-4">
-                                    <div className="flex justify-center items-center border-[1px] border-black w-[24px] h-[24px] rounded-full">
+                                    <div className="flex justify-center items-center border-[1px] border-green-500 w-[24px] h-[24px] rounded-full">
                                         <FaCheck size={12} />
                                     </div>
                                     <p className="text-lg">{item}</p>
@@ -40,7 +41,7 @@ const Pricing = () => {
                         </ul>
                     </CardContent>
                     <CardFooter className="self-center">
-                        <Button className="w-[240px] h-[46px]">Purchase</Button>
+                        <Button className="w-[240px] h-[46px] shadow">Purchase</Button>
                     </CardFooter>
                 </Card>
             ))}
