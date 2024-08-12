@@ -77,7 +77,7 @@ export const pricingData = [
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
         price: "$200",
         rate: '/month',
-        package: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates"]
+        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates"]
     },
     {
         id:2,
@@ -85,7 +85,7 @@ export const pricingData = [
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
         price: "$300",
         rate: '/month',
-        package: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
+        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
     },
     {
         id:3,
@@ -93,6 +93,6 @@ export const pricingData = [
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
         price: "$500",
         rate: '/month',
-        package: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
+        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
     }
 ]
