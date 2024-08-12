@@ -35,7 +35,7 @@ const Navbar = () => {
     <div className="flex gap-6">
       <Link href='/' className={cn(
             "relative dark:text-slate-50 items-center flex space-x-1 text-slate-800 dark:hover:text-slate-300 hover:text-slate-500"
-          )}><span className=" text-sm !cursor-pointer font-bold">Figment Studios</span>
+          )}><span className=" text-xl !cursor-pointer font-bold">Figment Studios</span>
       </Link>
 
       {/* <Link href='/'><span className="text-l font-bold">Argus Doctors</span>
