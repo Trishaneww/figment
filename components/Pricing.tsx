@@ -20,18 +20,18 @@ const Pricing = () => {
                 <CardDescription>For businesses needing short-term marketing assets or a small new/redesigned website.</CardDescription>
             </CardHeader>
             <CardContent>
-                <h1>$200/m</h1>
-                <ul>
-                    <li>
-                        <div>
-
+                <h1 className="text-2xl font-bold">$200/m</h1>
+                <ul className="mt-6">
+                    <li className="flex gap-4">
+                        <div className="flex justify-center items-center border-[1px] border-black w-[24px] h-[24px] rounded-full">
+                            <IoCheckmark />
                         </div>
-                        <p></p>
+                        <p className="text-lg">Unlimited Requests</p>
                     </li>
                 </ul>
             </CardContent>
             <CardFooter>
-                <Button>Purchase</Button>
+                <Button className="w-[220px]">Purchase</Button>
             </CardFooter>
         </Card>
     </div>
