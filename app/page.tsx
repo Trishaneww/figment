@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
+import Navbar from "@/components/Navbar";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <div className="flex flex-col bg-slate-50 scroll-smooth">
 
+      <Navbar />
       <Hero />
       {/* <Approach /> */}
       <Faq />
