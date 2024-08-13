@@ -1,8 +1,8 @@
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
-    { name: "Contact", link: "/contact" },
-    { name: "Holiday Hours", link: "/holidayhours" },
-    { name: "After Hours Care", link: "/afterhours" },
+    { name: "Gallery", link: "/" },
+    { name: "Pricing", link: "/" },
+    { name: "Blog", link: "/" },
 ];
 
 export const faqData = [

@@ -17,3 +17,25 @@
     box-shadow: 0 40px 20px -2px rgb(0, 0, 0);
 }
 
+@keyframes slide {
+    from {
+        transform: translateX(0)
+    }
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding:60px 0px;
+    background: red;
+}
+
+.logos-slide {
+    display:flex;
+    white-space:nowrap;
+    margin: 0 40px;
+    animation: 5s slide infinite linear;
+}
+
