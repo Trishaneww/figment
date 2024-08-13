@@ -1,3 +1,10 @@
+export const navItems = [
+    { name: "FAQ", link: "/#faq" },
+    { name: "Contact", link: "/contact" },
+    { name: "Holiday Hours", link: "/holidayhours" },
+    { name: "After Hours Care", link: "/afterhours" },
+];
+
 export const faqData = [
     {
         id: 1,
@@ -66,5 +73,33 @@ export const contactData = [
     {
       id:3,
       name:'138 Cavendish Court, Oakville'
+    }
+]
+
+
+export const pricingData = [
+    {
+        id:1,
+        title: 'Standard',
+        desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
+        price: "$200",
+        rate: '/month',
+        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates"]
+    },
+    {
+        id:2,
+        title: 'Premium',
+        desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
+        price: "$300",
+        rate: '/month',
+        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
+    },
+    {
+        id:3,
+        title: 'Unlimited',
+        desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
+        price: "$500",
+        rate: '/month',
+        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
     }
 ]
