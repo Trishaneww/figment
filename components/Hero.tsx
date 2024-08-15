@@ -9,7 +9,7 @@ import Bg from '../public/assets/images/bg.png';
 const Hero = () => {
   return (
     <div>
-      <div className="w-3/5 h-4/5 bg-green-200 rounded-full absolute z-1 top-[50%] left-[70%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
+      <div className="w-3/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[50%] left-[70%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
       <div className="flex justify-between items-center gap-10 h-[100vh] overflow-hidden">
         <div className="flex flex-col justify-center items-start gap-6 z-10 w-2/6 ml-64">
             <h1 className="text-8xl font-bold">Figment designs to grow your business</h1>

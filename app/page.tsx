@@ -6,6 +6,8 @@ import Link from "next/link";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Navbar from "@/components/Navbar";
+import Companies from "@/components/Companies";
+import CaseStudies from "@/components/CaseStudies";
 
 
 const Home = () => {
@@ -15,7 +17,9 @@ const Home = () => {
     <div className="flex flex-col bg-slate-50 scroll-smooth">
       <Navbar />
       <Hero />
+      <Companies />
       {/* <Approach /> */}
+      <CaseStudies />
       <Faq />
       <Pricing />
       <Footer />
