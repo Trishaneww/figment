@@ -76,6 +76,26 @@ export const contactData = [
     }
 ]
 
+export const caseStudies = [
+  {
+    id:1,
+    title: 'Study Hive',
+    type: 'Web App',
+    desc: "Platform enabling college students to create, view and quiz themselves with study decks for more effective learning."
+  },
+  {
+    id:1,
+    title: 'Foodbyte',
+    type: 'Web App',
+    desc: "Streamlined food ordering service to make food proccessing quicker."
+  },
+  {
+    id:1,
+    title: 'YA Solutions Inc',
+    type: 'Web App',
+    desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
+  }
+]
 
 export const pricingData = [
     {

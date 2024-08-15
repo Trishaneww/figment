@@ -36,7 +36,7 @@ const Companies = () => {
         },
       ];
   return (
-    <div className="relative w-full">
+    <div className="relative w-full opacity-30">
         <div className="logos flex gap-2">
           <div className="logos-slide flex gap-2">
               <div className="flex items-center justify-center w-[210px] h-[200px]">
