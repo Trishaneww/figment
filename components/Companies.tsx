@@ -1,6 +1,7 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/infinite-moving-cards'
 import Image from 'next/image';
+import img1 from '../public/assets/images/company10.png';
 
 const Companies = () => {
     const testimonials = [
@@ -35,132 +36,173 @@ const Companies = () => {
         },
       ];
   return (
-    <div>
-        <p>COMPANIES</p>
-        <div className="logos">
-          <div className="logos-slide">
-          <Image
-              width={300}
-              height={300}
-              src="/assets/images/company5.png" 
-              alt="company"
-              className="grayscale"
-            />
+    <div className="relative w-full">
+        <div className="logos flex gap-2">
+          <div className="logos-slide flex gap-2">
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company3.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company2.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company4.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company4.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company5.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company5.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company6.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company6.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company7.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company7.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company8.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company8.png" 
-              alt="company"
-              className="grayscale"
-            />    
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company13.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
+
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company10.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
           </div>
-          <div className="logos-slide">
-          <Image
-              width={300}
-              height={300}
-              src="/assets/images/company5.png" 
-              alt="company"
-              className="grayscale"
-            />
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company2.png" 
-              alt="company"
-              className="grayscale"
-            />
+          <div className="logos-slide flex gap-2">
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company3.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company4.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company4.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company5.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company5.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company6.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company6.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company7.png" 
-              alt="company"
-              className="grayscale"
-            />
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company7.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
 
-            <Image
-              width={300}
-              height={300}
-              src="/assets/images/company8.png" 
-              alt="company"
-              className="grayscale"
-            />    
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company8.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
+
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company13.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
+
+              <div className="flex items-center justify-center w-[210px] h-[200px]">
+                <Image 
+                  width={1000}
+                  height={1000}
+                  src="/assets/images/company10.png"
+                  alt="company photo"
+                  className="object grayscale"
+                />
+              </div>
+
           </div>
         </div>
-        {/* <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
-    </div> */}
-
     </div>
   )
 }

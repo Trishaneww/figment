@@ -7,6 +7,7 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Navbar from "@/components/Navbar";
 import Companies from "@/components/Companies";
+import CaseStudies from "@/components/CaseStudies";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Hero />
       <Companies />
       {/* <Approach /> */}
+      <CaseStudies />
       <Faq />
       <Pricing />
       <Footer />
