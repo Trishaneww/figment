@@ -1,3 +1,5 @@
+import { features } from "process";
+
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
     { name: "Gallery", link: "/" },
@@ -95,6 +97,16 @@ export const caseStudies = [
     type: 'Web App',
     desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
   }
+]
+
+export const selectedWork = [
+  {
+    id:1,
+    title: 'Study Hive',
+    link: '',
+    descr: '',
+    featuresList: []
+  },
 ]
 
 export const pricingData = [

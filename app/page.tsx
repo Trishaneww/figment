@@ -8,6 +8,7 @@ import Pricing from "@/components/Pricing";
 import Navbar from "@/components/Navbar";
 import Companies from "@/components/Companies";
 import CaseStudies from "@/components/CaseStudies";
+import Work from "@/components/Work";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Companies />
+      <Work />
       {/* <Approach /> */}
       <CaseStudies />
       <Faq />
