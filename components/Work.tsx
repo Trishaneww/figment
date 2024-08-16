@@ -42,7 +42,7 @@ const Work = () => {
                 <Image
                   width={1000}
                   height={1000}
-                  src={project.href}
+                  src={project.src}
                   alt="services image"
                 />
               </div>

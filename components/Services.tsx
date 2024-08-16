@@ -16,7 +16,35 @@ const Services = () => {
     </section>
 
     <section>
-      {selectedWork.map((project) => (
+        {selectedWork.map((project) => (
+            <div className="w-4/6 h-[32rem] flex gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
+              <div className="flex flex-col justify-between w-1/3">
+                <div className="flex flex-col  gap-2">
+                  <p className="text-3xl font-bold">{project.title}</p>
+                  <p>{project.descr}</p>
+                </div>
+                
+                <ul className="flex gap-2 flex-wrap">
+                  {project.featuresList.map((feature) => (
+                    <li className="flex justify-center items-center h-[36px] rounded-lg p-2 bg-green-100">
+                        <FaCheck />
+                        <p className="text-green-600 text-sm">{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="w-2/3 overflow-hidden">
+                <Image
+                  width={1000}
+                  height={1000}
+                  src={project.src}
+                  alt="services image"
+                />
+              </div>
+            </div>
+          ))}
+      {/* {selectedWork.map((project) => (
         <div>
           <div>
             <p>{project.title}</p>
@@ -44,7 +72,7 @@ const Services = () => {
           </div>
 
         </div>
-      ))}
+      ))} */}
         
     </section>
 </div>

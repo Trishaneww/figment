@@ -104,7 +104,7 @@ export const selectedWork = [
     id:1,
     title: 'Study Hive',
     link: '',
-    href: '/assets/images/work1.png',
+    src: '/assets/images/work1.png',
     descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
     featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
   },
@@ -112,7 +112,7 @@ export const selectedWork = [
     id:1,
     title: 'Foodbyte',
     link: '',
-    href: '/assets/images/work3.png',
+    src: '/assets/images/work3.png',
     descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
     featuresList: ['API Integration', 'Websocket']
   },
@@ -120,10 +120,20 @@ export const selectedWork = [
     id:1,
     title: 'YA Solutions',
     link: '',
-    href: '/assets/images/work2.png',
+    src: '/assets/images/work2.png',
     descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
     featuresList: ['API Integration', 'Websocket', 'Digital Server']
   },
+]
+
+export const services = [
+  {
+    id:1,
+    title: '',
+    descr: '',
+    src: '',
+    featuresList: []
+  }
 ]
 
 export const pricingData = [
