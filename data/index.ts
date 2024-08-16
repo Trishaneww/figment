@@ -104,8 +104,25 @@ export const selectedWork = [
     id:1,
     title: 'Study Hive',
     link: '',
-    descr: '',
-    featuresList: []
+    href: '/assets/images/work1.png',
+    descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
+    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+  },
+  {
+    id:1,
+    title: 'Foodbyte',
+    link: '',
+    href: '/assets/images/work3.png',
+    descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
+    featuresList: ['API Integration', 'Websocket']
+  },
+  {
+    id:1,
+    title: 'YA Solutions',
+    link: '',
+    href: '/assets/images/work2.png',
+    descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
+    featuresList: ['API Integration', 'Websocket', 'Digital Server']
   },
 ]
 
