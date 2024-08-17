@@ -126,6 +126,45 @@ export const selectedWork = [
   },
 ]
 
+export const companiesList = [
+  {
+    id:1,
+    src: '/assets/images/company3.png'
+  },
+  {
+    id:2,
+    src: '/assets/images/company4.png'
+  },
+  {
+    id:3,
+    src: '/assets/images/company5.png'
+  },
+  {
+    id:4,
+    src: '/assets/images/company6.png'
+  },
+  {
+    id:5,
+    src: '/assets/images/company7.png'
+  },
+  {
+    id:6,
+    src: '/assets/images/company8.png'
+  },
+  {
+    id:7,
+    src: '/assets/images/company9.png'
+  },
+  {
+    id:9,
+    src: '/assets/images/company10.png'
+  },
+  {
+    id:10,
+    src: '/assets/images/company11.png'
+  },
+]
+
 export const services = [
   {
     id:1,
