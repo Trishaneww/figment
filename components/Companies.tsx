@@ -4,206 +4,344 @@ import Image from 'next/image';
 import img1 from '../public/assets/images/company10.png';
 
 const Companies = () => {
-    const testimonials = [
-        {
-          quote:
-            "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-          name: "Charles Dickens",
-          title: "A Tale of Two Cities",
-        },
-        {
-          quote:
-            "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-          name: "William Shakespeare",
-          title: "Hamlet",
-        },
-        {
-          quote: "All that we see or seem is but a dream within a dream.",
-          name: "Edgar Allan Poe",
-          title: "A Dream Within a Dream",
-        },
-        {
-          quote:
-            "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-          name: "Jane Austen",
-          title: "Pride and Prejudice",
-        },
-        {
-          quote:
-            "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-          name: "Herman Melville",
-          title: "Moby-Dick",
-        },
-      ];
+  
   return (
-    <div className="relative w-full opacity-30">
-        <div className="logos flex gap-2">
-          <div className="logos-slide flex gap-2">
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company3.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company4.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company5.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company6.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company7.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company8.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company13.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company10.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
+    <div className="relative w-full opacity-30 -top-20">
+    <div className="logos flex gap-12">
+      <div className="logos-slide flex gap-16">
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company3.png"
+              alt="company photo"
+              className="object grayscale"
+            />
           </div>
 
-          <div className="logos-slide flex gap-2">
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company3.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company4.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company5.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company6.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company7.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company8.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company13.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
-              <div className="flex items-center justify-center w-[210px] h-[200px]">
-                <Image 
-                  width={1000}
-                  height={1000}
-                  src="/assets/images/company10.png"
-                  alt="company photo"
-                  className="object grayscale"
-                />
-              </div>
-
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company4.png"
+              alt="company photo"
+              className="object grayscale"
+            />
           </div>
-        </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company5.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company6.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company7.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company8.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company13.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company10.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+      </div>
+
+      <div className="logos-slide flex gap-16">
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company3.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company4.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company5.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company6.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company7.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company8.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company13.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+          <div className="flex items-center justify-center w-[210px] h-[200px]">
+            <Image 
+              width={1000}
+              height={1000}
+              src="/assets/images/company10.png"
+              alt="company photo"
+              className="object grayscale"
+            />
+          </div>
+
+      </div>
     </div>
+</div>
+    // <div className="relative w-full opacity-30 -top-20">
+    //     <div className="logos flex gap-2">
+    //       <div className="logos-slide flex gap-2">
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company3.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company4.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company5.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company6.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company7.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company8.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company13.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company10.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+    //       </div>
+
+    //       <div className="logos-slide flex gap-2">
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company3.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company4.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company5.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company6.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company7.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company8.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company13.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //           <div className="flex items-center justify-center w-[210px] h-[200px]">
+    //             <Image 
+    //               width={1000}
+    //               height={1000}
+    //               src="/assets/images/company10.png"
+    //               alt="company photo"
+    //               className="object grayscale"
+    //             />
+    //           </div>
+
+    //       </div>
+    //     </div>
+    // </div>
   )
 }
 

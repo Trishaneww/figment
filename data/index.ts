@@ -1,3 +1,5 @@
+import { features } from "process";
+
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
     { name: "Gallery", link: "/" },
@@ -94,6 +96,43 @@ export const caseStudies = [
     title: 'YA Solutions Inc',
     type: 'Web App',
     desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
+  }
+]
+
+export const selectedWork = [
+  {
+    id:1,
+    title: 'Study Hive',
+    link: '',
+    src: '/assets/images/work1.png',
+    descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
+    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+  },
+  {
+    id:1,
+    title: 'Foodbyte',
+    link: '',
+    src: '/assets/images/work3.png',
+    descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
+    featuresList: ['API Integration', 'Websocket']
+  },
+  {
+    id:1,
+    title: 'YA Solutions',
+    link: '',
+    src: '/assets/images/work2.png',
+    descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
+    featuresList: ['API Integration', 'Websocket', 'Digital Server']
+  },
+]
+
+export const services = [
+  {
+    id:1,
+    title: '',
+    descr: '',
+    src: '',
+    featuresList: []
   }
 ]
 
