@@ -66,3 +66,47 @@
     animation: 35s slide infinite linear;
   }
   
+.span {
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  animation: spin_words 6s infinite;
+}
+
+.wrapper {
+  box-sizing: content-box;
+  background-color: azure;
+  height:100px;
+  padding: 50px 30px;
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+}
+
+@keyframes spin_words {
+  10% {
+    transform: translateY(-102%)
+  }
+  25% {
+    transform: translateY(-100%)
+  }
+  35% {
+    transform: translateY(-202%)
+  }
+  50% {
+    transform: translateY(-200%)
+  }
+  60% {
+    transform: translateY(-302%)
+  }
+  75% {
+    transform: translateY(-300%)
+  }
+  85% {
+    transform: translateY(-402%)
+  }
+  100% {
+    transform: translateY(-400%)
+  }
+}

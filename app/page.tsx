@@ -9,6 +9,8 @@ import Navbar from "@/components/Navbar";
 import Companies from "@/components/Companies";
 import CaseStudies from "@/components/CaseStudies";
 import Work from "@/components/Work";
+import Services from "@/components/Services";
+import CTA from "@/components/CTA";
 
 
 const Home = () => {
@@ -19,11 +21,13 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Companies />
+      <Services />
       <Work />
       {/* <Approach /> */}
       <CaseStudies />
       <Faq />
       <Pricing />
+      <CTA />
       <Footer />
 
     </div>
