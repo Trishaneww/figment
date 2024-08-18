@@ -11,6 +11,7 @@ import CaseStudies from "@/components/CaseStudies";
 import Work from "@/components/Work";
 import Services from "@/components/Services";
 import CTA from "@/components/CTA";
+import Process from "@/components/Process";
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
       <CaseStudies />
       <Faq />
       {/* <Pricing /> */}
+      <Process  />
       <CTA />
       <Footer />
 
