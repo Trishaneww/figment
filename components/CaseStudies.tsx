@@ -26,7 +26,7 @@ const CaseStudies = () => {
 
         <div className="flex justify-center gap-8 flex-wrap">
             {caseStudies.map((card) => (
-                <Card className="w-[400px] h-[460px] flex flex-col gap-4">
+                <Card className="w-[340px] md:w-[400px] md:h-[460px] flex flex-col gap-4">
                     <CardHeader className="bg-slate-100 h-2/3 rounded-lg m-1 overflow-hidden">
                     <div className="w-[250px] h-[250px] bg-gradient-to-r from-green-100 to-green-200 rounded-full absolute z-1 blur-[40px]"></div>
                     <div className="w-[580px]">

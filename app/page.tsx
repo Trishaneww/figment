@@ -26,7 +26,7 @@ const Home = () => {
       {/* <Approach /> */}
       <CaseStudies />
       <Faq />
-      <Pricing />
+      {/* <Pricing /> */}
       <CTA />
       <Footer />
 

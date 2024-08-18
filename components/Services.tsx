@@ -17,12 +17,12 @@ const Services = () => {
 
     <section className="flex flex-col justify-center items-center gap-4 w-full">
         {selectedWork.map((project) => (
-            <div className="w-4/6 h-[32rem] flex gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
-              <div className="flex flex-col justify-between w-1/3">
+            <div className="w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
+              <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col  gap-2">
                     <p className="text-3xl font-bold">{project.title}</p>
                     <p>{project.descr}</p>
-                    <ul className="flex flex-col gap-2 flex-wrap">
+                    <ul className="flex flex-col gap-2 flex-wrap mt-6">
                         {project.featuresList.map((feature) => (
                             <li className="flex gap-6">
                                 <FaCheck className="text-green-600"/>
@@ -32,15 +32,16 @@ const Services = () => {
                     </ul>
                 </div>
                 
-                <Button>View Plans</Button>
+                <Button className="mt-10 xl:mt-0 w-[170px]">View Plans</Button>
               </div>
 
-              <div className="w-2/3 overflow-hidden">
+              <div className="flex w-full xl:w-2/3 overflow-hidden self-end">
                 <Image
-                  width={1000}
-                  height={1000}
+                  width={800}
+                  height={800}
                   src={project.src}
                   alt="services image"
+                  className="rounded-lg"
                 />
               </div>
             </div>
