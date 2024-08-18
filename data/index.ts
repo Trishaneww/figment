@@ -3,7 +3,8 @@ import { features } from "process";
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
     { name: "Gallery", link: "/" },
-    { name: "Pricing", link: "/" },
+    { name: "Services", link: "/" },
+    { name: "Pricing", link: "/pricing" },
     { name: "Blog", link: "/" },
 ];
 
@@ -123,6 +124,45 @@ export const selectedWork = [
     src: '/assets/images/work2.png',
     descr: 'For businesses needing short-term marketing assets or a small new/redesigned website.',
     featuresList: ['API Integration', 'Websocket', 'Digital Server']
+  },
+]
+
+export const companiesList = [
+  {
+    id:1,
+    src: '/assets/images/company3.png'
+  },
+  {
+    id:2,
+    src: '/assets/images/company14.png'
+  },
+  {
+    id:3,
+    src: '/assets/images/company5.png'
+  },
+  {
+    id:4,
+    src: '/assets/images/company6.png'
+  },
+  {
+    id:5,
+    src: '/assets/images/company7.png'
+  },
+  {
+    id:6,
+    src: '/assets/images/company13.png'
+  },
+  {
+    id:7,
+    src: '/assets/images/company8.png'
+  },
+  {
+    id:9,
+    src: '/assets/images/company10.png'
+  },
+  {
+    id:10,
+    src: '/assets/images/company11.png'
   },
 ]
 
