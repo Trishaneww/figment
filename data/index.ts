@@ -26,6 +26,8 @@ export const faqData = [
     }
 ]
 
+
+
 export const supportData = [
     {
         id:1,
