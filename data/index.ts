@@ -3,7 +3,8 @@ import { features } from "process";
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
     { name: "Gallery", link: "/" },
-    { name: "Pricing", link: "/" },
+    { name: "Services", link: "/" },
+    { name: "Pricing", link: "/pricing" },
     { name: "Blog", link: "/" },
 ];
 
@@ -133,7 +134,7 @@ export const companiesList = [
   },
   {
     id:2,
-    src: '/assets/images/company4.png'
+    src: '/assets/images/company14.png'
   },
   {
     id:3,
@@ -149,11 +150,11 @@ export const companiesList = [
   },
   {
     id:6,
-    src: '/assets/images/company8.png'
+    src: '/assets/images/company13.png'
   },
   {
     id:7,
-    src: '/assets/images/company9.png'
+    src: '/assets/images/company8.png'
   },
   {
     id:9,

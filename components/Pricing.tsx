@@ -15,7 +15,7 @@ import '../styles/global.scss';
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col gap-16 mt-24">
+    <div className="flex flex-col gap-16 mt-60">
         <section className="flex flex-col justify-center items-center gap-6">
             <p className="text-6xl font-bold">Simple, Transparent Pricing</p>
             <p className="text-xl text-slate-500">Choose the plan thats right for you. Cancel subscription at anytime.</p>
