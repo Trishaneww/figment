@@ -25,8 +25,8 @@ const Services = () => {
                     <ul className="flex flex-col gap-2 flex-wrap mt-6">
                         {project.featuresList.map((feature) => (
                             <li className="flex gap-6">
-                                <FaCheck className="text-green-600"/>
-                                <p className="text-green-600 text-sm font-bold">{feature}</p>
+                                <FaCheck className="text-green-600" size={20}/>
+                                <p className="text-green-600 text-base font-bold">{feature}</p>
                             </li>
                         ))}
                     </ul>
