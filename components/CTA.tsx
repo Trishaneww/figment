@@ -12,7 +12,7 @@ const CTA = () => {
                 <p className="">We work with</p>
                 <div className="flex flex-wrap gap-4">
                     <p>brands in</p>
-                    <div className="overflow-hidden h-14 text-green-800">
+                    <div className="overflow-hidden h-14 text-green-400">
                         <span className="span">Marketting</span>
                         <span className="span">Ecommerce</span>
                         <span className="span">Medical</span>

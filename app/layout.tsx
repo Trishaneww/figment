@@ -16,9 +16,9 @@ const inter = Questrial({ weight: '400', subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Figment Studios",
   description:
-    "Medical clinnic based in oakville ontario.",
+    "",
   icons: {
-    icon: "/assets/icons/logo-icon.svg",
+    icon: "/assets/icons/favicon.ico",
   },
 };
 
