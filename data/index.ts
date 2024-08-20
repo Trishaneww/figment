@@ -81,25 +81,83 @@ export const contactData = [
     }
 ]
 
+
 export const caseStudies = [
   {
     id:1,
     title: 'Study Hive',
     type: 'Web App',
+    src: '/assets/images/work1.png',
+    src2: '/assets/images/primetort1.png',
     desc: "Platform enabling college students to create, view and quiz themselves with study decks for more effective learning."
   },
   {
-    id:1,
+    id:2,
     title: 'Foodbyte',
     type: 'Web App',
+    src: '/assets/images/work2.png',
+    src2: '/assets/images/foodbyte1.png',
     desc: "Streamlined food ordering service to make food proccessing quicker."
   },
   {
-    id:1,
+    id:3,
+    title: 'Prime Tort Leads',
+    type: 'Web App',
+    src: '/assets/images/work3.png',
+    src2: '/assets/images/primetort1.png',
+    desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
+  },
+  {
+    id:4,
+    title: 'Digital Wealth',
+    type: 'Web App',
+    src: '/assets/images/work5.png',
+    src2: '/assets/images/dg1.png',
+    desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
+  },
+  {
+    id:5,
     title: 'YA Solutions Inc',
     type: 'Web App',
+    src: '/assets/images/work4.png',
+    src2: '/assets/images/primetort1.png',
     desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
-  }
+  },
+  {
+    id:6,
+    title: 'WhyNotMe',
+    type: 'Web App',
+    src: '/assets/images/work6.png',
+    src2: '/assets/images/primetort1.png',
+    desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
+  },
+]
+
+export const services = [
+  {
+    id:1,
+    title: 'Web Design',
+    descr: 'With a focus on marketing sites and web apps, our sights are set on increasing your conversion rates and delighting your users.',
+    src: '',
+    src2: '/assets/images/figma.png',
+    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+  },
+  {
+    id:2,
+    title: 'Web Development',
+    descr: 'With a focus on marketing sites and web apps, our sights are set on increasing your conversion rates and delighting your users.',
+    src: '',
+    src2: '/assets/images/code.png',
+    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+  },
+  {
+    id:3,
+    title: 'Branding',
+    descr: 'With a focus on marketing sites and web apps, our sights are set on increasing your conversion rates and delighting your users.',
+    src: '',
+    src2: '/assets/images/figma.png',
+    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+  },
 ]
 
 export const selectedWork = [
@@ -168,15 +226,7 @@ export const companiesList = [
   },
 ]
 
-export const services = [
-  {
-    id:1,
-    title: '',
-    descr: '',
-    src: '',
-    featuresList: []
-  }
-]
+
 
 export const pricingData = [
     {

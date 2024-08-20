@@ -1,8 +1,9 @@
-import { selectedWork } from '@/data'
+import { selectedWork, services } from '@/data'
 import React from 'react'
 import { FaCheck } from "react-icons/fa6";
 import { Button } from './ui/button';
 import Image from 'next/image';
+import '../styles/global.scss';
 
 const Services = () => {
   return (
@@ -16,7 +17,7 @@ const Services = () => {
     </section>
 
     <section className="flex flex-col justify-center items-center gap-4 w-full">
-        {selectedWork.map((project) => (
+        {services.map((project) => (
             <div className="w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col  gap-2">
@@ -32,14 +33,14 @@ const Services = () => {
                     </ul>
                 </div>
                 
-                <Button className="mt-10 xl:mt-0 w-[170px]">View Plans</Button>
+                <Button className="mt-10 xl:mt-0 w-[170px] shadow">View Plans</Button>
               </div>
 
               <div className="flex w-full xl:w-2/3 overflow-hidden self-end">
                 <Image
-                  width={800}
-                  height={800}
-                  src={project.src}
+                  width={1000}
+                  height={1000}
+                  src={project.src2}
                   alt="services image"
                   className="rounded-lg"
                 />

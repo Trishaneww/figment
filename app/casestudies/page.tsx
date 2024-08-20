@@ -26,18 +26,18 @@ const page = () => {
         />
       </div>
 
-        <section className="flex flex-col lg:flex-row w-full gap-16 p-8 justify-center items-center">
-            <div className="flex lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
+        <section className="flex flex-col md:flex-row w-full gap-4 lg:gap-16 p-8 justify-center items-center">
+            <div className="flex justify-center items-center lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
                 {caseStudies.slice(0,3).map((caseStudy) => (
-                    <Card className="w-[340px] md:w-[70%] md:h-[560px] flex flex-col gap-4">
+                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
                     {/* <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden"> */}
-                    <div className="h-[75%]">
+                    <div className="h-[75%] w-full overflow-hidden rounded-lg">
                         <Image
                             width={1000}
                             height={1000}
-                            src="/assets/images/work1.png"
+                            src={caseStudy.src}
                             alt="logo image"
-                            className="h-full"
+                            className="h-full w-full hover:scale-110 duration-500 transition-transform"
                         />
                     </div>
 
@@ -54,17 +54,17 @@ const page = () => {
                 ))}
             </div>
 
-            <div className="flex lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
-                {caseStudies.slice(0,3).map((caseStudy) => (
-                    <Card className="w-[340px] md:w-[70%] md:h-[560px] flex flex-col gap-4">
+            <div className="flex justify-center items-center lg:justify-start lg:items-start flex-col gap-4 w-full lg:w-2/4">
+                {caseStudies.slice(3,6).map((caseStudy) => (
+                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
                     {/* <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden"> */}
-                    <div className="h-[75%]">
+                    <div className="h-[75%] w-full overflow-hidden rounded-lg">
                         <Image
                             width={1000}
                             height={1000}
-                            src="/assets/images/work1.png"
+                            src={caseStudy.src}
                             alt="logo image"
-                            className="h-full"
+                            className="h-full w-full hover:scale-110 duration-500 transition-transform"
                         />
                     </div>
 
@@ -80,6 +80,7 @@ const page = () => {
                 </Card>
                 ))}
             </div>
+
 
             {/* <div className="flex flex-col gap-4 w-2/4">
                 {caseStudies.slice(0,3).map((caseStudy) => (

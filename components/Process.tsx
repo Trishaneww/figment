@@ -9,8 +9,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Process = () => {
   return (
-    <div className="mt-40 flex justify-center items-center py-24  bg-slate-950 text-slate-50">
-    <div className="flex flex-col gap-28 lg:w-3/5">
+    <div className="mt-40 flex justify-center items-center py-52 bg-slate-950 text-slate-50 -skew-y-6">
+    <div className="flex flex-col gap-28 lg:w-3/5 skew-y-6">
         <section className="flex flex-col lg:flex-row lg:justify-between w-full gap-4 p-2">
             <div className="flex flex-col lg:w-2/5 gap-6">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200">Designed for developers</p>

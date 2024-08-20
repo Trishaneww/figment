@@ -25,17 +25,18 @@ const CaseStudies = () => {
         </section>
 
         <div className="flex justify-center gap-8 flex-wrap">
-            {caseStudies.map((card) => (
-                <Card className="w-[340px] md:w-[400px] md:h-[460px] flex flex-col gap-4">
+            {caseStudies.slice(1,4).map((card) => (
+                <Card className="w-[340px] md:w-[400px] md:h-[460px] flex flex-col gap-4 hover:cursor-pointer">
                     <CardHeader className="bg-slate-100 h-2/3 rounded-lg m-1 overflow-hidden">
-                    <div className="w-[250px] h-[250px] bg-gradient-to-r from-green-100 to-green-200 rounded-full absolute z-1 blur-[40px]"></div>
+                    <div className="w-[250px] h-[250px] bg-gradient-to-r from-green-100 to-green-200 rounded-full absolute z-1 blur-[40px]">
+                    </div>
                     <div className="w-[580px]">
                         <Image
                             width={1000}
                             height={1000}
-                            src="/assets/images/foodbyte1.png"
+                            src={card.src2}
                             alt="logo image"
-                            className="relative top-10 z-10"
+                            className="relative top-10 z-10 hover:scale-105 duration-500 transition-transform"
                         />
                     </div>
                     </CardHeader>
