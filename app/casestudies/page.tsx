@@ -30,18 +30,19 @@ const page = () => {
             <div className="flex lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
                 {caseStudies.slice(0,3).map((caseStudy) => (
                     <Card className="w-[340px] md:w-[70%] md:h-[560px] flex flex-col gap-4">
-                    <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden">
-                    <div className="w-[250px] h-[250px] bg-gradient-to-r from-green-100 to-green-200 rounded-full absolute z-1 blur-[40px]"></div>
-                    <div className="w-[580px]">
+                    {/* <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden"> */}
+                    <div className="h-[75%]">
                         <Image
                             width={1000}
                             height={1000}
-                            src="/assets/images/foodbyte1.png"
+                            src="/assets/images/work1.png"
                             alt="logo image"
-                            className="relative top-10 z-10 hover:scale-105 cursor-pointer duraction-500 transition-transform"
+                            className="h-full"
                         />
                     </div>
-                    </CardHeader>
+
+                       
+                    {/* </CardHeader> */}
                     <CardContent className="flex flex-col gap-4 h-[25%] mt-6">
                         <div className="flex justify-between items-center w-full">
                             <CardTitle className="text-2xl">{caseStudy.title}</CardTitle>
@@ -53,7 +54,34 @@ const page = () => {
                 ))}
             </div>
 
-            <div className="flex flex-col gap-4 w-2/4">
+            <div className="flex lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
+                {caseStudies.slice(0,3).map((caseStudy) => (
+                    <Card className="w-[340px] md:w-[70%] md:h-[560px] flex flex-col gap-4">
+                    {/* <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden"> */}
+                    <div className="h-[75%]">
+                        <Image
+                            width={1000}
+                            height={1000}
+                            src="/assets/images/work1.png"
+                            alt="logo image"
+                            className="h-full"
+                        />
+                    </div>
+
+                       
+                    {/* </CardHeader> */}
+                    <CardContent className="flex flex-col gap-4 h-[25%] mt-6">
+                        <div className="flex justify-between items-center w-full">
+                            <CardTitle className="text-2xl">{caseStudy.title}</CardTitle>
+                            <button className="w-[88px] h-[32px] rounded-3xl border-slate-950 border-2 text-sm">Web App</button>
+                        </div>
+                        <CardDescription>{caseStudy.desc}</CardDescription>
+                    </CardContent>
+                </Card>
+                ))}
+            </div>
+
+            {/* <div className="flex flex-col gap-4 w-2/4">
                 {caseStudies.slice(0,3).map((caseStudy) => (
                     <Card className="w-[340px] md:w-[70%] md:h-[560px] flex flex-col gap-4">
                     <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden">
@@ -77,7 +105,7 @@ const page = () => {
                     </CardContent>
                 </Card>
                 ))}
-            </div>
+            </div> */}
         </section>
 
         <Footer />
