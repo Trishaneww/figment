@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import React from 'react'
 
-const StudyHive = () => {
+const Foodbyte = () => {
   return (
     <div className="flex flex-col gap-4 bg-slate-50">
         <Navbar />
@@ -13,57 +13,49 @@ const StudyHive = () => {
                 <Image
                     width={1000}
                     height={1000}
-                    src='/assets/images/studyhive1.png'
+                    src='/assets/images/foodbyte1.png'
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
             </div>
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
-                    {/* <Image
+                    <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/studyhive2.png'
+                        src='/assets/images/foodbyte2.png'
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
-                    /> */}
-
-                    <div className="bg-black flex justify-center items-center overflow-hidden rounded-lg">
-                        <video  autoPlay loop muted className="border-[1px] border-slate-900 rounded-lg w-full">
-                            <source src="/assets/videos/video3.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-
-                    </div>
+                    />
                    
                     <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/studyhive3.png'
+                        src='/assets/images/foodbyte3.png'
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/studyhive4.png'
+                        src='/assets/images/foodbyte4.png'
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/studyhive2.png'
+                        src='/assets/images/foodbyte5.png'
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                 </div>
 
-                <div className="bg-slate-900 w-full flex justify-center items-center mt-24 p-12">
+                <div className="bg-pink-500 w-full flex justify-center items-center mt-24 p-12">
                     <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/studyhive5.png'
+                        src='/assets/images/foodbyte6.png'
                         alt="Yasolutions logo banner"
                         className="w-[94%] md:w-[88%]"
                     />
@@ -75,4 +67,4 @@ const StudyHive = () => {
     </div>
   )
 }
-export default StudyHive
+export default Foodbyte
