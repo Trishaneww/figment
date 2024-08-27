@@ -130,8 +130,8 @@ export const caseStudies = [
   },
   {
     id:6,
-    title: 'WhyNotMe',
-    link:'/whynotme',
+    title: 'Clinic',
+    link:'/clinic',
     type: 'Web App',
     src: '/assets/images/work6.png',
     src2: '/assets/images/primetort1.png',
