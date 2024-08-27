@@ -86,6 +86,7 @@ export const caseStudies = [
   {
     id:1,
     title: 'Study Hive',
+    link:'/studyhive',
     type: 'Web App',
     src: '/assets/images/work1.png',
     src2: '/assets/images/primetort1.png',
@@ -94,6 +95,7 @@ export const caseStudies = [
   {
     id:2,
     title: 'Foodbyte',
+    link:'/foodbyte',
     type: 'Web App',
     src: '/assets/images/work2.png',
     src2: '/assets/images/foodbyte1.png',
@@ -102,6 +104,7 @@ export const caseStudies = [
   {
     id:3,
     title: 'Prime Tort Leads',
+    link:'/primetort',
     type: 'Web App',
     src: '/assets/images/work3.png',
     src2: '/assets/images/primetort1.png',
@@ -110,6 +113,7 @@ export const caseStudies = [
   {
     id:4,
     title: 'Digital Wealth',
+    link:'/digitalwealth',
     type: 'Web App',
     src: '/assets/images/work5.png',
     src2: '/assets/images/dg1.png',
@@ -118,6 +122,7 @@ export const caseStudies = [
   {
     id:5,
     title: 'YA Solutions Inc',
+    link:'/yasolutions',
     type: 'Web App',
     src: '/assets/images/work4.png',
     src2: '/assets/images/primetort1.png',
@@ -125,7 +130,8 @@ export const caseStudies = [
   },
   {
     id:6,
-    title: 'WhyNotMe',
+    title: 'Clinic',
+    link:'/clinic',
     type: 'Web App',
     src: '/assets/images/work6.png',
     src2: '/assets/images/primetort1.png',
