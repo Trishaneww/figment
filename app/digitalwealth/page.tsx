@@ -13,7 +13,7 @@ const DigitalWealth = () => {
                 <Image
                     width={1000}
                     height={1000}
-                    src='/assets/images/yasolutions1.png'
+                    src='/assets/images/dg1.png'
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
@@ -23,28 +23,28 @@ const DigitalWealth = () => {
                     <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/clinic2.png'
+                        src='/assets/images/dg2.png'
+                        alt="Yasolutions logo banner"
+                        className="rounded-lg"
+                    />
+                    <div className="bg-black flex justify-center items-center overflow-hidden rounded-lg">
+                        <video  autoPlay loop muted className="border-[1px] border-slate-900 rounded-lg w-full">
+                            <source src="/assets/videos/video4.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+                    <Image
+                        width={1000}
+                        height={1000}
+                        src='/assets/images/dg3.png'
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/clinic3.png'
-                        alt="Yasolutions logo banner"
-                        className="rounded-lg"
-                    />
-                    <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/clinic4.png'
-                        alt="Yasolutions logo banner"
-                        className="rounded-lg"
-                    />
-                    <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/clinic5.png'
+                        src='/assets/images/dg4.png'
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
@@ -54,7 +54,7 @@ const DigitalWealth = () => {
                     <Image
                         width={1000}
                         height={1000}
-                        src='/assets/images/clinic6.png'
+                        src='/assets/images/dg5.png'
                         alt="Yasolutions logo banner"
                         className="w-[94%] md:w-[88%]"
                     />
