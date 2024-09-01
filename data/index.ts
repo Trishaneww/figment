@@ -3,7 +3,7 @@ import { features } from "process";
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
     { name: "Gallery", link: "/" },
-    { name: "Services", link: "/" },
+    { name: "Services", link: "/services" },
     { name: "Pricing", link: "/pricing" },
     { name: "Blog", link: "/" },
 ];
@@ -26,6 +26,44 @@ export const faqData = [
     }
 ]
 
+export const servicesData = [
+  {
+    id:1,
+    name:'Web Applications',
+    src: '/assets/images/work5.png',
+    desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
+  },
+  {
+    id:2,
+    name:'Mobile Applications',
+    src: '/assets/images/work5.png',
+    desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
+  },
+  {
+    id:3,
+    name:'Business Applications',
+    src: '/assets/images/work5.png',
+    desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
+  },
+  {
+    id:4,
+    name:'Ux/Ui Design',
+    src: '/assets/images/work5.png',
+    desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
+  },
+  {
+    id:5,
+    name:'Software Support',
+    src: '/assets/images/work5.png',
+    desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
+  },
+  {
+    id:6,
+    name:'Copywriting',
+    src: '/assets/images/work5.png',
+    desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
+  }
+]
 
 
 export const supportData = [

@@ -21,7 +21,7 @@ const CaseStudies = () => {
             <h1 className="text-slate-800  text-3xl md:text-6xl font-semibold">Case Studies</h1>
             <div className="flex w-2/5 gap-8 justify-between items-center">
                 <p className="text-slate-500 lg:text-xl">Find the answers to your questions here</p>
-                <Link href="/casestudies"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">See All Case Studies</button></Link>
+                <Link href="/work"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">See All Case Studies</button></Link>
             </div>
         </section>
 
