@@ -30,37 +30,37 @@ export const servicesData = [
   {
     id:1,
     name:'Web Applications',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/dg2.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:2,
     name:'Mobile Applications',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services3.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:3,
     name:'Business Applications',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services5.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:4,
     name:'Ux/Ui Design',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services2.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:5,
     name:'Software Support',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services6.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:6,
     name:'Copywriting',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services4.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   }
 ]

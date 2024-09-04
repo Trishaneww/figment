@@ -46,11 +46,10 @@ const Navbar = () => {
           <span className=" text-sm !cursor-pointer">Login</span>
         </Link>
 
-        <Link href="/">
+        <Link href="/contact">
             <Button className="w-[150px] shadow">Contact Us</Button>
         </Link>
     </div>
-
 
 
     </div>

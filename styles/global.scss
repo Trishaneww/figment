@@ -108,3 +108,11 @@
     transform: translateY(-400%)
   }
 }
+
+input[type="radio"] {
+  display:none;
+}
+
+label {
+  display: block;
+}

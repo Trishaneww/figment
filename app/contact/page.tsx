@@ -1,18 +1,27 @@
 import Faq from '@/components/Faq'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import Pricing from '@/components/Pricing'
 import React from 'react'
 
-const page = () => {
+const Contact = () => {
   return (
-    <div className="flex flex-col bg-slate-50">
+    <div className="flex flex-col items-center bg-slate-50">
         <Navbar />
-        <Pricing />
+
+        <section>
+
+        </section>
+
+        <div className="w-full">
         <Faq />
+        </div>
+
+ 
+
         <Footer />
+
     </div>
   )
 }
 
-export default page
+export default Contact
