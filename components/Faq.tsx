@@ -20,7 +20,7 @@ const Faq = () => {
         <div className="flex justify-center gap-6 w-full p-4">
             <Accordion type="single" collapsible className="flex flex-col gap-4 md:w-3/5">
                 {faqData.map((accordion:any, idx:number) => (
-                    <AccordionItem value={`item-${idx}`} className="border-none p-4 bg-white rounded-2xl">
+                    <AccordionItem value={`item-${idx}`} className="border-none p-4  rounded-2xl">
                     <AccordionTrigger className="lg:text-xl">{accordion.item}</AccordionTrigger>
                         <AccordionContent className="text-base">
                             {accordion.content}

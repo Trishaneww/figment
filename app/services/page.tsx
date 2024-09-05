@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
+import { GiCheckMark } from "react-icons/gi";
 import '../../styles/global.scss';
 
 const Services = () => {
@@ -119,6 +120,23 @@ const Services = () => {
                 </div>
             </div>
         </section>
+        
+
+        <div className="bg-white w-full h-[100vh] flex justify-center items-center gap-12">
+            <div className="w-[60px] h-[60px] flex justify-center items-center bg-green-100 text-green-500 rounded-full">
+                <GiCheckMark size={30}/>
+            </div>
+            <div className="flex flex-col">
+                <p className="font-extrabold text-4xl">C$201.98 <span className="text-gray-3   400 text-4xl font-semibold">(22 transactions)</span></p>
+                <p className="font-semibold text-4xl text-gray-400">Deposited on 06/01/2024</p>
+            </div>
+
+            <Button className="font-extrabold text-white w-[220px] h-[35px]">Instant payout</Button>
+        
+            <p className="font-extrabold text-4xl">C$182.12</p>
+            <p className="font-semibold text-4xl text-gray-400">RECENT DEPOSITS</p>
+          
+        </div>
 
         <Footer />
     </div>

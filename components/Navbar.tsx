@@ -37,14 +37,14 @@ const Navbar = () => {
       ))}
     </div>
     <div className="flex gap-10 justify-center items-center">
-        <Link  
+        {/* <Link  
           href="/"
           className={cn(
             "relative dark:text-slate-50 items-center flex space-x-1 text-slate-800 dark:hover:text-slate-300 hover:text-slate-500"
           )}
         >
           <span className=" text-sm !cursor-pointer">Login</span>
-        </Link>
+        </Link> */}
 
         <Link href="/contact">
             <Button className="w-[150px] shadow">Contact Us</Button>
