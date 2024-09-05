@@ -115,4 +115,65 @@ input[type="radio"] {
 
 label {
   display: block;
+  height:40px;
+  width: 140px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2; 
+  color:rgb(168, 168, 168);
+}
+
+.glider {
+  position:absolute;
+  left:10px;
+  background-color: rgba(255, 255, 255, 0);
+  width:100px;
+  height:44px;
+  border-radius: 1rem;
+  transition: ease .3s;
+  border: 2px solid rgb(27, 131, 27);
+}
+
+
+#tab1:checked ~ label[for="tab1"] {
+  color:rgb(27, 131, 27);
+}
+
+#tab2:checked ~ label[for="tab2"] {
+  color:rgb(27, 131, 27);
+}
+
+#tab3:checked ~ label[for="tab3"] {
+  color:rgb(27, 131, 27);
+}
+
+#tab4:checked ~ label[for="tab4"] {
+  color:rgb(27, 131, 27);
+}
+
+#tab5:checked ~ label[for="tab5"] {
+  color:rgb(27, 131, 27);
+}
+
+
+#tab1:checked ~ .glider {
+  transform: translateX(0);
+}
+
+#tab2:checked ~ .glider {
+  transform: translateX(120px);
+}
+
+#tab3:checked ~ .glider {
+  transform: translateX(240px);
+}
+
+#tab4:checked ~ .glider {
+  transform: translateX(360px);
+}
+
+#tab5:checked ~ .glider {
+  transform: translateX(480px);
 }

@@ -97,10 +97,10 @@ const Services = () => {
             </div>
         </section>
 
-        <section className="flex flex-col items-center w-full bg-red-300 p-4">
+        <section className="flex flex-col items-center w-full mb-24 h-[100vh]">
             <p>hi</p>
-            <div className="flex flex-col bg-slate-300 w-4/6 rounded-lg">
-                <div className="flex justify-center gap-24">
+            <div className="flex flex-col rounded-xl h-[54px] border-[1px] border-gray-500 w-2/6 pt-[6px]">
+                <div className="relative flex items-center">
                     <input type="radio" name="tabs" checked id="tab1"/>
                     <label htmlFor="tab1">Phase 1</label>
                     <input type="radio" name="tabs" checked id="tab2"/>
@@ -111,8 +111,12 @@ const Services = () => {
                     <label htmlFor="tab4">Phase 4</label>
                     <input type="radio" name="tabs" checked id="tab5"/>
                     <label htmlFor="tab5">Phase 5</label>
+                    <div className="glider"></div>
                 </div>
-            
+
+                <div className="mt-10">
+                    <p>We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system. We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.</p>
+                </div>
             </div>
         </section>
 
