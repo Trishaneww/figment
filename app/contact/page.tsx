@@ -1,3 +1,5 @@
+import Bento from '@/components/Bento'
+import ContactHero from '@/components/ContactHero'
 import Faq from '@/components/Faq'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
@@ -7,10 +9,9 @@ const Contact = () => {
   return (
     <div className="flex flex-col items-center bg-slate-50">
         <Navbar />
+        <ContactHero />
 
-        <section>
-
-        </section>
+        <Bento />
 
         <div className="w-full">
         <Faq />
