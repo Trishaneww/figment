@@ -26,7 +26,7 @@ const CTA = () => {
             <div className="grid grid-cols-3 md:w-2/4 opacity-40 p-8">
                 {companiesList.map((company) => (
                     <Image
-                        width={120}
+                        width={130}
                         height={120}
                         src={company.src}
                         alt="company logo"

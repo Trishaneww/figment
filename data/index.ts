@@ -2,10 +2,9 @@ import { features } from "process";
 
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
-    { name: "Gallery", link: "/" },
+    { name: "Gallery", link: "/work" },
     { name: "Services", link: "/services" },
     { name: "Pricing", link: "/pricing" },
-    { name: "Blog", link: "/" },
 ];
 
 export const faqData = [
@@ -127,7 +126,7 @@ export const caseStudies = [
     link:'/studyhive',
     type: 'Web App',
     src: '/assets/images/work1.png',
-    src2: '/assets/images/primetort1.png',
+    src2: '/assets/images/studyhive1.png',
     desc: "Platform enabling college students to create, view and quiz themselves with study decks for more effective learning."
   },
   {
@@ -163,7 +162,7 @@ export const caseStudies = [
     link:'/yasolutions',
     type: 'Web App',
     src: '/assets/images/work4.png',
-    src2: '/assets/images/primetort1.png',
+    src2: '/assets/images/yasolutions1.png',
     desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
   },
   {
