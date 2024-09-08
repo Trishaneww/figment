@@ -3,6 +3,7 @@ import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
+import { TextGenerateEffect2 } from '@/components/ui/text-generate-effect2'
 import { caseStudies } from '@/data'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -12,16 +13,16 @@ const page = () => {
   return (
     <div className="flex flex-col bg-slate-50">
         <Navbar />
-        <div className="w-[94%] h-2/6 lg:h-full bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[135%] md:top-[124%] left-[48%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
+        <div className="w-[93%] h-2/6 lg:h-full bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[135%] md:top-[124%] left-[48%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
         <div className="flex flex-col  justify-center  items-center gap-2  overflow-hidden mt-72">
         <div className="flex flex-col justify-center items-center gap-6 z-10 w-full md:mt-0">
-            <h1 className="text-5xl lg:text-7xl xl:text-8xl font-bold text-center">Our Portfolio of <span className="text-green-400 ml-2">Success Stories</span></h1>
+            <h1 className="text-5xl lg:text-7xl xl:text-8xl font-bold text-center">Our Portfolio of <span className="bg-gradient-to-r from-green-400 via-green-600 to bg-slate-900 bg-clip-text text-transparent ml-2">Success Stories</span></h1>
             <p className="md:mx-0 text-center w-5/6 md:w-3/6">Join the millions of companies of all sizes that use Stripe to accept payments online and in person, embed financial services, power custom revenue models, and build a more profitable business.</p>
             {/* <Button className="w-[250px] shadow">Start Project</Button> */}
         </div>
         <Companies />
         <div className="flex justify-center items-center -mt-16 lg:mt-0  w-full">
-            <video width="90%" height="820" autoPlay loop muted className="rounded-lg z-20 shadow-lg">
+            <video width="85%" height="820" autoPlay loop muted className="rounded-lg z-20 shadow-lg">
                 <source src="/assets/videos/video5.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>

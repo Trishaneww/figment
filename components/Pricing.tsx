@@ -12,13 +12,14 @@ import { FaCheck } from "react-icons/fa6";
 import { pricingData } from '@/data';
 import '../styles/global.scss';
 import { GiCheckMark } from 'react-icons/gi';
+import { TextGenerateEffect2 } from './ui/text-generate-effect2';
   
 
 const Pricing = () => {
   return (
     <div className="flex flex-col gap-16 mt-60">
         <section className="flex flex-col justify-center items-center gap-6">
-            <p className="text-6xl font-bold">Simple, Transparent Pricing</p>
+            <TextGenerateEffect2 words="Simple, Transparent, Pricing"/>
             <p className="text-xl text-slate-500">Choose the plan thats right for you. Cancel subscription at anytime.</p>
         </section>
         <div className="flex justify-center gap-8 flex-wrap">

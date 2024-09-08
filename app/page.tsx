@@ -29,7 +29,6 @@ const Home = () => {
       <Work />
       {/* <Approach /> */}
       <CaseStudies />
-      <Insights />
       <Faq />
       {/* <Pricing /> */}
       <CTA />

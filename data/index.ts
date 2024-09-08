@@ -297,3 +297,55 @@ export const pricingData = [
         packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
     }
 ]
+
+export const jiraDetails = [
+  {
+    id:1,
+    title:"For Founders",
+    descr: "Get a bird's eye view of everything going on within our project; conversations, added & completed to-do's, file sharing and more."
+  },
+  {
+    id:2,
+    title:"For Founders",
+    descr: "Get a bird's eye view of everything going on within our project; conversations, added & completed to-do's, file sharing and more."
+  },
+  {
+    id:3,
+    title:"For Founders",
+    descr: "Get a bird's eye view of everything going on within our project; conversations, added & completed to-do's, file sharing and more."
+  },
+]
+
+
+export const devprocess = [
+  {
+    id:1,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:2,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:3,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:4,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:5,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:6,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+]
