@@ -1,4 +1,4 @@
-import { features } from "process";
+
 
 export const navItems = [
     { name: "FAQ", link: "/#faq" },

@@ -149,12 +149,17 @@ const Services = () => {
                 ))}
             </div>
         </section>  */}
-
-        <section className="flex flex-col items-center w-full mt-60 gap-14">
+        {/* <section className="flex flex-col items-center w-full mt-60 gap-14">
             <div className="flex flex-col items-center gap-6">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Our Process</p>
                 <p className="font-bold text-6xl">Our essential development process</p>
             </div>
+            <Image
+                width={1000}
+                height={1000}
+                alt="jira board preview"
+                src="/assets/images/jira2.png"
+            />
             <div className="flex justify-center gap-4 flex-wrap w-full">
             {devprocess.map((phase) => (
                 <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[30%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
@@ -163,7 +168,54 @@ const Services = () => {
                 </div>
             ))}
             </div>
+        </section> */}
+
+        <section className="flex flex-col items-center w-full mt-40">
+            <div className="flex flex-col items-center gap-6">
+                <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Our Process</p>
+                <p className="font-bold text-6xl">Our essential development process</p>
+            </div>
+            <div className="w-full flex flex-col items-center">
+                <Image
+                    width={1400}
+                    height={1400}
+                    alt="jira board preview"
+                    src="/assets/images/jira2.png"
+                    className="ml-16"
+                 />
+
+                 <div className="flex gap-8 justify-center relative -top-16">
+                    <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[26%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
+                        <p className="text-2xl font-bold">For Freelancers</p>
+                        <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
+                    </div>
+                    <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[26%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
+                        <p className="text-2xl font-bold">For Freelancers</p>
+                        <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
+                    </div>
+                    <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[26%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
+                        <p className="text-2xl font-bold">For Freelancers</p>
+                        <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
+                    </div>
+                 </div>
+
+            </div>
             
+        </section>
+
+        <section className="flex flex-col items-center w-full mt-60 gap-14 mb-24">
+            <div className="flex flex-col items-center gap-6">
+                <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Our Process</p>
+                <p className="font-bold text-6xl text-center">Our essential development process</p>
+            </div>
+            <div className="flex justify-center gap-4 flex-wrap w-full">
+            {devprocess.map((phase) => (
+                <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[42%] xl:w-[28%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
+                    <p className="text-2xl font-bold">{phase.title}</p>
+                    <p>{phase.desc}</p>
+                </div>
+            ))}
+            </div>
         </section>
 
         {/* <section className="flex flex-col items-center w-full mb-24 h-[100vh]">
