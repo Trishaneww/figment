@@ -4,6 +4,7 @@ import { FaCheck } from "react-icons/fa6";
 import { Button } from './ui/button';
 import Image from 'next/image';
 import '../styles/global.scss';
+import { GiCheckMark } from 'react-icons/gi';
 
 const Services = () => {
   return (
@@ -25,10 +26,15 @@ const Services = () => {
                     <p>{project.descr}</p>
                     <ul className="flex flex-col gap-2 flex-wrap mt-6">
                         {project.featuresList.map((feature) => (
-                            <li className="flex gap-6">
-                                <FaCheck className="text-green-600" size={20}/>
-                                <p className="text-green-600 text-base font-bold">{feature}</p>
-                            </li>
+                             <li className="flex items-center gap-4">
+                             {/* <div className="flex justify-center items-center border-[1px] border-green-500 w-[24px] h-[24px] rounded-full">
+                                 <FaCheck size={12} />
+                             </div> */}
+                             <div className="w-[26px] h-[26px] flex justify-center items-center bg-green-100 text-green-500 rounded-full">
+                                 <GiCheckMark size={16}/>
+                             </div>
+                             <p className="text-md">{feature}</p>
+                         </li>
                         ))}
                     </ul>
                 </div>

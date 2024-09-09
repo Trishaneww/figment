@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="flex gap-6">
       <Link href='/' className={cn(
             "relative  dark:text-slate-50 items-center flex space-x-1 text-slate-800 dark:hover:text-slate-300 hover:text-slate-500"
-          )}><span className=" text-xl !cursor-pointer font-bold">Figment Studios</span>
+          )}><span className="text-2xl !cursor-pointer font-bold">Figment Studios</span>
       </Link>
 
       {navItems.map((navItem: any, idx: number) => (
@@ -32,25 +32,15 @@ const Navbar = () => {
             "relative dark:text-slate-50 items-center flex space-x-1 text-slate-800 dark:hover:text-slate-300 hover:text-slate-500"
           )}
         >
-          <span className=" text-sm !cursor-pointer">{navItem.name}</span>
+          <span className="!cursor-pointer text-base">{navItem.name}</span>
         </Link>
       ))}
     </div>
     <div className="flex gap-10 justify-center items-center">
-        <Link  
-          href="/"
-          className={cn(
-            "relative dark:text-slate-50 items-center flex space-x-1 text-slate-800 dark:hover:text-slate-300 hover:text-slate-500"
-          )}
-        >
-          <span className=" text-sm !cursor-pointer">Login</span>
-        </Link>
-
-        <Link href="/">
-            <Button className="w-[150px] shadow">Contact Us</Button>
+        <Link href="/contact">
+            <Button className="w-[150px] shadow text-base">Contact Us</Button>
         </Link>
     </div>
-
 
 
     </div>

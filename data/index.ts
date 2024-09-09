@@ -1,11 +1,10 @@
-import { features } from "process";
+
 
 export const navItems = [
     { name: "FAQ", link: "/#faq" },
-    { name: "Gallery", link: "/" },
+    { name: "Gallery", link: "/work" },
     { name: "Services", link: "/services" },
     { name: "Pricing", link: "/pricing" },
-    { name: "Blog", link: "/" },
 ];
 
 export const faqData = [
@@ -30,37 +29,37 @@ export const servicesData = [
   {
     id:1,
     name:'Web Applications',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/dg2.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:2,
     name:'Mobile Applications',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services3.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:3,
     name:'Business Applications',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services5.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:4,
     name:'Ux/Ui Design',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services2.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:5,
     name:'Software Support',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services6.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   },
   {
     id:6,
     name:'Copywriting',
-    src: '/assets/images/work5.png',
+    src: '/assets/images/services4.png',
     desc:'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.'
   }
 ]
@@ -127,7 +126,7 @@ export const caseStudies = [
     link:'/studyhive',
     type: 'Web App',
     src: '/assets/images/work1.png',
-    src2: '/assets/images/primetort1.png',
+    src2: '/assets/images/studyhive1.png',
     desc: "Platform enabling college students to create, view and quiz themselves with study decks for more effective learning."
   },
   {
@@ -163,7 +162,7 @@ export const caseStudies = [
     link:'/yasolutions',
     type: 'Web App',
     src: '/assets/images/work4.png',
-    src2: '/assets/images/primetort1.png',
+    src2: '/assets/images/yasolutions1.png',
     desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
   },
   {
@@ -297,4 +296,56 @@ export const pricingData = [
         rate: '/month',
         packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
     }
+]
+
+export const jiraDetails = [
+  {
+    id:1,
+    title:"For Founders",
+    descr: "Get a bird's eye view of everything going on within our project; conversations, added & completed to-do's, file sharing and more."
+  },
+  {
+    id:2,
+    title:"For Founders",
+    descr: "Get a bird's eye view of everything going on within our project; conversations, added & completed to-do's, file sharing and more."
+  },
+  {
+    id:3,
+    title:"For Founders",
+    descr: "Get a bird's eye view of everything going on within our project; conversations, added & completed to-do's, file sharing and more."
+  },
+]
+
+
+export const devprocess = [
+  {
+    id:1,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:2,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:3,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:4,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:5,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
+  {
+    id:6,
+    title:'Planning',
+    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+  },
 ]

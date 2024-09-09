@@ -13,6 +13,7 @@ import Services from "@/components/Services";
 import CTA from "@/components/CTA";
 import Process from "@/components/Process";
 import '../styles/global.scss';
+import Insights from "@/components/Insights";
 
 
 const Home = () => {

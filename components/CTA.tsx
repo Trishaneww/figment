@@ -12,12 +12,12 @@ const CTA = () => {
                 <p className="">We work with</p>
                 <div className="flex flex-wrap gap-4">
                     <p>brands in</p>
-                    <div className="overflow-hidden h-14 text-green-400">
-                        <span className="span">Marketting</span>
-                        <span className="span">Ecommerce</span>
-                        <span className="span">Medical</span>
-                        <span className="span">Tech</span>
-                        <span className="span">Marketting</span>
+                    <div className="overflow-hidden h-14 ">
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Marketting</span>
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Ecommerce</span>
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Medical</span>
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Tech</span>
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Marketting</span>
                     </div>
                 </div>
                 <Button className="w-[160px] md:w-[250px] shadow md:mt-8">Book a meeting</Button>
@@ -26,7 +26,7 @@ const CTA = () => {
             <div className="grid grid-cols-3 md:w-2/4 opacity-40 p-8">
                 {companiesList.map((company) => (
                     <Image
-                        width={120}
+                        width={130}
                         height={120}
                         src={company.src}
                         alt="company logo"

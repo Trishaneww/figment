@@ -5,8 +5,8 @@ import '../styles/global.scss';
 
 const Footer = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-40 p-10 xl:items-center w-full xl:h-[24rem] bg-slate-50  mt-20 shadow">
-        <section className="xl:1/4 flex flex-col gap-4 justify-start">
+    <div className="flex flex-col xl:flex-row gap-40 p-10 xl:items-center w-full xl:h-[24rem] bg-slate-50 mt-20">
+        <section className="xl:1/4 flex flex-col gap-4 justify-start -mb-20 xl:mb-0">
             <h1 className="text-slate-900 font-bold text-3xl xl:text-5xl xl:ml-20">Figment Studios</h1>
             <p className="text-slate-900 xl:ml-20 mb-9 xl:mb-0 text-lg">@2024 Figment Studios. All rights reserved</p>
         </section>
