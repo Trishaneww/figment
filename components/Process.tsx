@@ -34,7 +34,7 @@ const Process = () => {
                         {/* <FaCode size={18} className="text-purple-300 relative -top-3 left-2 opacity-70" /> */}
                     </div>
                     <p className="font-bold mt-2">Use Stripe with your stack</p>
-                    <p className="text-sm">We offer client and server libraries in everything from React and PHP to .NET and iOS.</p>
+                    <p className="text-sm">The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements.</p>
                 </div>
                 <div className="flex self-baseline items-center gap-2">
                     <p>See more</p>

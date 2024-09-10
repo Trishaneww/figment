@@ -1,5 +1,9 @@
+"use client"
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
+import { HoverEffect } from '@/components/ui/card-hover-effect'
+import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
+import { studyHiveFeatures } from '@/data'
 import Image from 'next/image'
 import React from 'react'
 
@@ -9,14 +13,26 @@ const StudyHive = () => {
         <Navbar />
 
         <section className="w-full flex flex-col justify-center items-center mt-56">
-            <div className="bg-blue-800 w-[92%] md:w-[70%]">
+            <div className="flex flex-col gap-4 w-full md:w-4/6 p-2">
+                <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-white bg-slate-900">Study Platform</p>
+                <TextGenerateEffect words="StudyHive"/>
+                {/* <p>Whatever your unique idea or needs, weve got the tools and know how to build your custom solution from discovery to deployment.</p> */}
+            </div>
+            <div className="bg-blue-800 w-[92%] md:w-[70%] mt-6 md:mt-20">
                 <Image
                     width={1000}
                     height={1000}
-                    src='/assets/images/studyhive1.png'
+                    src='/assets/images/gallery6.png'
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
+            </div>
+
+            <div className="w-full p-2 md:w-4/6 flex flex-col gap-4 mt-20">
+                <p className="text-2xl md:text-5xl font-bold">Overview</p>
+                <p>
+                The software allows college students to create personalized flashcard study decks and use various quizzing methods to test their knowledge. In addition to creating their own decks, students can view and study from flashcard decks made by other users, enhancing collaborative learning. The platform also supports the creation of study servers dedicated to specific college courses. By joining these servers, students gain access to chat with other users and use all flashcard decks related to the course, fostering a community-based learning environment. Notably, WebSockets were used to develop the live chat feature within the study servers, ensuring real-time communication among users.
+               </p>
             </div>
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
@@ -58,6 +74,8 @@ const StudyHive = () => {
                         className="rounded-lg"
                     />
                 </div>
+
+                <HoverEffect items={studyHiveFeatures} />
 
                 <div className="bg-slate-900 w-full flex justify-center items-center mt-24 p-12">
                     <Image

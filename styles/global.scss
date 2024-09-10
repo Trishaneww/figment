@@ -177,3 +177,11 @@ label {
 #tab5:checked ~ .glider {
   transform: translateX(480px);
 }
+
+@media only screen and (min-width: 1600px) {
+  .footer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

@@ -17,7 +17,40 @@ const Work = () => {
         </section>
 
         <section className="flex flex-col justify-center items-center gap-4 w-full">
-          {selectedWork.map((project) => (
+          {selectedWork.slice(0,2).map((project) => (
+            <div className=" w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
+              <div className="flex flex-col justify-between xl:w-1/3">
+                <div className="flex flex-col gap-2">
+                  <p className="text-3xl font-bold">{project.title}</p>
+                  <p>{project.descr}</p>
+                  <div className="flex gap-2 items-center">
+                    <p>In Development</p>
+                    <IoIosArrowRoundForward size={25}/>
+                  </div>
+                </div>
+                
+                <ul className="flex gap-2 flex-wrap mt-10 xl:mt-0">
+                  {project.featuresList.map((feature) => (
+                    <li className="flex justify-center items-center h-[36px] rounded-lg p-2 bg-green-100">
+                      <p className="text-green-600 text-sm">{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="flex w-full xl:w-2/3 overflow-hidden self-end">
+                <Image
+                  width={1000}
+                  height={1000}
+                  src={project.src}
+                  alt="services image"
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+          ))}
+
+          {selectedWork.slice(2,3).map((project) => (
             <div className=" w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col gap-2">
