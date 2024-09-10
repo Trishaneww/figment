@@ -21,7 +21,7 @@ const Services = () => {
       <div className="flex flex-col md:flex-row justify-center md:justify-center items-center gap-10 md:h-[100vh] overflow-hidden">
         <div className="flex flex-col justify-center items-center md:items-start gap-6 z-10 lg:w-[35%] lg:ml-36 xl:ml-32 mt-48 md:mt-0 text-center md:text-left">
             <TextGenerateEffect words="Start. Scale. Grow"/>
-            <p className="mx-16 md:mx-0">Join the millions of companies of all sizes that use Stripe to accept payments online and in person, embed financial services, power custom revenue models, and build a more profitable business.</p>
+            <p className="mx-16 md:mx-0 text-lg">Join the millions of companies of all sizes that use Stripe to accept payments online and in person, embed financial services, power custom revenue models, and build a more profitable business.</p>
             <div className="flex gap-4">
                 <Button className="w-[200px] shadow">Start Project</Button>
                 <div className='flex gap-2 justify-center items-center hover:cursor-pointer'>
@@ -172,7 +172,7 @@ const Services = () => {
 
         <section className="flex flex-col items-center w-full mt-40">
             <div className="flex flex-col items-center gap-6">
-                <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Our Process</p>
+                <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Project Managment</p>
                 <p className="font-bold text-6xl">Our essential development process</p>
             </div>
             <div className="w-full flex flex-col items-center">
@@ -185,15 +185,15 @@ const Services = () => {
                  />
 
                  <div className="flex gap-8 justify-center relative -top-16">
-                    <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[26%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
+                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[26%] h-[180px] rounded-lg shadow-lg p-4 px-8 gap-4 bg-white">
                         <p className="text-2xl font-bold">For Freelancers</p>
                         <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[26%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
+                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[26%] h-[180px] rounded-lg shadow-lg p-4 px-8 gap-4 bg-white">
                         <p className="text-2xl font-bold">For Freelancers</p>
                         <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
                     </div>
-                    <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[26%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
+                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[26%] h-[180px] rounded-lg shadow-lg p-4 px-8 gap-4 bg-white">
                         <p className="text-2xl font-bold">For Freelancers</p>
                         <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
                     </div>
@@ -209,10 +209,14 @@ const Services = () => {
                 <p className="font-bold text-6xl text-center">Our essential development process</p>
             </div>
             <div className="flex justify-center gap-4 flex-wrap w-full">
-            {devprocess.map((phase) => (
-                <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[42%] xl:w-[28%] h-[200px] rounded-lg shadow-lg p-4 gap-4 bg-white">
-                    <p className="text-2xl font-bold">{phase.title}</p>
-                    <p>{phase.desc}</p>
+            {devprocess.map((phase, index) => (
+                <div className="flex flex-col items-center justify-center text-center w-[90%] lg:w-[42%] xl:w-[28%] h-[260px] rounded-lg shadow-lg p-4 px-6 gap-4 bg-white">
+                    <div className="flex items-center">
+                        <p className="text-2xl font-bold">{phase.title}</p>
+                        <p className="text-2xl font-bold">{index + 1}</p>
+                    </div>
+                    
+                    <p className="text-left">{phase.desc}</p>
                 </div>
             ))}
             </div>

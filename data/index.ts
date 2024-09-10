@@ -80,27 +80,46 @@ export const supportData = [
       }
 ]
 
-export const companyData = [
+export const servicesData2 = [
     {
         id:1,
-        name: 'Appointment'
+        name: 'Web Design'
       },
       {
         id:2,
-        name: 'Holiday Hours'
-      },
-      {
-        id:3,
-        name: 'FAQ'
+        name: 'Web Development'
       },
       {
         id:4,
-        name: 'After Hours Care'
+        name: 'Mobile Applications'
       },
       {
         id:5,
-        name: 'Contact'
-      }
+        name: 'Business Applications'
+      },
+      {
+        id:6,
+        name: 'Software Support'
+      },
+]
+
+export const companyData = [
+  {
+    id:1,
+    name: 'Gallery'
+  },
+  {
+    id:2,
+    name: 'Pricing'
+  },
+  {
+    id:3,
+    name: 'Services'
+  },
+  {
+    id:1,
+    name: 'FAQ'
+  },
 ]
   
 export const contactData = [
@@ -321,31 +340,31 @@ export const devprocess = [
   {
     id:1,
     title:'Planning',
-    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+    desc:"The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements. Based on this, we conduct research and plan the site’s structure, including the layout and user flow, to create a solid foundation."
   },
   {
     id:2,
-    title:'Planning',
-    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+    title:'Wireframing',
+    desc:'We develop initial sketches and low-fidelity wireframes using tools like Figma or Adobe XD, which focus on the placement of content, navigation, and key elements. These wireframes serve as a blueprint, giving you a clear visual of the website’s structure. We then present these wireframes to you for feedback, making sure they align with your vision.'
   },
   {
     id:3,
-    title:'Planning',
-    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+    title:'Design',
+    desc:'After finalizing the wireframes, we move into the design phase, where we bring your website to life by creating detailed mockups and interfaces that reflect your brand and vision. This process begins with establishing a visual style guide that includes colors, typography, button styles, iconography, and other design elements that align with your brand identity.'
   },
   {
     id:4,
     title:'Planning',
-    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+    desc:'We follow an agile approach, breaking the project into sprints, each focusing on specific tasks like back-end integration, and feature implementation. Front-end developers build responsive user interfaces, ensuring it matches the mockups and is responsive across all devices. Meanwhile, back-end developers set up the server, database, and necessary functionalities like forms, e-commerce, or CMS integration.'
   },
   {
     id:5,
-    title:'Planning',
-    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+    title:'Testing',
+    desc:"We ensure the website is fully functional, bug-free, and ready for launch. This phase involves several types of testing to cover all aspects of the website's performance and user experience Functional Testing: Cross-Browser and Cross-Device Testing, Performance Testing, Security Testing, Usability Testing, Accessibility Testing"
   },
   {
     id:6,
-    title:'Planning',
-    desc:'At the start of each project, we work with our customers to build a solid project plan. The initial Scope document can come from the client or a combined process of phone calls and in-person meetings.'
+    title:'Deployment',
+    desc:'We launch the completed website from a staging environment to a live server. We set up the hosting, configure servers and databases, and transfer all files securely. We run final checks to ensure all features, links, and integrations work correctly. Once validated, the website goes live, and we monitor its performance. Post-launch, we provide ongoing support and maintenance to ensure optimal performance and reliability.'
   },
 ]
