@@ -164,15 +164,6 @@ export const caseStudies = [
   },
   {
     id:4,
-    title: 'Digital Wealth',
-    link:'/digitalwealth',
-    type: 'Mobile Application',
-    src: '/assets/images/work5.png',
-    src2: '/assets/images/dg1.png',
-    desc: "Delivers real-time cryptocurrency prices and the latest industry news using the Coinranking API."
-  },
-  {
-    id:5,
     title: 'YA Solutions Inc',
     link:'/yasolutions',
     type: 'Web Application',
@@ -181,13 +172,22 @@ export const caseStudies = [
     desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth."
   },
   {
-    id:6,
+    id:5,
     title: 'Clinic',
     link:'/clinic',
     type: 'Business Application',
     src: '/assets/images/work6.png',
-    src2: '/assets/images/primetort1.png',
-    desc: "Streamlines patient management by allowing clinics to easily organize appointments, securely manage medical records, and enhance patient communication. Patients can conveniently book appointments online, view their medical information, and receive reminders, creating a seamless experience for both clinics and their patients."
+    src2: '/assets/images/clinic7.png',
+    desc: "Streamlines patient management by allowing clinics to easily organize appointments, securely manage medical records, and enhance patient communication."
+  },
+  {
+    id:6,
+    title: 'Digital Wealth',
+    link:'/digitalwealth',
+    type: 'Mobile Application',
+    src: '/assets/images/work5.png',
+    src2: '/assets/images/dg1.png',
+    desc: "Delivers real-time cryptocurrency prices and the latest industry news using the Coinranking API."
   },
 ]
 
@@ -213,7 +213,7 @@ export const services = [
     title: 'Branding',
     descr: 'With a focus on marketing sites and web apps, our sights are set on increasing your conversion rates and delighting your users.',
     src: '',
-    src2: '/assets/images/figma.png',
+    src2: '/assets/images/yasolutions5.png',
     featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
   },
 ]
@@ -238,7 +238,7 @@ export const selectedWork = [
   {
     id:1,
     title: 'PrimeTort leads',
-    link: '',
+    link: 'https://www.primetortleads.com/',
     src: '/assets/images/work3.png',
     descr: 'Primetort Leads, the marketing arm of YA Solutions Inc, specializes in mass tort case acquisition.',
     featuresList: ['API Integration', 'Websocket']
@@ -403,3 +403,11 @@ export const studyHiveFeatures = [
       "Each user has a personalized account where their quiz history, scores, and progress are stored. This personalization helps in providing a tailored learning experience.",
   },
 ];
+
+
+// export const processPreview = [
+//   {
+//     id:1,
+
+//   }
+// ]

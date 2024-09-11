@@ -20,7 +20,7 @@ const CTA = () => {
                         <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Marketting</span>
                     </div>
                 </div>
-                <Button className="w-[160px] md:w-[250px] shadow md:mt-8">Book a meeting</Button>
+                <a href="/contact"><Button className="w-[160px] md:w-[250px] shadow md:mt-8">Book a meeting</Button></a>
             </div>
            
             <div className="grid grid-cols-3 md:w-2/4 opacity-40 p-8">

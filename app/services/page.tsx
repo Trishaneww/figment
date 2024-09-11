@@ -104,9 +104,9 @@ const Services = () => {
 
 
         <section className="flex flex-col items-center w-full mt-40">
-            <div className="flex flex-col items-center gap-6">
+            <div className="flex flex-col items-center gap-6 p-2">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Project Managment</p>
-                <p className="font-bold text-6xl">Our essential development process</p>
+                <p className="font-bold text-4xl md:text-6xl text-center">Our essential development process</p>
             </div>
             <div className="w-full flex flex-col items-center">
                 <Image
@@ -114,36 +114,35 @@ const Services = () => {
                     height={1400}
                     alt="jira board preview"
                     src="/assets/images/jira2.png"
-                    className="ml-16"
+                    className="ml-4 lg:ml-16"
                  />
 
-                 <div className="flex gap-8 justify-center relative -top-16">
-                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[26%] h-[180px] rounded-lg shadow-lg p-4 px-8 gap-4 bg-white">
-                        <p className="text-2xl font-bold">For Freelancers</p>
-                        <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
+                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-2 xl:gap-4 items-center justify-center relative -top-16">
+                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[33%] xl:w-[26%] rounded-lg shadow-lg py-8 px-8 gap-4 bg-white">
+                        <p className="text-2xl font-bold">Stay on top of timelines</p>
+                        <p className="h-[130px] md:h-[100px]">Jira's reporting features give you insights into project timelines and help in managing expectations, ensuring we deliver your project on schedule.</p>
                     </div>
-                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[26%] h-[180px] rounded-lg shadow-lg p-4 px-8 gap-4 bg-white">
-                        <p className="text-2xl font-bold">For Freelancers</p>
-                        <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
+                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[33%] xl:w-[26%] rounded-lg shadow-lg py-8 px-8 gap-4 bg-white">
+                        <p className="text-2xl font-bold">Collaborate with our Team</p>
+                        <p className="h-[130px] md:h-[100px]">Leave comments, give feedback, and communicate directly with our designers and developers on specific tasks. This ensures quick iterations and adjustments to match your vision.</p>
                     </div>
-                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[26%] h-[180px] rounded-lg shadow-lg p-4 px-8 gap-4 bg-white">
-                        <p className="text-2xl font-bold">For Freelancers</p>
-                        <p>Our essential development process, Our essential development process. Our essential development process, Our essential development process</p>
+                    <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[33%] xl:w-[26%] rounded-lg shadow-lg py-8 px-8 gap-4 bg-white">
+                        <p className="text-2xl font-bold">File and image sharing</p>
+                        <p className="h-[130px] md:h-[100px]">Upload images, logos, and other files directly to tasks. This way, our designers and developers always have access to the latest assets you provide.</p>
                     </div>
                  </div>
-
             </div>
             
         </section>
 
-        <section className="flex flex-col items-center w-full mt-60 gap-14 mb-24">
+        <section className="flex flex-col items-center w-full mt-60 gap-14 mb-24" id="process">
             <div className="flex flex-col items-center gap-6">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Our Process</p>
-                <p className="font-bold text-6xl text-center">Our essential development process</p>
+                <p className="font-bold text-4xl md:text-6xl text-center">Our essential development process</p>
             </div>
             <div className="flex justify-center gap-4 flex-wrap w-full">
             {devprocess.map((phase, index) => (
-                <div className="flex flex-col items-center justify-start text-center w-[90%] lg:w-[42%] xl:w-[30%] h-[380px] md:h-[290px] rounded-lg shadow-lg p-4 px-6 gap-4 bg-white">
+                <div className="flex flex-col items-center justify-start text-center w-[90%] lg:w-[42%] xl:w-[30%] h-[380px] md:h-[290px] xl:h-[260px] rounded-lg shadow-lg p-4 px-6 gap-4 bg-white">
                     <div className="flex items-center justify-between w-full h-[30px]">
                         <p className="text-2xl font-bold">{phase.title}</p>
                         <p className="text-2xl font-bold">{index + 1}</p>

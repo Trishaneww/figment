@@ -11,9 +11,9 @@ const Services = () => {
     <div>
     <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
         <h1 className="text-slate-800  text-3xl md:text-6xl font-semibold">View Our Plans</h1>
-        <div className="flex w-2/5 gap-8 justify-between items-center">
+        <div className="flex w-full md:w-3/5 xl:w-2/5 gap-8 justify-between items-center">
             <p className="text-slate-500 lg:text-xl">Find the answers to your questions here</p>
-            <button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">See All Case Studies</button>
+            <a href="/services"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">See all of our services</button></a>
         </div>
     </section>
 
@@ -38,8 +38,8 @@ const Services = () => {
                         ))}
                     </ul>
                 </div>
-                
-                <Button className="mt-10 xl:mt-0 w-[170px] shadow">View Plans</Button>
+
+                <a href="/pricing"><Button className="mt-10 xl:mt-0 w-[170px] shadow">View Plans</Button></a>
               </div>
 
               <div className="flex w-full xl:w-2/3 overflow-hidden self-end">
