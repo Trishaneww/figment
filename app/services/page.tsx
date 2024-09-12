@@ -51,6 +51,11 @@ const Services = () => {
       <div className="w-1/5 h-2/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 -top-[8%] left-[91%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
       <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 -top-[45%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
       {/* <div className="w-2/5 h-4/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 top-[70%] left-[10%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div> */}
+      <h1 className="text-green-200 mt-56 font-bold text-4xl">IGMENT STUDIOS</h1>
+      <h1 className="text-gray-400 mt-56 font-bold text-4xl">figmentstudios.ca</h1>
+      <h1 className="text-white mt-56 font-bold text-4xl">- contact.figmentstudios@gmail.com</h1>
+      <h1 className="text-white mt-56 font-bold text-4xl">- figmentstudios.ca</h1>
+      <h1 className="text-white mt-56 font-bold text-4xl">- figmentstudioss</h1>
     
     </div>
 
