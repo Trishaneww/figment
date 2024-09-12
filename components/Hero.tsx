@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center md:items-start gap-6 z-10 lg:w-4/6 md:ml-20 lg:ml-36 xl:ml-24 mt-48 md:mt-0 text-center md:text-left">
             {/* <h1 className="text-2xl md:text-5xl lg:text-7xl xl:text-8xl font-bold">Figment designs to grow your business</h1> */}
             <TextGenerateEffect3 words="Accelerate your business with a site that converts"/>
-            <p className="mx-16 md:mx-0 text-lg">
+            <p className="mx-2 md:mx-0 text-lg">
             Grow your business with a custom website that sets you apart in today's digital landscape. A professionally designed site tailored to your brand not only enhances your online presence but also drives traffic, engages customers, and boosts conversions.</p>
             <Button className="w-[250px] shadow">Start Project</Button>
         </div>

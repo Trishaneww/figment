@@ -178,10 +178,16 @@ label {
   transform: translateX(480px);
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1700px) {
   .footer {
     display:flex;
     flex-direction: row;
     align-items: center;
+  }
+  .footer-header {
+    margin-left: 10%;
+  }
+  .process-card {
+    width: 28%;
   }
 }

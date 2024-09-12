@@ -46,7 +46,7 @@ const ContactHero = () => {
 
         </div>
 
-        <form className="max-w-[500px] w-full md:w-4/6 lg:w-3/6 h-[95%] shadow-lg bg-white rounded-lg flex flex-col items-center gap-4 mt-20">
+        <form className="max-w-[500px] w-full md:w-4/6 lg:w-3/6 h-[100%] md:h-[95%] shadow-lg bg-white rounded-lg flex flex-col items-center gap-4 mt-20">
           <div className="flex flex-col items-start w-5/6 mt-6 gap-2">
             <p className="flex justify-start text-slate-900">Name</p>
             <input 
@@ -91,7 +91,7 @@ const ContactHero = () => {
         
                    
 
-          <Button className="w-5/6 shadow mt-10">Submit</Button>
+          <Button className="w-5/6 shadow mt-2 mb-2 md:mt-10">Submit</Button>
 
         </form>
         </div>

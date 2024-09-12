@@ -15,15 +15,15 @@ import { HoverEffect } from '@/components/ui/card-hover-effect2'
 
 const Services = () => {
   return (
-    <div className="flex flex-col items-center bg-slate-50">
-        <Navbar />
+    <div className="flex flex-col items-center bg-slate-950">
+        {/* <Navbar /> */}
 
-    <div>
+    {/* <div>
       <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[50%] left-[80%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
       <div className="flex flex-col md:flex-row justify-center md:justify-center items-center gap-10 md:h-[100vh] overflow-hidden">
         <div className="flex flex-col justify-center items-center md:items-start gap-6 z-10 lg:w-[35%] lg:ml-36 xl:ml-32 mt-48 md:mt-0 text-center md:text-left">
             <TextGenerateEffect3 words="Start. Scale. Grow"/>
-            <p className="mx-16 md:mx-0 text-lg">Whether you need a stunning custom website, expert UI/UX design, or reliable ongoing maintenance and support, our team is ready to meet all your website needs with precision and expertise."</p>
+            <p className="mx-2 md:mx-0 text-lg">Whether you need a stunning custom website, expert UI/UX design, or reliable ongoing maintenance and support, our team is ready to meet all your website needs with precision and expertise."</p>
             <div className="flex gap-4">
                 <Button className="w-[200px] shadow">Start Project</Button>
                 <div className='flex gap-2 justify-center items-center hover:cursor-pointer'>
@@ -33,18 +33,25 @@ const Services = () => {
 
             </div>
         </div>
-        {/* <div className="w-full">
-          <img src="/assets/images/bg.png" alt="bg image"  className="z-20 relative left-96 w-[900px]"/>
-        </div> */}
+  
       
         <Image
           alt="bg image"
           height={800}
           width={800}
           src="/assets/images/services7.png"
-          className="z-20 w-3/4 md:w-[44%]"
+          className="z-20 w-full md:w-[48%]"
         />
       </div>
+    </div> */}
+
+    <div className="mb-[80rem]">
+      <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[92%] -left-[4%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
+      <div className="w-1/5 h-2/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 top-[96%] left-[20%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
+      <div className="w-1/5 h-2/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 -top-[8%] left-[91%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
+      <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 -top-[45%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
+      {/* <div className="w-2/5 h-4/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 top-[70%] left-[10%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div> */}
+    
     </div>
 
 
@@ -142,7 +149,7 @@ const Services = () => {
             </div>
             <div className="flex justify-center gap-4 flex-wrap w-full">
             {devprocess.map((phase, index) => (
-                <div className="flex flex-col items-center justify-start text-center w-[90%] lg:w-[42%] xl:w-[30%] h-[380px] md:h-[290px] xl:h-[260px] rounded-lg shadow-lg p-4 px-6 gap-4 bg-white">
+                <div className="flex flex-col items-center justify-start text-center w-[90%] lg:w-[42%] xl:w-[35%] h-[380px] md:h-[290px] xl:h-[280px] rounded-lg shadow-lg p-4 px-6 gap-4 bg-white process-card">
                     <div className="flex items-center justify-between w-full h-[30px]">
                         <p className="text-2xl font-bold">{phase.title}</p>
                         <p className="text-2xl font-bold">{index + 1}</p>
@@ -153,6 +160,10 @@ const Services = () => {
             ))}
             </div>
         </section>
+
+        
+
+        
 
         {/* <HoverEffect items={devprocess}/> */}
 

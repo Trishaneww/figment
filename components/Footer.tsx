@@ -6,12 +6,12 @@ import '../styles/global.scss';
 const Footer = () => {
   return (
     <div className="flex flex-col gap-40 p-10  w-full  bg-slate-50 mt-20 footer">
-        <section className="xl:1/4 flex flex-col gap-4 justify-start -mb-20 xl:mb-0">
-            <h1 className="text-slate-900 font-bold text-3xl xl:text-5xl xl:ml-20">Figment Studios</h1>
-            <p className="text-slate-900 xl:ml-20 mb-9 xl:mb-0 text-lg">@2024 Figment Studios. All rights reserved</p>
+        <section className="xl:1/4 flex flex-col gap-4 justify-start -mb-20 xl:mb-0 footer-header">
+            <h1 className="text-slate-900 font-bold text-3xl xl:text-5xl">Figment Studios</h1>
+            <p className="text-slate-900 mb-9 xl:mb-0 text-lg">@2024 Figment Studios. All rights reserved</p>
         </section>
 
-        <section className="flex gap-12 xl:justify-center items-start  flex-wrap">
+        <section className="flex gap-12 items-start flex-wrap">
             <div className="flex flex-col gap-2">
                 <p className="text-slate-900 font-semibold text-lg">Services</p>
                 {servicesData2.map((link) => (

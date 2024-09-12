@@ -15,15 +15,15 @@ const Contact = () => {
         <Navbar />
         <ContactHero />
 
-        <Bento />
+        {/* <Bento /> */}
 
 
         <div className="mt-52 w-full flex flex-col justify-center items-center">
          <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
             <h1 className="text-slate-800  text-3xl md:text-6xl font-semibold">Case Studies</h1>
-            <div className="flex gap-16 justify-between items-center">
-                <p className="text-slate-500 lg:text-xl">Explore what we do</p>
-                <Link href="/project"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">See All Case Studies</button></Link>
+            <div className="flex flex-col md:flex-row gap-2 md:gap-16 md:justify-between items-center">
+                <p className="text-slate-500 lg:text-xl">Explore our case studies for a behind-the-scenes look at our design process</p>
+                <Link href="/project"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">View our case studies</button></Link>
             </div>
         </section>
 
