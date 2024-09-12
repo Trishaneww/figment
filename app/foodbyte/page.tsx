@@ -66,7 +66,7 @@ const Foodbyte = () => {
                     />
                 </div>
 
-                <div className="bg-pink-500 w-full flex justify-center items-center mt-24 p-12">
+                <div className="bg-gray-200 w-full flex justify-center items-center mt-24 p-12">
                     <Image
                         width={1000}
                         height={1000}

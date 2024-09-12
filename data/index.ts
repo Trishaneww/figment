@@ -10,17 +10,17 @@ export const navItems = [
 export const faqData = [
     {
         id: 1,
-        item: 'Is wearing a mask mandatory?',
-        content: 'At the present time, wearing a mask is now optional but we do ask that if you have any type of respiratory symptoms that you do wear a mask.'
+        item: 'Can you integrate third-party tools and software?',
+        content: "We specialize in integrating a wide range of third-party tools and software into your website, such as payment gateways (Stripe, PayPal), marketing tools (Google Analytics, HubSpot), CRMs (Salesforce, Zoho CRM), and more. These integrations help streamline operations, enhance user experience, and drive growth by providing secure transactions, effective marketing, and efficient customer management—all from a single, cohesive platform tailored to your business needs."
     },
     {
         id: 2,
-        item: 'When is it suitable to use the after office hours ?',
-        content: 'This is only for URGENT appointments and not meant for routine visits. In case of a same day URGENT problem, please call our office first to request an appointment and we will try to fit you in the same or next day. Otherwise, if it is after 5 pm, please call the FHO phone line at 905-815-9177 and you will be informed of the location and phone number of the FHO Clinic for that night or the Saturday or Sunday.'
+        item: 'What happens after the website is launched?',
+        content: "After launching your website, we provide ongoing maintenance and support to keep it secure, updated, and optimized. This includes regular updates, security patches, performance checks, and backups. Our team is also available to assist with any issues, ensuring your website remains effective and aligned with your business needs."
     },
     {
         id: 3,
-        item: 'How can I book an appointment',
+        item: 'How long does it take to build a website?',
         content: 'Yes. It adheres to the WAI-ARIA design pattern. PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition. Yes. It adheres to the WAI-ARIA design pattern. PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition.'
     }
 ]
@@ -68,15 +68,13 @@ export const servicesData = [
 export const supportData = [
     {
         id:1,
-        name: 'Email Us'
+        name: 'Email Us',
+        link: 'mailto:contact.figmentstudios@gamil.com'
       },
       {
         id:2,
-        name: 'Book a meeting'
-      },
-      {
-        id:3,
-        name: 'FAQ'
+        name: 'Book a meeting',
+        link: '/contact'
       }
 ]
 
@@ -106,26 +104,30 @@ export const servicesData2 = [
 export const companyData = [
   {
     id:1,
-    name: 'Portfolio'
+    name: 'Portfolio',
+    link:'/portfolio'
   },
   {
     id:2,
-    name: 'Pricing'
+    name: 'Pricing',
+    link:'/pricing'
   },
   {
     id:3,
-    name: 'Services'
+    name: 'Services',
+    link:'/services'
   },
   {
     id:1,
-    name: 'FAQ'
-  },
+    name: 'FAQ',
+    link:'/#faq'
+  }
 ]
   
 export const contactData = [
     {
       id:1,
-      name:'info@figmentstudios.com'
+      name:'contact.figmentstudios@gmail.com'
     },
     {
       id:2,
@@ -289,7 +291,7 @@ export const companiesList = [
 export const pricingData = [
     {
         id:1,
-        title: 'Standard',
+        title: 'Core',
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
         price: "$200",
         rate: '/month',
@@ -305,7 +307,7 @@ export const pricingData = [
     },
     {
         id:3,
-        title: 'Unlimited',
+        title: 'Business',
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
         price: "$500",
         rate: '/month',

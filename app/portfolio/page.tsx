@@ -117,6 +117,18 @@ const page = () => {
             </div> */}
         </section>
 
+        {/* <div className="h-[200vh] bg-gray-200 flex flex-col items-center justify-center">
+            <video width="35%" height="820" autoPlay loop muted className="rounded-lg z-20 shadow-lg">
+                <source src="/assets/videos/video5.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            <div className="flex flex-col items-center justify-center mt-20">
+                <p className="text-sm">LIVE PREVIEW</p>
+                <p className="text-2xl">Figment Studios</p>
+            </div>
+        </div> */}
+
         <Footer />
 
     </div>
