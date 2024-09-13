@@ -10,7 +10,7 @@ export const navItems = [
 export const faqData = [
     {
         id: 1,
-        item: 'Can you integrate third-party tools and software?',
+        item: 'Is it possible to integrate third-party tools and software?',
         content: "We specialize in integrating a wide range of third-party tools and software into your website, such as payment gateways (Stripe, PayPal), marketing tools (Google Analytics, HubSpot), CRMs (Salesforce, Zoho CRM), and more. These integrations help streamline operations, enhance user experience, and drive growth by providing secure transactions, effective marketing, and efficient customer management—all from a single, cohesive platform tailored to your business needs."
     },
     {
@@ -291,7 +291,7 @@ export const companiesList = [
 export const pricingData = [
     {
       id:1,
-      title: 'Startup',
+      title: 'Lite',
       desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
       price: "$300",
       rate: '/month',
@@ -415,9 +415,41 @@ export const studyHiveFeatures = [
 ];
 
 
-// export const processPreview = [
-//   {
-//     id:1,
+export const pricingChart = [
+  {
+    id:1,
+    name:'Weekly video Calls',
+    values: [true, true, true, true]
+  },
+  {
+    id:2,
+    name:'Live progress updates',
+    values: [true, true, true, true]
+  },
+  {
+    id:3,
+    name:'Project Management in Jira',
+    values: [true, true, true, true]
+  },
+  {
+    id:4,
+    name:'Unlimited Requests',
+    values: [false, true, true, true]
+  },
+  {
+    id:5,
+    name:'Accept Payments',
+    values: [false, false, true, true]
+  },
+  {
+    id:6,
+    name:'Recurring Payments',
+    values: [false, false, true, true]
+  },
+  {
+    id:7,
+    name:'Admin Dashboard',
+    values: [true, true, true, true]
+  },
 
-//   }
-// ]
+]

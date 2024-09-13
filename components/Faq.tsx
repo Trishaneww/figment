@@ -11,41 +11,22 @@ import { faqData } from '@/data'
 
 const Faq = () => {
   return (
-    // <div className="mt-40 scroll-smooth" id="faq">
-    //     <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
-    //         <h1 className="text-slate-800  text-3xl md:text-6xl font-semibold">Frequently Asked Questions</h1>
-    //         <p className="text-slate-500 w-2/3 lg:text-xl">Find the answers to your questions here</p>
-    //     </section>
+    <div className="mt-40 scroll-smooth" id="faq">
+        <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
+            <h1 className="text-slate-800  text-3xl md:text-6xl font-semibold">Frequently Asked Questions</h1>
+            <p className="text-slate-500 w-2/3 lg:text-xl">Find the answers to your questions here</p>
+        </section>
 
-    //     <div className="flex justify-center gap-6 w-full p-4">
-    //         <Accordion type="single" collapsible className="flex flex-col gap-4 md:w-3/5">
-    //             {faqData.map((accordion:any, idx:number) => (
-    //                 <AccordionItem value={`item-${idx}`} className="border-none p-4  rounded-2xl">
-    //                 <AccordionTrigger className="lg:text-xl text-left">{accordion.item}</AccordionTrigger>
-    //                     <AccordionContent className="text-base">
-    //                         {accordion.content}
-    //                     </AccordionContent>
-    //                 </AccordionItem>
-    //             ))}
-    //         </Accordion>
-    //     </div>
-    // </div>
-
-    <div className="mt-40 scroll-smooth flex justify-center items-center" id="faq">
-    <section className="flex gap-6 items-center justify-center mb-10 text-center p-2 w-2/4">
-        <h1 className="text-slate-800  text-3xl md:text-6xl xl:text-[17rem] font-semibold">Q&A</h1>
-    </section>
-
-    <div className="flex justify-end gap-6 w-2/4 p-4">
-        <Accordion type="single" collapsible className="flex flex-col gap-4 md:w-full">
-            {faqData.map((accordion:any, idx:number) => (
-                <AccordionItem value={`item-${idx}`} className="border-none p-4  rounded-2xl">
-                <AccordionTrigger className="lg:text-xl text-left">{accordion.item}</AccordionTrigger>
-                    <AccordionContent className="text-base">
-                        {accordion.content}
-                    </AccordionContent>
-                </AccordionItem>
-            ))}
+        <div className="flex justify-center gap-6 w-full p-4">
+            <Accordion type="single" collapsible className="flex flex-col gap-4 md:w-3/5">
+                {faqData.map((accordion:any, idx:number) => (
+                    <AccordionItem value={`item-${idx}`} className="border-none p-4  rounded-2xl">
+                    <AccordionTrigger className="lg:text-xl text-left">{accordion.item}</AccordionTrigger>
+                        <AccordionContent className="text-base">
+                            {accordion.content}
+                        </AccordionContent>
+                    </AccordionItem>
+                ))}
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 5'}>
                 <AccordionTrigger className="lg:text-xl text-left">When can I expect to have my website ready?</AccordionTrigger>
                     <AccordionContent className="text-base flex flex-col gap-2">
@@ -66,12 +47,20 @@ const Faq = () => {
                     </AccordionContent>
             </AccordionItem>
 
+            <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 6'}>
+                <AccordionTrigger className="lg:text-xl text-left">Can you redesign an existing website?</AccordionTrigger>
+                    <AccordionContent className="text-base flex flex-col gap-2">
+                        <p>We offer a comprehensive redesign service for existing websites to give them a fresh, modern look and improve their performance. Our redesign process starts with an in-depth consultation to understand your goals, brand identity, and what aspects of your current site need improvement.</p>
 
+                        <p>We then create a customized redesign plan that could include updating the layout, enhancing the user experience, optimizing for mobile devices, integrating new functionalities, and improving SEO. Throughout the process, we collaborate with you to ensure the new design aligns with your vision and business objectives.</p>
 
+                        <p>Whether you want a complete overhaul or just some tweaks to enhance your site, we are here to transform your existing website into a more effective tool for your business.</p>
+                        
+                    </AccordionContent>
+            </AccordionItem>
         </Accordion>
-    </div>
-</div>
-  )
-}
+        </div>
+    </div> 
+)}
 
 export default Faq

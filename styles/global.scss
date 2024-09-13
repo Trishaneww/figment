@@ -178,6 +178,13 @@ label {
   transform: translateX(480px);
 }
 
+
+.rowBorder {
+  border-bottom: 1px solid rgb(223, 223, 223);
+  display:flex;
+  align-items: center;
+}
+
 @media only screen and (min-width: 1700px) {
   .footer {
     display:flex;

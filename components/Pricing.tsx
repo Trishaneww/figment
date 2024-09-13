@@ -18,11 +18,12 @@ import { TextGenerateEffect3 } from './ui/text-generate-effect3';
 const Pricing = () => {
   return (
     <div className="flex flex-col gap-16 mt-60">
-        <section className="flex flex-col justify-center items-center gap-6 text-center">
-            <TextGenerateEffect3 words="Simple, Transparent, Pricing"/>
-            <p className="text-xl text-slate-500">Choose the plan thats right for you. Cancel subscription at anytime.</p>
+         <div className="w-4/5 h-full bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 -top-[28%] left-[30%] translate-x-[-50%] translate-y-[-50%] blur-[390px]"></div>
+        <section className="flex flex-col justify-center items-center gap-6 text-center z-10">
+            <TextGenerateEffect3 words="Simple and Transparent Pricing"/>
+            <p className="text-xl text-slate-500">Explore our flexible pricing packages designed to deliver stunning, high-performing websites.</p>
         </section>
-        <div className="flex justify-center gap-2 flex-wrap">
+        <div className="flex justify-center gap-2 flex-wrap z-20">
             {pricingData.slice(0,3).map((card) => (
                 <Card className="w-[370px] h-[660px] flex flex-col gap-4">
                     <CardHeader>
@@ -51,7 +52,7 @@ const Pricing = () => {
                 </Card>
             ))}
             {pricingData.slice(3,4).map((card) => (
-                <Card className="w-[370px] h-[660px] flex flex-col gap-4 bg-black text-white">
+                <Card className="w-[370px] h-[660px] flex flex-col gap-4 bg-slate-950 text-white">
                     <CardHeader>
                         <CardTitle className="text-4xl">{card.title}</CardTitle>
                         <CardDescription className="text-white text-base">{card.desc}</CardDescription>
