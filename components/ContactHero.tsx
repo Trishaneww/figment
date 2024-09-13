@@ -4,12 +4,20 @@ import React from 'react'
 import { Button } from './ui/button'
 import { GiCheckMark } from 'react-icons/gi';
 import emailjs from '@emailjs/browser';
+import { useToast } from "@/components/hooks/use-toast"
 
 const ContactHero = () => {
+  const { toast } = useToast()
+
   const sendEmail = (e:any) => {
     e.preventDefault();
     console.log("email sent")
-    emailjs.sendForm('service_luvg8op', 'template_sx6i957' , e.target , '1MxDwCSvQF6Leln4f')
+    emailjs.sendForm('service_luvg8op', 'template_sx6i957' , e.target , '1MxDwCSvQF6Leln4f');
+
+    toast({
+      title: "Email Sent",
+      description: "Friday, February 10, 2023 at 5:57 PM",
+    })
   }
 
 
@@ -51,6 +59,8 @@ const ContactHero = () => {
               </li>
             </ul>
         </div>
+
+        
 
         <form className="max-w-[500px] w-full md:w-4/6 lg:w-3/6 h-[100%] md:h-[95%] shadow-lg bg-white rounded-lg flex flex-col items-center gap-4 mt-20" onSubmit={sendEmail}>
           <div className="flex flex-col items-start w-5/6 mt-6 gap-2">

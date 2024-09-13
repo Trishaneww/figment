@@ -21,7 +21,7 @@ const CaseStudies = () => {
             <h1 className="text-slate-800  text-3xl md:text-6xl font-semibold">Case Studies</h1>
             <div className="flex flex-col md:flex-row gap-2 md:gap-16 md:justify-between items-center">
                 <p className="text-slate-500 lg:text-xl">Explore our case studies for a behind-the-scenes look at our design process</p>
-                <Link href="/project"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">View our case studies</button></Link>
+                <Link href="/portfolio"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">View our case studies</button></Link>
             </div>
         </section>
 
@@ -45,7 +45,7 @@ const CaseStudies = () => {
                     </CardHeader>
                     <CardContent className="flex flex-col gap-4 h-1/3 mt-6">
                         <div className="flex justify-between items-center w-full">
-                            <CardTitle className="text-2xl">{card.title}</CardTitle>
+                            <CardTitle className="text-xl md:text-2xl">{card.title}</CardTitle>
                             <button className="h-[32px] rounded-3xl border-slate-950 border-2 text-sm px-4 p-2 flex items-center justify-center">{card.type}</button>
                         </div>
                       

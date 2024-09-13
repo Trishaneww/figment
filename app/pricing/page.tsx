@@ -10,7 +10,6 @@ const page = () => {
     <div className="flex flex-col bg-slate-50">
         <Navbar />
         <Pricing />
-        <Insights />
         <Faq />
         <Footer />
     </div>

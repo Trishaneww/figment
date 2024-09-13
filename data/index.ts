@@ -20,8 +20,8 @@ export const faqData = [
     },
     {
         id: 3,
-        item: 'How long does it take to build a website?',
-        content: 'Yes. It adheres to the WAI-ARIA design pattern. PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition. Yes. It adheres to the WAI-ARIA design pattern. PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition.'
+        item: 'What happens if I am unhappy with the designs?',
+        content: "If you are not satisfied with our initial design, we are committed to working closely with you to make it right. We encourage your feedback throughout the design process to refine and develop a website that you truly love and that effectively supports your brand's growth.However, if you are still unhappy with the direction within the first 7 days of payment, we offer a full refund to ensure you are completely confident in your decision to work with us. Your satisfaction is our priority, and we are here to create a website that meets your expectations and business needs"
     }
 ]
 
@@ -290,28 +290,36 @@ export const companiesList = [
 
 export const pricingData = [
     {
+      id:1,
+      title: 'Startup',
+      desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
+      price: "$300",
+      rate: '/month',
+      packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates"]
+    },
+    {
         id:1,
         title: 'Core',
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
-        price: "$200",
+        price: "$600",
         rate: '/month',
         packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates"]
     },
     {
         id:2,
-        title: 'Premium',
+        title: 'Business',
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
         price: "$300",
         rate: '/month',
-        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
+        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Standard eCommerce", "Free software support"]
     },
     {
-        id:3,
-        title: 'Business',
+        id:4,
+        title: 'Business Elite',
         desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
         price: "$500",
         rate: '/month',
-        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Ecommerce funcionality"]
+        packageList: ["Unlimited requests and revisions", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Advanved eCommerce", "Manager dashboard", "Free software support", "AI-tools"]
     }
 ]
 

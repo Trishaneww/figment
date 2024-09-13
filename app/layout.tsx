@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Inter, Questrial, Roboto, Poppins } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-
+import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils";
 
 // const fontSans = FontSans({
@@ -38,6 +38,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
         </ThemeProvider>
+
       </body>
     </html>
   );

@@ -15,22 +15,21 @@ import { HoverEffect } from '@/components/ui/card-hover-effect2'
 
 const Services = () => {
   return (
-    <div className="flex flex-col items-center bg-slate-950">
-        {/* <Navbar /> */}
+    <div className="flex flex-col items-center bg-slate-50">
+        <Navbar />
 
-    {/* <div>
+    <div>
       <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[50%] left-[80%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
       <div className="flex flex-col md:flex-row justify-center md:justify-center items-center gap-10 md:h-[100vh] overflow-hidden">
         <div className="flex flex-col justify-center items-center md:items-start gap-6 z-10 lg:w-[35%] lg:ml-36 xl:ml-32 mt-48 md:mt-0 text-center md:text-left">
             <TextGenerateEffect3 words="Start. Scale. Grow"/>
             <p className="mx-2 md:mx-0 text-lg">Whether you need a stunning custom website, expert UI/UX design, or reliable ongoing maintenance and support, our team is ready to meet all your website needs with precision and expertise."</p>
             <div className="flex gap-4">
-                <Button className="w-[200px] shadow">Start Project</Button>
-                <div className='flex gap-2 justify-center items-center hover:cursor-pointer'>
+                <a href="/contact"><Button className="w-[200px] shadow">Start Project</Button></a>
+                <a href="mailto:contact.figmentstudios@gmail.com" className='flex gap-2 justify-center items-center hover:cursor-pointer'>
                     <p>Contact Us</p>
                     <IoIosArrowForward size={15}/>
-                </div>
-
+                </a>
             </div>
         </div>
   
@@ -43,21 +42,21 @@ const Services = () => {
           className="z-20 w-full md:w-[48%]"
         />
       </div>
-    </div> */}
+    </div>
 
-    <div className="mb-[80rem]">
+    {/* <div className="mb-[80rem]">
       <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[92%] -left-[4%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
       <div className="w-1/5 h-2/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 top-[96%] left-[20%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
       <div className="w-1/5 h-2/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 -top-[8%] left-[91%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
       <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 -top-[45%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
-      {/* <div className="w-2/5 h-4/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 top-[70%] left-[10%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div> */}
+     
       <h1 className="text-green-200 mt-56 font-bold text-4xl">IGMENT STUDIOS</h1>
       <h1 className="text-gray-400 mt-56 font-bold text-4xl">figmentstudios.ca</h1>
       <h1 className="text-white mt-56 font-bold text-4xl">- contact.figmentstudios@gmail.com</h1>
       <h1 className="text-white mt-56 font-bold text-4xl">- figmentstudios.ca</h1>
       <h1 className="text-white mt-56 font-bold text-4xl">- figmentstudioss</h1>
     
-    </div>
+    </div> */}
 
 
         <section className="flex flex-col md:flex-row w-full gap-4 lg:gap-16 p-8 justify-center items-center mt-24">

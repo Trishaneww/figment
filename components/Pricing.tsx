@@ -12,25 +12,25 @@ import { FaCheck } from "react-icons/fa6";
 import { pricingData } from '@/data';
 import '../styles/global.scss';
 import { GiCheckMark } from 'react-icons/gi';
-import { TextGenerateEffect2 } from './ui/text-generate-effect2';
+import { TextGenerateEffect3 } from './ui/text-generate-effect3';
   
 
 const Pricing = () => {
   return (
     <div className="flex flex-col gap-16 mt-60">
-        <section className="flex flex-col justify-center items-center gap-6">
-            <TextGenerateEffect2 words="Simple, Transparent, Pricing"/>
+        <section className="flex flex-col justify-center items-center gap-6 text-center">
+            <TextGenerateEffect3 words="Simple, Transparent, Pricing"/>
             <p className="text-xl text-slate-500">Choose the plan thats right for you. Cancel subscription at anytime.</p>
         </section>
-        <div className="flex justify-center gap-8 flex-wrap">
-            {pricingData.slice(0,2).map((card) => (
-                <Card className="w-[400px] h-[550px] flex flex-col gap-4">
+        <div className="flex justify-center gap-2 flex-wrap">
+            {pricingData.slice(0,3).map((card) => (
+                <Card className="w-[370px] h-[660px] flex flex-col gap-4">
                     <CardHeader>
                         <CardTitle className="text-4xl">{card.title}</CardTitle>
-                        <CardDescription>{card.desc}</CardDescription>
+                        <CardDescription className="text-base">{card.desc}</CardDescription>
                     </CardHeader>
-                    <CardContent className="h-[300px]">
-                        <h1 className="text-4xl font-bold mb-8">{card.price} <span className="text-base">{card.rate}</span></h1>
+                    <CardContent className="h-[400px]">
+                        <h1 className="text-4xl font-bold mb-8">{card.price}</h1>
                         <ul className="mt-6 flex flex-col gap-2">
                             {card.packageList.map((item) => (
                                 <li className="flex gap-4">
@@ -50,13 +50,13 @@ const Pricing = () => {
                     </CardFooter>
                 </Card>
             ))}
-            {pricingData.slice(2,3).map((card) => (
-                <Card className="w-[400px] h-[550px] flex flex-col gap-4 bg-black text-white">
+            {pricingData.slice(3,4).map((card) => (
+                <Card className="w-[370px] h-[660px] flex flex-col gap-4 bg-black text-white">
                     <CardHeader>
                         <CardTitle className="text-4xl">{card.title}</CardTitle>
-                        <CardDescription className="text-white">{card.desc}</CardDescription>
+                        <CardDescription className="text-white text-base">{card.desc}</CardDescription>
                     </CardHeader>
-                    <CardContent className="h-[300px]">
+                    <CardContent className="h-[400px]">
                         <h1 className="text-4xl font-bold mb-8">{card.price} <span className="text-base">{card.rate}</span></h1>
                         <ul className="mt-6 flex flex-col gap-2">
                             {card.packageList.map((item) => (

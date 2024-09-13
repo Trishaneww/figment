@@ -2,8 +2,10 @@ import Bento from '@/components/Bento'
 import ContactHero from '@/components/ContactHero'
 import Faq from '@/components/Faq'
 import Footer from '@/components/Footer'
+import Insights from '@/components/Insights'
 import Navbar from '@/components/Navbar'
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from '@/components/ui/card'
+import { Toaster } from '@/components/ui/toaster'
 import { caseStudies } from '@/data'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -16,6 +18,7 @@ const Contact = () => {
         <ContactHero />
 
         {/* <Bento /> */}
+        <Insights />
 
 
         <div className="mt-52 w-full flex flex-col justify-center items-center">
@@ -46,7 +49,7 @@ const Contact = () => {
                     </CardHeader>
                     <CardContent className="flex flex-col gap-4 h-1/3 mt-6">
                         <div className="flex justify-between items-center w-full">
-                            <CardTitle className="text-2xl">{card.title}</CardTitle>
+                            <CardTitle className="text-xl md:text-2xl">{card.title}</CardTitle>
                             <button className="h-[32px] rounded-3xl border-slate-950 border-2 text-sm px-4 p-2 flex items-center justify-center">{card.type}</button>
                         </div>
                       
@@ -58,13 +61,15 @@ const Contact = () => {
         </div>
     </div>
 
-        <div className="w-full">
+
+        <div className="flex flex-col w-full">
         <Faq />
         </div>
 
  
 
         <Footer />
+        <Toaster />
 
     </div>
   )
