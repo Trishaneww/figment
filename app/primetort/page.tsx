@@ -26,7 +26,7 @@ const Primetort = () => {
             </div>
 
 
-            <div className="w-full p-2 md:w-4/6 flex flex-col gap-4 mt-20">
+            <div className="w-full px-6 md:px-2 p-2 md:w-4/6 flex flex-col gap-4 mt-20">
                 <p className="text-2xl md:text-5xl font-bold">Mass Tort Acquisition</p>
                 <p>
                 PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition. Through targeted digital marketing strategies across various channels, PrimeTort Leads excels at uncovering valuable leads, delivering significant marketing results, and achieving measurable KPIs. With a focus on precision and effectiveness, PrimeTort Leads is your trusted partner in finding the needle in the haystack.
@@ -75,7 +75,13 @@ const Primetort = () => {
                     />
                 </div>
         </section>
-        <Footer />
+
+        <div className="flex justify-center w-full">
+        <footer className="flex justify-between items-center w-full lg:w-4/5 px-2 mt-16 mb-16">
+            <p className="mt-8 lg:text-2xl font-semibold">Next Case Study</p>
+            <a href="/yasolutions" className="mt-8 lg:text-2xl font-semibold">YA Solutions</a>
+        </footer>
+        </div>
     </div>
   )
 }

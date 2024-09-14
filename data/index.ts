@@ -200,7 +200,7 @@ export const services = [
     descr: 'With a focus on marketing-driven websites and exceptional user experiences, we craft digital solutions that captivate your audience and maximize conversions',
     src: '',
     src2: '/assets/images/figma.png',
-    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+    featuresList: ['Unlimited revisions', 'High quality mockups', 'Custom designs', 'Live preview']
   },
   {
     id:2,
@@ -208,7 +208,7 @@ export const services = [
     descr: 'Our team delivers clean, efficient code to create responsive, dynamic, and engaging websites that ensure seamless performance across all devices',
     src: '',
     src2: '/assets/images/code.png',
-    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+    featuresList: ['Mobile responsiveness','Third-party integrations','Custom forms','Ongoing software support']
   },
   {
     id:3,
@@ -216,7 +216,7 @@ export const services = [
     descr: 'Our digital marketing service focuses on enhancing your brand with custom digital banners and targeted strategies to maximize your online visibility and impac',
     src: '',
     src2: '/assets/images/yasolutions5.png',
-    featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
+    featuresList: ['Copywriting', 'Digital banners', 'Typeface', 'Color Palette']
   },
 ]
 
@@ -227,7 +227,7 @@ export const selectedWork = [
     link: '',
     src: '/assets/images/work1.png',
     descr: 'Platform enabling college students to create, view and quiz themselves with study decks for more effective learning.',
-    featuresList: ['API Integration', 'Websockets', 'Digital Server', 'CRUD']
+    featuresList: ['API Integration', 'Live chat', 'Custom forms', 'Login/Signup']
   },
   {
     id:1,
@@ -235,7 +235,7 @@ export const selectedWork = [
     link: '',
     src: '/assets/images/work2.png',
     descr: 'Streamlined food ordering service to make food proccessing quicker.',
-    featuresList: ['API Integration', 'Websocket', 'Digital Server']
+    featuresList: ['E-commerce integration', 'Content management', 'Analytical dashboard', 'Database hosting']
   },
   {
     id:1,
@@ -243,7 +243,7 @@ export const selectedWork = [
     link: 'https://www.primetortleads.com/',
     src: '/assets/images/work3.png',
     descr: 'Primetort Leads, the marketing arm of YA Solutions Inc, specializes in mass tort case acquisition.',
-    featuresList: ['API Integration', 'Websocket']
+    featuresList: ['Email messaging', 'Custom forms', 'Gallery']
   }
 ]
 

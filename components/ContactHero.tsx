@@ -16,7 +16,7 @@ const ContactHero = () => {
 
     toast({
       title: "Email Sent",
-      description: "Friday, February 10, 2023 at 5:57 PM",
+      description: "We will get back to you shortly",
     })
   }
 

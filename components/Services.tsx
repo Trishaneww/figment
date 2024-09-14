@@ -20,7 +20,7 @@ const Services = () => {
 
     <section className="flex flex-col justify-center items-center gap-4 w-full">
         {services.map((project) => (
-            <div className="w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
+            <div className="w-5/6 min-w-[360px] xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col  gap-2">
                     <p className="text-2xl md:text-3xl font-bold">{project.title}</p>

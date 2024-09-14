@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import Image from 'next/image'
 import React from 'react'
+import '../../styles/global.scss';
 
 const Clinic = () => {
   return (
@@ -25,7 +26,7 @@ const Clinic = () => {
                 />
             </div>
 
-            <div className="w-full p-2 md:w-4/6 flex flex-col gap-4 mt-20">
+            <div className="w-full px-6 md:px-2 p-2 md:w-4/6 flex flex-col gap-4 mt-20">
                 <p className="text-2xl md:text-5xl font-bold">Streamlined Patient Management</p>
                 <p>
                 Our software enables medical clinics to efficiently manage patient appointments, medical records, and communication in one secure platform. Clinics can easily schedule and organize appointments, track patient history, and streamline administrative tasks, while patients benefit from the convenience of booking appointments online, accessing their medical information, and receiving automated reminders. This all-in-one solution enhances the overall patient experience and optimizes clinic operations.
@@ -74,7 +75,17 @@ const Clinic = () => {
                 </div>
         </section>
 
-        <Footer />
+        <div className="flex justify-center w-full">
+
+        <footer className="flex justify-between items-center w-full lg:w-4/5 px-2 mt-16 mb-16">
+            <p className="mt-8 lg:text-2xl font-semibold">Next Case Study</p>
+            <a href="/digitalwealth" className="mt-8 lg:text-2xl font-semibold">Digital Wealth</a>
+        </footer>
+
+        </div>
+
+
+        {/* <Footer /> */}
 
     </div>
   )

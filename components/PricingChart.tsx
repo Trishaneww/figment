@@ -13,7 +13,7 @@ const PricingChart = () => {
             </div>
             <div className="h-[70px] w-[18.5%] flex flex-col gap-2  items-center justify-center">
                 <p className="text-2xl text-center">Business Elite</p>
-                <p>$2000</p>
+                <p>$1600</p>
             </div>
             <div className="h-[70px] w-[18.5%] flex flex-col gap-2  items-center justify-center">
                 <p className="text-2xl">Business</p>

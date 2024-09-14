@@ -25,7 +25,7 @@ const DigitalWealth = () => {
                 />
             </div>
 
-            <div className="w-full p-2 md:w-4/6 flex flex-col gap-4 mt-20">
+            <div className="w-full px-6 md:px-2 p-2 md:w-4/6 flex flex-col gap-4 mt-20">
                 <p className="text-2xl md:text-5xl font-bold">Overview</p>
                 <p>
                 Digital Wealth is a comprehensive software application that provides real-time cryptocurrency market prices, allows users to search for specific cryptocurrencies, and keeps them informed with the latest news reports within the market and industry. The application features a live dashboard displaying up-to-date prices of various cryptocurrencies, utilizing the Coinranking API to ensure accurate and current market information. Users can easily search for their desired cryptocurrency through a robust search function, providing detailed information about each one. Additionally, the application integrates the Bing News Search API to fetch the most recent news reports, delivering relevant and timely updates directly within the application.
@@ -74,7 +74,12 @@ const DigitalWealth = () => {
                 </div>
         </section>
 
-        <Footer />
+        <div className="flex justify-center w-full">
+        <footer className="flex justify-between items-center w-full lg:w-4/5 px-2 mt-16 mb-16">
+            <p className="mt-8 lg:text-2xl font-semibold">Next Case Study</p>
+            <a href="/studyhive" className="mt-8 lg:text-2xl font-semibold">Study Hive</a>
+        </footer>
+        </div>
 
     </div>
   )

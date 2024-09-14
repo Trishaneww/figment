@@ -280,3 +280,37 @@ nav svg{
     width: 28%;
   }
 }
+
+.nextProject {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+  border-radius: 150px;
+  margin:7rem 0 2rem 0;
+  transition: transform 600ms;
+
+  @include tablet {
+      width:330px;
+      height:150px;
+  }
+
+  & a {
+      font-family: "Oleo Script", system-ui;
+      color:rgb(0, 0, 0);
+      font-size: 120px;
+      font-weight: 800;
+      text-decoration: none;
+
+      @include tablet {
+          font-size: 45px;
+      }
+  }
+
+  &:hover {
+      cursor:pointer;
+      transform: translate(0,-3%);
+      border: 4px solid rgb(255, 255, 255);
+  }
+}

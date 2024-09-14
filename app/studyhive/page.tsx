@@ -28,7 +28,7 @@ const StudyHive = () => {
                 />
             </div>
 
-            <div className="w-full p-2 md:w-4/6 flex flex-col gap-4 mt-20">
+            <div className="w-full px-6 md:px-2 p-2 md:w-4/6 flex flex-col gap-4 mt-20">
                 <p className="text-2xl md:text-5xl font-bold">Overview</p>
                 <p>
                 The software allows college students to create personalized flashcard study decks and use various quizzing methods to test their knowledge. In addition to creating their own decks, students can view and study from flashcard decks made by other users, enhancing collaborative learning. The platform also supports the creation of study servers dedicated to specific college courses. By joining these servers, students gain access to chat with other users and use all flashcard decks related to the course, fostering a community-based learning environment. Notably, WebSockets were used to develop the live chat feature within the study servers, ensuring real-time communication among users.
@@ -88,7 +88,12 @@ const StudyHive = () => {
                 </div>
         </section>
 
-        <Footer />
+        <div className="flex justify-center w-full">
+        <footer className="flex justify-between items-center w-full lg:w-4/5 px-2 mt-16 mb-16">
+            <p className="mt-8 lg:text-2xl font-semibold">Next Case Study</p>
+            <a href="/foodbyte" className="mt-8 lg:text-2xl font-semibold">Foodbyte</a>
+        </footer>
+        </div>
 
     </div>
   )

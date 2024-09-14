@@ -74,7 +74,12 @@ const YaSolutions = () => {
                 </div>
         </section>
 
-        <Footer />
+        <div className="flex justify-center w-full">
+        <footer className="flex justify-between items-center w-full lg:w-4/5 px-2 mt-16 mb-16">
+            <p className="mt-8 lg:text-2xl font-semibold">Next Case Study</p>
+            <a href="/clinic" className="mt-8 lg:text-2xl font-semibold">Clinic Software</a>
+        </footer>
+        </div>
 
     </div>
   )

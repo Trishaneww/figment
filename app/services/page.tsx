@@ -45,9 +45,9 @@ const Services = () => {
     </div>
 
 
-        <div className="-mb-20 mt-24 flex flex-col justify-center items-center gap-2">
+        <div className="-mb-48 md:-mb-20 mt-24 flex flex-col justify-center items-center gap-2">
             <h1 className="text-slate-800 text-3xl md:text-5xl lg:text-6xl font-semibold">Our Core Services</h1>
-            <p className="text-lg">Discover our core services designed to build, enhance, and grow your online presence.</p>
+            <p className="text-lg text-center">Discover our core services designed to build, enhance, and grow your online presence.</p>
         </div>
 
         <section className="flex flex-col md:flex-row w-full gap-4 lg:gap-16 p-8 justify-center items-center mt-20">

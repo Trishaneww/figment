@@ -18,14 +18,15 @@ const Work = () => {
 
         <section className="flex flex-col justify-center items-center gap-4 w-full">
           {selectedWork.slice(0,2).map((project) => (
-            <div className=" w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
+            <div className="w-5/6 min-w-[360px] xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col gap-2">
                   <p className="text-2xl md:text-3xl font-bold">{project.title}</p>
+
                   <p>{project.descr}</p>
-                  <div className="flex gap-2 items-center">
+                  {/* <div className="flex gap-2 items-center">
                     <p className="py-1 px-4 bg-gray-100 rounded-lg">In Development</p>
-                  </div>
+                  </div> */}
                 </div>
                 
                 <ul className="flex gap-2 flex-wrap mt-10 xl:mt-0">
@@ -50,7 +51,7 @@ const Work = () => {
           ))}
 
           {selectedWork.slice(2,3).map((project) => (
-            <div className=" w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
+            <div className=" w-5/6 min-w-[360px] xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col gap-2">
                   <p className="text-2xl md:text-3xl font-bold">{project.title}</p>

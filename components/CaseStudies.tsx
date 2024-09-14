@@ -29,7 +29,7 @@ const CaseStudies = () => {
     
             {caseStudies.slice(1,4).map((card) => (
                 <Link href={card.link}>
-                <Card className="w-[340px] md:w-[400px] md:h-[460px] flex flex-col gap-4 hover:cursor-pointer">
+                <Card className="w-[360px] md:w-[400px] md:h-[460px] flex flex-col gap-4 hover:cursor-pointer">
                     <CardHeader className="bg-slate-100 h-2/3 rounded-lg m-1 overflow-hidden">
                     <div className="w-[250px] h-[250px] bg-gradient-to-r from-green-100 to-green-200 rounded-full absolute z-1 blur-[40px]">
                     </div>
@@ -43,7 +43,7 @@ const CaseStudies = () => {
                         />
                     </div>
                     </CardHeader>
-                    <CardContent className="flex flex-col gap-4 h-1/3 mt-6">
+                    <CardContent className="flex flex-col gap-4 h-1/3 mt-6  w-full">
                         <div className="flex justify-between items-center w-full">
                             <CardTitle className="text-xl md:text-2xl">{card.title}</CardTitle>
                             <button className="h-[32px] rounded-3xl border-slate-950 border-2 text-sm px-4 p-2 flex items-center justify-center">{card.type}</button>

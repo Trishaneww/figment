@@ -25,7 +25,7 @@ const Foodbyte = () => {
                 />
             </div>
 
-            <div className="w-4/6 flex flex-col gap-4 mt-20">
+            <div className="w-5/6 md:w-4/6 md:px-2 p-2 flex flex-col gap-4 mt-20">
                 <p className="text-5xl font-bold">Streamlined Ordering System</p>
                 <p>Our software offers a cost-effective, tablet-based kiosk ordering solution designed for fast food dining establishments. Perfect for small restaurants, this system allows customers to place orders directly from company-owned tablets via the internet, eliminating the need for expensive hardware kiosks. Customers can easily browse the menu and place orders using these tablets, enhancing their overall dining experience.
                </p>
@@ -80,7 +80,12 @@ const Foodbyte = () => {
             
         </div>
 
-        <Footer />
+        <div className="flex justify-center w-full">
+        <footer className="flex justify-between items-center w-full lg:w-4/5 px-2 mt-16 mb-16">
+            <p className="mt-8 lg:text-2xl font-semibold">Next Case Study</p>
+            <a href="/primetort" className="mt-8 lg:text-2xl font-semibold">Primetort Leads</a>
+        </footer>
+        </div>
 
     </div>
   )

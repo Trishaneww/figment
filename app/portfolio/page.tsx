@@ -13,7 +13,7 @@ const page = () => {
   return (
     <div className="flex flex-col bg-slate-50">
         <Navbar />
-        <div className="w-[93%] h-2/6 lg:h-full bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[105%] md:top-[94%] lg:top-[120%] left-[48%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
+        <div className="w-[93%] h-2/6 lg:h-full bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[105%] md:top-[94%] lg:top-[124%] left-[48%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
         <div className="flex flex-col  justify-center  items-center gap-2  overflow-hidden mt-72">
         <div className="flex flex-col justify-center items-center gap-6 z-10 w-full md:mt-0">
             <h1 className="text-5xl lg:text-7xl xl:text-8xl font-bold text-center">Our Portfolio of <span className="bg-gradient-to-r from-green-400 via-green-600 to bg-slate-900 bg-clip-text text-transparent ml-2">Success Stories</span></h1>
@@ -34,7 +34,7 @@ const page = () => {
             <div className="flex justify-center items-center lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
                 {caseStudies.slice(0,3).map((caseStudy) => (
                     <Link href={caseStudy.link}>
-                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
+                    <Card className="w-[360px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
                     {/* <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden"> */}
                     <div className="h-[75%] w-full overflow-hidden rounded-lg">
                         <Image
@@ -50,7 +50,7 @@ const page = () => {
                     {/* </CardHeader> */}
                     <CardContent className="flex flex-col gap-4 h-[25%] mt-6">
                         <div className="flex justify-between items-center w-full">
-                            <CardTitle className="text-2xl">{caseStudy.title}</CardTitle>
+                            <CardTitle className="text-xl md:text-2xl">{caseStudy.title}</CardTitle>
                             <button className="h-[32px] rounded-3xl border-slate-950 border-2 text-sm px-4 p-2 flex items-center justify-center">{caseStudy.type}</button>
                         </div>
                         <CardDescription>{caseStudy.desc}</CardDescription>
@@ -63,7 +63,7 @@ const page = () => {
             <div className="flex justify-center items-center lg:justify-start lg:items-start flex-col gap-4 w-full lg:w-2/4">
                 {caseStudies.slice(3,6).map((caseStudy) => (
                     <Link href={caseStudy.link}>
-                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
+                    <Card className="w-[360px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
                     {/* <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden"> */}
                     <div className="h-[75%] w-full overflow-hidden rounded-lg">
                         <Image
@@ -79,7 +79,7 @@ const page = () => {
                     {/* </CardHeader> */}
                     <CardContent className="flex flex-col gap-4 h-[25%] mt-6">
                         <div className="flex justify-between items-center w-full">
-                            <CardTitle className="text-2xl">{caseStudy.title}</CardTitle>
+                            <CardTitle className="text-xl md:text-2xl">{caseStudy.title}</CardTitle>
                             <button className="h-[32px] rounded-3xl border-slate-950 border-2 text-sm px-4 p-2 flex items-center justify-center">{caseStudy.type}</button>
                         </div>
                         <CardDescription>{caseStudy.desc}</CardDescription>
