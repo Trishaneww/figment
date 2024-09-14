@@ -13,7 +13,7 @@ const Faq = () => {
   return (
     <div className="mt-40 scroll-smooth">
         <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
-            <h1 className="text-slate-800  text-3xl md:text-5xl lg:text-6xl font-semibold">Frequently Asked Questions</h1>
+            <h1 className="text-slate-800  text-3xl md:text-5xl lg:text-6xl font-semibold">Questions and Answers</h1>
             <p className="text-slate-500 w-full lg:text-xl">Find the answers to your questions here</p>
         </section>
 
@@ -21,8 +21,8 @@ const Faq = () => {
             <Accordion type="single" collapsible className="flex flex-col gap-4 md:w-3/5">
                 {faqData.map((accordion:any, idx:number) => (
                     <AccordionItem value={`item-${idx}`} className="border-none p-4  rounded-2xl">
-                    <AccordionTrigger className="lg:text-xl text-left">{accordion.item}</AccordionTrigger>
-                        <AccordionContent className="text-lg">
+                    <AccordionTrigger className="text-base md:text-lg lg:text-xl text-left">{accordion.item}</AccordionTrigger>
+                        <AccordionContent className="text-base lg:text-lg">
                             {accordion.content}
                         </AccordionContent>
                     </AccordionItem>
