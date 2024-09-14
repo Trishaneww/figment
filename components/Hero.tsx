@@ -1,9 +1,7 @@
 import React from 'react'
 import { Button } from './ui/button'
-import Navbar from './Navbar'
 import '../styles/global.scss';
 import Image from 'next/image';
-import Bg from '../public/assets/images/bg.png';
 import { TextGenerateEffect3 } from './ui/text-generate-effect3';
 
 
@@ -14,7 +12,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-10 md:h-[100vh] overflow-hidden">
         <div className="flex flex-col justify-center items-center md:items-start gap-6 z-10 lg:w-4/6 md:ml-20 lg:ml-36 xl:ml-24 mt-48 md:mt-0 text-center md:text-left px-2">
             {/* <h1 className="text-2xl md:text-5xl lg:text-7xl xl:text-8xl font-bold">Figment designs to grow your business</h1> */}
-            <TextGenerateEffect3 words="Crafting websites that transform your digital visions into reality."/>
+            <TextGenerateEffect3 words="Transforming your digital visions into reality."/>
             <p className="mx-2 md:mx-0 text-lg">
             Grow your business with a custom website that sets you apart in today's digital landscape. A professionally designed site tailored to your brand not only enhances your online presence but also drives traffic, engages customers, and boosts conversions.</p>
             <a href="/contact"><Button className="w-[250px] shadow">Start Project</Button></a>

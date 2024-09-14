@@ -3,15 +3,12 @@ import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardTitle } from '@/components/ui/card'
-import { caseStudies, devprocess, jiraDetails, servicesData, studyHiveFeatures } from '@/data'
+import { devprocess,servicesData} from '@/data'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
-import { GiCheckMark } from "react-icons/gi";
 import '../../styles/global.scss';
 import { TextGenerateEffect3 } from '@/components/ui/text-generate-effect3'
-import { HoverEffect } from '@/components/ui/card-hover-effect2'
 
 const Services = () => {
   return (

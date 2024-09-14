@@ -1,7 +1,5 @@
 import { selectedWork } from '@/data'
 import React from 'react'
-import { FaCheck } from "react-icons/fa6";
-import { Button } from './ui/button';
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Image from 'next/image';
 
@@ -17,8 +15,8 @@ const Work = () => {
         </section>
 
         <section className="flex flex-col justify-center items-center gap-4 w-full">
-          {selectedWork.slice(0,2).map((project) => (
-            <div className="w-5/6 min-w-[360px] xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
+          {selectedWork.slice(0,2).map((project, index) => (
+            <div className="w-5/6 min-w-[360px] xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg" key={index}>
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col gap-2">
                   <p className="text-2xl md:text-3xl font-bold">{project.title}</p>

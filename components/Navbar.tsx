@@ -1,22 +1,10 @@
 "use client"
 import React, { useState } from 'react'
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
-  } from "@/components/ui/navigation-menu"
 import Link from 'next/link'
 import { Button } from './ui/button'
-import { faqData, navItems } from '@/data'
+import { navItems } from '@/data'
 import { cn } from '@/lib/utils'
 import '../styles/global.scss';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
-import MobileNavbar from './MobileNavbar'
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);

@@ -1,6 +1,5 @@
 import Faq from '@/components/Faq'
 import Footer from '@/components/Footer'
-import Insights from '@/components/Insights'
 import Navbar from '@/components/Navbar'
 import Pricing from '@/components/Pricing'
 import PricingChart from '@/components/PricingChart'

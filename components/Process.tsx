@@ -1,9 +1,6 @@
 import React from 'react'
-import video2 from '../public/assets/images/bg2.png'
 import { Button } from './ui/button'
 import { FaPager } from "react-icons/fa";
-import { TbDatabaseImport } from "react-icons/tb";
-import { CgDatabase } from "react-icons/cg";
 import { FaCode } from "react-icons/fa6";
 import { IoIosArrowForward } from "react-icons/io";
 import { BsRocketTakeoff } from "react-icons/bs";

@@ -1,4 +1,4 @@
-import Bento from '@/components/Bento'
+
 import ContactHero from '@/components/ContactHero'
 import Faq from '@/components/Faq'
 import Footer from '@/components/Footer'

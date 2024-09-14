@@ -8,7 +8,6 @@ import {
     CardTitle,
   } from "@/components/ui/card"
 import { Button } from './ui/button'
-import { FaCheck } from "react-icons/fa6";
 import { pricingData } from '@/data';
 import '../styles/global.scss';
 import { GiCheckMark } from 'react-icons/gi';

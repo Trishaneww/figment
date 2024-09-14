@@ -1,5 +1,4 @@
 "use client"
-import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'

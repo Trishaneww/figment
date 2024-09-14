@@ -1,4 +1,4 @@
-import Footer from '@/components/Footer'
+
 import Navbar from '@/components/Navbar'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import Image from 'next/image'
