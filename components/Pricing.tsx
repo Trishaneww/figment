@@ -47,7 +47,7 @@ const Pricing = () => {
                         </ul>
                     </CardContent>
                     <CardFooter className="self-center">
-                        <Button className="w-[240px] h-[46px] shadow">Purchase</Button>
+                        <a href={card.link}> <Button className="w-[240px] h-[46px] shadow -mt-3">Purchase</Button></a>
                     </CardFooter>
                 </Card>
             ))}
@@ -58,7 +58,7 @@ const Pricing = () => {
                         <CardDescription className="text-white text-base">{card.desc}</CardDescription>
                     </CardHeader>
                     <CardContent className="h-[400px]">
-                        <h1 className="text-4xl font-bold mb-8">{card.price} <span className="text-base">{card.rate}</span></h1>
+                        <h1 className="text-4xl font-bold mb-8">{card.price}</h1>
                         <ul className="mt-6 flex flex-col gap-2">
                             {card.packageList.map((item) => (
                                 <li className="flex gap-4">
@@ -74,7 +74,7 @@ const Pricing = () => {
                         </ul>
                     </CardContent>
                     <CardFooter className="self-center">
-                        <Button className="w-[240px] h-[46px] shadow">Purchase</Button>
+                        <a href={card.link}> <Button className="w-[240px] h-[46px] shadow -mt-3">Purchase</Button></a>
                     </CardFooter>
                 </Card>
             ))}

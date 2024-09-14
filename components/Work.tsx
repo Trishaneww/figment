@@ -21,7 +21,7 @@ const Work = () => {
             <div className=" w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col gap-2">
-                  <p className="text-3xl font-bold">{project.title}</p>
+                  <p className="text-2xl md:text-3xl font-bold">{project.title}</p>
                   <p>{project.descr}</p>
                   <div className="flex gap-2 items-center">
                     <p className="py-1 px-4 bg-gray-100 rounded-lg">In Development</p>
@@ -53,7 +53,7 @@ const Work = () => {
             <div className=" w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between  gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col gap-2">
-                  <p className="text-3xl font-bold">{project.title}</p>
+                  <p className="text-2xl md:text-3xl font-bold">{project.title}</p>
                   <p>{project.descr}</p>
                   <div className="flex gap-2 items-center">
                     <a href={project.link} target="_blank">View Live Website</a>

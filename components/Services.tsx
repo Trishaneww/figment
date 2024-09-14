@@ -23,7 +23,7 @@ const Services = () => {
             <div className="w-5/6 xl:w-4/6 xl:h-[34rem] flex flex-col xl:flex-row justify-between gap-6 bg-white p-8 border-slate-200 border-[1px] rounded-lg">
               <div className="flex flex-col justify-between xl:w-1/3">
                 <div className="flex flex-col  gap-2">
-                    <p className="text-3xl font-bold">{project.title}</p>
+                    <p className="text-2xl md:text-3xl font-bold">{project.title}</p>
                     <p>{project.descr}</p>
                     <ul className="flex flex-col gap-2 flex-wrap mt-6">
                         {project.featuresList.map((feature) => (
@@ -40,7 +40,7 @@ const Services = () => {
                     </ul>
                 </div>
 
-                <a href="/pricing"><Button className="mt-10 xl:mt-0 w-[170px] shadow">View Plans</Button></a>
+                <a href="/pricing"><Button className="mt-10 xl:mt-0 w-[170px] shadow text-base">View Plans</Button></a>
               </div>
 
               <div className="flex w-full xl:w-2/3 overflow-hidden self-end">

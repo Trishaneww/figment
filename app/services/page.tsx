@@ -25,9 +25,9 @@ const Services = () => {
             <TextGenerateEffect3 words="Start. Scale. Grow"/>
             <p className="mx-2 md:mx-0 text-lg">Whether you need a stunning custom website, expert UI/UX design, or reliable ongoing maintenance and support, our team is ready to meet all your website needs with precision and expertise."</p>
             <div className="flex gap-4">
-                <a href="/contact"><Button className="w-[200px] shadow">Start Project</Button></a>
+                <a href="/contact"><Button className="w-[200px] shadow text-base">Start Project</Button></a>
                 <a href="mailto:contact.figmentstudios@gmail.com" className='flex gap-2 justify-center items-center hover:cursor-pointer'>
-                    <p>Contact Us</p>
+                    <p className="text-base">Contact Us</p>
                     <IoIosArrowForward size={15}/>
                 </a>
             </div>
@@ -44,22 +44,13 @@ const Services = () => {
       </div>
     </div>
 
-    {/* <div className="mb-[80rem]">
-      <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[92%] -left-[4%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
-      <div className="w-1/5 h-2/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 top-[96%] left-[20%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
-      <div className="w-1/5 h-2/5 bg-gradient-to-r from-purple-200 to-purple-300 rounded-full absolute z-1 -top-[8%] left-[91%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
-      <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 -top-[45%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[190px]"></div>
-     
-      <h1 className="text-green-200 mt-56 font-bold text-4xl">IGMENT STUDIOS</h1>
-      <h1 className="text-gray-400 mt-56 font-bold text-4xl">figmentstudios.ca</h1>
-      <h1 className="text-white mt-56 font-bold text-4xl">- contact.figmentstudios@gmail.com</h1>
-      <h1 className="text-white mt-56 font-bold text-4xl">- figmentstudios.ca</h1>
-      <h1 className="text-white mt-56 font-bold text-4xl">- figmentstudioss</h1>
-    
-    </div> */}
 
+        <div className="-mb-20 mt-24 flex flex-col justify-center items-center gap-2">
+            <h1 className="text-slate-800 text-3xl md:text-5xl lg:text-6xl font-semibold">Our Core Services</h1>
+            <p className="text-lg">Discover our core services designed to build, enhance, and grow your online presence.</p>
+        </div>
 
-        <section className="flex flex-col md:flex-row w-full gap-4 lg:gap-16 p-8 justify-center items-center mt-24">
+        <section className="flex flex-col md:flex-row w-full gap-4 lg:gap-16 p-8 justify-center items-center mt-20">
             <div className="flex justify-center items-center lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
                 {servicesData.slice(0,3).map((service) => (
                     <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
@@ -117,7 +108,7 @@ const Services = () => {
         <section className="flex flex-col items-center w-full mt-40">
             <div className="flex flex-col items-center gap-6 p-2">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Project Managment</p>
-                <p className="font-bold text-4xl md:text-6xl text-center">Our essential development process</p>
+                <p className="font-bold text-4xl md:text-6xl text-center">All-in-one Project Management</p>
             </div>
             <div className="w-full flex flex-col items-center">
                 <Image
@@ -149,7 +140,7 @@ const Services = () => {
         <section className="flex flex-col items-center w-full mt-60 gap-14 mb-24" id="process">
             <div className="flex flex-col items-center gap-6">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Our Process</p>
-                <p className="font-bold text-4xl md:text-6xl text-center">Our essential development process</p>
+                <p className="font-bold text-4xl md:text-6xl text-center">Our Essential Development Process</p>
             </div>
             <div className="flex justify-center gap-4 flex-wrap w-full">
             {devprocess.map((phase, index) => (

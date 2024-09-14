@@ -18,7 +18,7 @@ const Process = () => {
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[190px] shadow text-green-200">Accelerate your business</p>
                 <h1 className="text-3xl lg:text-5xl font-bold mt-2">Our essential design process</h1>
                 <p>Our process begins by understanding your vision and goals, ensuring every aspect aligns with your brand identity. From wireframes to the final design, we focus on the smallest details—colors, typography, layout, and user experience—crafting a seamless and visually stunning website that stands out. We prioritize constant communication, working closely with you every step of the way to ensure your feedback is incorporated and your expectations are exceeded.</p>
-                <a href="/services"><Button className="w-[220px] lg:w-[250px] shadow">Learn More</Button></a>
+                <a href="/services"><Button className="w-[220px] lg:w-[250px] shadow text-base">Learn More</Button></a>
             </div>
 
             <div className="flex justify-start items-end mt-10 xl:mt-0 h-full">
@@ -35,8 +35,8 @@ const Process = () => {
                         <FaPager size={36} className="text-green-300 relative"/>
                         {/* <FaCode size={18} className="text-purple-300 relative -top-3 left-2 opacity-70" /> */}
                     </div>
-                    <p className="font-bold mt-2">Planning & Wireframing</p>
-                    <p className="text-sm h-[100px] lg:h-[160px] xl:h-[140px]">The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements.</p>
+                    <p className="font-bold mt-2 text-lg">Planning & Wireframing</p>
+                    <p className="text-base h-[120px] lg:h-[200px] xl:h-[170px]">The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements.</p>
                 </div>
                 <div className="flex self-baseline items-center gap-2">
                     <a href="/services/#process">See more</a>
@@ -50,8 +50,8 @@ const Process = () => {
                         <FaPaintBrush size={36} className="text-green-300 relative"/>
                         {/* <FaCode size={18} className="text-purple-300 relative -top-3 left-2 opacity-70" /> */}
                     </div>
-                    <p className="font-bold mt-2">Designing</p>
-                    <p className="text-sm h-[100px] lg:h-[160px] xl:h-[140px]">we transform your vision into a visually compelling and user-friendly website. Our team focuses on creating layouts that blend aesthetics with functionality, ensuring an intuitive user experience. </p>
+                    <p className="font-bold mt-2 text-lg">Designing</p>
+                    <p className="text-base h-[120px] lg:h-[200px] xl:h-[170px]">we transform your vision into a visually compelling and user-friendly website. Our team focuses on creating layouts that blend aesthetics with functionality, ensuring an intuitive user experience. </p>
                 </div>
                 <div className="flex self-baseline items-center gap-2">
                 <a href="/services/#process">See more</a>
@@ -65,8 +65,8 @@ const Process = () => {
                         <FaCode size={36} className="text-green-300 relative"/>
                         {/* <FaCode size={18} className="text-purple-300 relative -top-3 left-2 opacity-70" /> */}
                     </div>
-                    <p className="font-bold mt-2">Development</p>
-                    <p className="text-sm h-[100px] lg:h-[160px] xl:h-[140px]">We build responsive websites that work flawlessly on all devices and integrate essential features and tools to enhance user experience. We prioritize quality, performance, and scalability to ensure your website is ready for growth.</p>
+                    <p className="font-bold mt-2 text-lg">Development</p>
+                    <p className="text-base h-[120px] lg:h-[200px] xl:h-[170px]">We build responsive websites that work flawlessly on all devices and integrate essential features and tools to enhance user experience. </p>
                 </div>
                 <div className="flex self-baseline items-center gap-2">
                     <a href="/services/#process">See more</a>
@@ -80,8 +80,8 @@ const Process = () => {
                         <BsRocketTakeoff size={36} className="text-green-300 relative"/>
                         {/* <FaCode size={18} className="text-purple-300 relative -top-3 left-2 opacity-70" /> */}
                     </div>
-                    <p className="font-bold mt-2">Testing & Deployment</p>
-                    <p className="text-sm h-[100px] lg:h-[160px] xl:h-[140px]">We rigorously check your website for functionality, compatibility, and security across all devices. Once it meets our high standards and gains your approval, we smoothly launch it live, ensuring a seamless experience.</p>
+                    <p className="font-bold mt-2 text-lg">Testing & Deployment</p>
+                    <p className="text-base h-[120px] lg:h-[200px] xl:h-[170px]">We rigorously check your website for functionality, compatibility, and security across all devices. Once it meets our standards and gains your approval, we  launch it live.</p>
                 </div>
                 <div className="flex self-baseline items-center gap-2">
                     <a href="/services/#process">See more</a>

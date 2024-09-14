@@ -197,7 +197,7 @@ export const services = [
   {
     id:1,
     title: 'Web Design',
-    descr: 'With a focus on marketing sites and web apps, our sights are set on increasing your conversion rates and delighting your users.',
+    descr: 'With a focus on marketing-driven websites and exceptional user experiences, we craft digital solutions that captivate your audience and maximize conversions',
     src: '',
     src2: '/assets/images/figma.png',
     featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
@@ -205,15 +205,15 @@ export const services = [
   {
     id:2,
     title: 'Web Development',
-    descr: 'With a focus on marketing sites and web apps, our sights are set on increasing your conversion rates and delighting your users.',
+    descr: 'Our team delivers clean, efficient code to create responsive, dynamic, and engaging websites that ensure seamless performance across all devices',
     src: '',
     src2: '/assets/images/code.png',
     featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
   },
   {
     id:3,
-    title: 'Branding',
-    descr: 'With a focus on marketing sites and web apps, our sights are set on increasing your conversion rates and delighting your users.',
+    title: 'Digital Marketing',
+    descr: 'Our digital marketing service focuses on enhancing your brand with custom digital banners and targeted strategies to maximize your online visibility and impac',
     src: '',
     src2: '/assets/images/yasolutions5.png',
     featuresList: ['API Integration', 'Websocket', 'Digital Server', 'CRUD']
@@ -292,34 +292,38 @@ export const pricingData = [
     {
       id:1,
       title: 'Lite',
-      desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
-      price: "$300",
+      desc: "Perfect for businesses needing a simple, static one-page website to establish an online presence.",
+      price: "$400",
       rate: '/month',
-      packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates"]
+      link:'https://buy.stripe.com/test_4gw2ao04q6kW2aIaEE',
+      packageList: ["Mobile Responsiveness",  "Limited requests and revisions", "Project management in Jira", "Live Progress Updates", "One-page static site", "Free software support"]
     },
     {
         id:1,
         title: 'Core',
-        desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
-        price: "$600",
+        desc: "For businesses needing a multi-page website with enhanced features for a more dynamic online presence.",
+        price: "$800",
         rate: '/month',
-        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates"]
+        link:'https://buy.stripe.com/test_cN25mA2cy4cO4iQcMN',
+        packageList: ["Mobile Responsiveness", "Unlimited requests and revisions","Project management in Jira", "Live Progress Updates", "Software support", "Up to 10 pages", "Free software support"]
     },
     {
         id:2,
         title: 'Business',
-        desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
-        price: "$300",
+        desc: "Designed for businesses needing a dynamic website with eCommerce capabilities and seamless third-party integrations.",
+        price: "$1200",
         rate: '/month',
-        packageList: ["Unlimited requests and revisions", "Video calls", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Standard eCommerce", "Free software support"]
+        link:'https://buy.stripe.com/test_5kA9CQ7wS8t49Da28a',
+        packageList: ["Mobile Responsiveness", "Unlimited requests and revisions", "Project management in Jira", "Unlimited pages", "Free software support", "Accept payments","Standard eCommerce", "Standard manager platform"]
     },
     {
         id:4,
         title: 'Business Elite',
-        desc: "For businesses needing short-term marketing assets or a small new/redesigned website.",
-        price: "$500",
+        desc: "Designed for companies needing to manage everything from products and content to analytics and operations.",
+        price: "$1600",
         rate: '/month',
-        packageList: ["Unlimited requests and revisions", "Project management in Jira", "Live Progress Updates", "Unlimited pages", "Advanved eCommerce", "Manager dashboard", "Free software support", "AI-tools"]
+        link:'https://buy.stripe.com/test_dR6dT6bN8cJk7v26or',
+        packageList: ["Mobile Responsiveness", "Unlimited requests and revisions", "Project management in Jira", "Unlimited pages", "Free software support", "Accept payments", "Advanced eCommerce", "Advanced manager platform", "AI-tools"]
     }
 ]
 
@@ -434,22 +438,86 @@ export const pricingChart = [
   {
     id:4,
     name:'Unlimited Requests',
-    values: [false, true, true, true]
+    values: [true, true, true, false]
+  },
+  {
+    id:4,
+    name:'Software support',
+    values: [true, true, true, true]
+  },
+  {
+    id:6,
+    name:'SEO optimization',
+    values: [true, true, true, true]
+  },
+  {
+    id:6,
+    name:'Custom forms',
+    values: [true, true, true, true]
+  },
+  {
+    id:6,
+    name:'Marketing tools',
+    values: [true, true, true, true]
+  },
+  {
+    id:6,
+    name:'Login/Signup functionality',
+    values: [true, true, true, false]
+  },
+  {
+    id:6,
+    name:'Email messaging',
+    values: [true, true, true, false]
+  },
+  {
+    id:6,
+    name:'Live chat',
+    values: [true, true, true, false]
   },
   {
     id:5,
     name:'Accept Payments',
-    values: [false, false, true, true]
+    values: [true,true,false,false]
   },
   {
     id:6,
     name:'Recurring Payments',
-    values: [false, false, true, true]
+    values: [true,true,false,false]
+  },
+  {
+    id:6,
+    name:'Shipping and tax management',
+    values: [true,true,false,false]
+  },
+  {
+    id:6,
+    name:'Personalization features',
+    values: [true,false,false,false]
   },
   {
     id:7,
-    name:'Admin Dashboard',
-    values: [true, true, true, true]
+    name:'Third-party integrations',
+    values: [true,true,false,false]
   },
-
+  {
+    id:7,
+    name:'Content management',
+    values: [true,true,false,false]
+  },
+  {
+    id:7,
+    name:'E-commerce management',
+    values: [true,true,false,false]
+  },
+  {
+    id:7,
+    name:'Analytics and reports',
+    values: [true,false,false,false]
+  },
+  {
+    id:7,
+    name:'AI tools',
+    values: [true,false,false,false]
+  },
 ]

@@ -37,25 +37,25 @@ const ContactHero = () => {
             <p className="text-2xl md:text-5xl  font-bold mt-6">Grow your business's online presence</p>
             <p className="mt-4">Ready to bring your web concepts to life? Partner with our expert team and watch your vision become a stunning reality.</p>
             <ul className="flex flex-col gap-4 mt-4">
-              <li className="flex gap-2 items-center">
+              <li className="flex gap-4 items-center">
                 <div className="w-[22px] h-[22px] flex justify-center items-center text-green-100 bg-green-500 rounded-full">
                   <GiCheckMark size={16}/>
                 </div>
-                <p>Responsive and Mobile-Friendly Layouts</p>
+                <p className="w-[85%]">Responsive and Mobile-Friendly Layouts</p>
               </li>
 
-              <li className="flex gap-2 items-center">
+              <li className="flex gap-4 items-center">
                 <div className="w-[22px] h-[22px] flex justify-center items-center text-green-100 bg-green-500 rounded-full">
                   <GiCheckMark size={16}/>
                 </div>
-                <p>Integration with E-commerce and Third-Party Tools</p>
+                <p className="w-[85%]">Integration with E-commerce and Third-Party Tools</p>
               </li>
 
-              <li className="flex gap-2 items-center">
+              <li className="flex gap-4 items-center">
                 <div className="w-[22px] h-[22px] flex justify-center items-center text-green-100 bg-green-500 rounded-full">
                   <GiCheckMark size={16}/>
                 </div>
-                <p>SEO optimization to improve search engine rankings and drive organic traffic.</p>
+                <p className="w-[85%]">SEO optimization to improve search engine rankings and drive organic traffic.</p>
               </li>
             </ul>
         </div>
@@ -107,7 +107,7 @@ const ContactHero = () => {
         
                    
 
-          <Button type="submit" className="w-5/6 shadow mt-2 mb-2 md:mt-10">Submit</Button>
+          <Button type="submit" className="w-5/6 shadow mt-2 mb-2 md:mt-10 text-base">Submit</Button>
 
         </form>
         </div>

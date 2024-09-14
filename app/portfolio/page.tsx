@@ -13,7 +13,7 @@ const page = () => {
   return (
     <div className="flex flex-col bg-slate-50">
         <Navbar />
-        <div className="w-[93%] h-2/6 lg:h-full bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[135%] md:top-[124%] left-[48%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
+        <div className="w-[93%] h-2/6 lg:h-full bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[105%] md:top-[94%] lg:top-[120%] left-[48%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
         <div className="flex flex-col  justify-center  items-center gap-2  overflow-hidden mt-72">
         <div className="flex flex-col justify-center items-center gap-6 z-10 w-full md:mt-0">
             <h1 className="text-5xl lg:text-7xl xl:text-8xl font-bold text-center">Our Portfolio of <span className="bg-gradient-to-r from-green-400 via-green-600 to bg-slate-900 bg-clip-text text-transparent ml-2">Success Stories</span></h1>

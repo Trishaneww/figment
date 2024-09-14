@@ -13,14 +13,14 @@ const CTA = () => {
                 <div className="flex flex-wrap gap-4">
                     <p>brands in</p>
                     <div className="overflow-hidden h-14 ">
-                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Marketting</span>
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Marketing</span>
                         <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Ecommerce</span>
-                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Medical</span>
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Healthcare</span>
                         <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Tech</span>
-                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Marketting</span>
+                        <span className="span bg-gradient-to-r from-green-300 to bg-slate-900 bg-clip-text text-transparent">Marketing</span>
                     </div>
                 </div>
-                <a href="/contact"><Button className="w-[160px] md:w-[250px] shadow md:mt-8">Book a meeting</Button></a>
+                <a href="/contact"><Button className="w-[160px] md:w-[250px] shadow md:mt-8 text-base">Start a project</Button></a>
             </div>
            
             <div className="grid grid-cols-3 md:w-2/4 opacity-40 p-8">
