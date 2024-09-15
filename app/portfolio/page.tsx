@@ -88,46 +88,7 @@ const page = () => {
                 </Link>
                 ))}
             </div>
-
-
-            {/* <div className="flex flex-col gap-4 w-2/4">
-                {caseStudies.slice(0,3).map((caseStudy) => (
-                    <Card className="w-[340px] md:w-[70%] md:h-[560px] flex flex-col gap-4">
-                    <CardHeader className="bg-slate-100 h-[75%] rounded-lg m-1 overflow-hidden">
-                    <div className="w-[250px] h-[250px] bg-gradient-to-r from-green-100 to-green-200 rounded-full absolute z-1 blur-[40px]"></div>
-                    <div className="w-[580px]">
-                        <Image
-                            width={1000}
-                            height={1000}
-                            src="/assets/images/foodbyte1.png"
-                            alt="logo image"
-                            className="relative top-10 z-10"
-                        />
-                    </div>
-                    </CardHeader>
-                    <CardContent className="flex flex-col gap-4 h-[25%] mt-6">
-                        <div className="flex justify-between items-center w-full">
-                            <CardTitle className="text-2xl">{caseStudy.title}</CardTitle>
-                            <button className="w-[88px] h-[32px] rounded-3xl border-slate-950 border-2 text-sm">Web App</button>
-                        </div>
-                        <CardDescription>{caseStudy.desc}</CardDescription>
-                    </CardContent>
-                </Card>
-                ))}
-            </div> */}
         </section>
-
-        {/* <div className="h-[200vh] bg-gray-200 flex flex-col items-center justify-center">
-            <video width="35%" height="820" autoPlay loop muted className="rounded-lg z-20 shadow-lg">
-                <source src="/assets/videos/video5.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-
-            <div className="flex flex-col items-center justify-center mt-20">
-                <p className="text-sm">LIVE PREVIEW</p>
-                <p className="text-2xl">Figment Studios</p>
-            </div>
-        </div> */}
 
         <Footer />
 

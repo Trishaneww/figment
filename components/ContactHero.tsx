@@ -11,8 +11,10 @@ const ContactHero = () => {
 
   const sendEmail = (e:any) => {
     e.preventDefault();
+    console.log(e.target)
     console.log("email sent")
     emailjs.sendForm('service_luvg8op', 'template_sx6i957' , e.target , '1MxDwCSvQF6Leln4f');
+    e.target.reset()
 
     toast({
       title: "Email Sent",

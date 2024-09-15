@@ -13,7 +13,7 @@ import { TextGenerateEffect3 } from '@/components/ui/text-generate-effect3'
 const Services = () => {
   return (
     <div className="flex flex-col items-center bg-slate-50">
-        <Navbar />
+    <Navbar />
 
     <div>
       <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[50%] left-[80%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
@@ -152,53 +152,6 @@ const Services = () => {
             ))}
             </div>
         </section>
-
-        
-
-        
-
-        {/* <HoverEffect items={devprocess}/> */}
-
-        {/* <section className="flex flex-col items-center w-full mb-24 h-[100vh]">
-            <p>hi</p>
-            <div className="flex flex-col rounded-xl h-[54px] border-[1px] border-gray-500 w-2/6 pt-[6px]">
-                <div className="relative flex items-center">
-                    <input type="radio" name="tabs" checked id="tab1"/>
-                    <label htmlFor="tab1">Phase 1</label>
-                    <input type="radio" name="tabs" checked id="tab2"/>
-                    <label htmlFor="tab2">Phase 2</label>
-                    <input type="radio" name="tabs" checked id="tab3"/>
-                    <label htmlFor="tab3">Phase 3</label>
-                    <input type="radio" name="tabs" checked id="tab4"/>
-                    <label htmlFor="tab4">Phase 4</label>
-                    <input type="radio" name="tabs" checked id="tab5"/>
-                    <label htmlFor="tab5">Phase 5</label>
-                    <div className="glider"></div>
-                </div>
-
-                <div className="mt-10">
-                    <p>We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system. We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.</p>
-                </div>
-            </div>
-        </section> */}
-        
-{/* 
-        <div className="bg-white w-full h-[100vh] flex justify-center items-center gap-12">
-            <div className="w-[60px] h-[60px] flex justify-center items-center bg-green-100 text-green-500 rounded-full">
-                <GiCheckMark size={30}/>
-            </div>
-            <div className="flex flex-col">
-                <p className="font-extrabold text-4xl">C$201.98 <span className="text-gray-3   400 text-4xl font-semibold">(22 transactions)</span></p>
-                <p className="font-semibold text-4xl text-gray-400">accept payments.</p>
-            </div>
-
-            <Button className="font-extrabold text-white w-[220px] h-[35px]">Instant payout</Button>
-        
-            <p className="font-extrabold text-4xl">Payment link is now</p>
-            <p className="font-semibold text-4xl text-gr -ml-10">buy.figment.com/zKU12E</p>
-          
-        </div> */}
-
         <Footer />
     </div>
   )

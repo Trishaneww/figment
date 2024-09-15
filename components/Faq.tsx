@@ -22,14 +22,14 @@ const Faq = () => {
                 {faqData.map((accordion:any, idx:number) => (
                     <AccordionItem value={`item-${idx}`} className="border-none p-4  rounded-2xl">
                     <AccordionTrigger className="text-base md:text-lg lg:text-xl text-left">{accordion.item}</AccordionTrigger>
-                        <AccordionContent className="text-base lg:text-lg">
+                        <AccordionContent className="text-base lg:text-lg mt-6">
                             {accordion.content}
                         </AccordionContent>
                     </AccordionItem>
                 ))}
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 5'}>
                 <AccordionTrigger className="lg:text-xl text-left">When can I expect to have my website ready?</AccordionTrigger>
-                    <AccordionContent className="text-lg flex flex-col gap-2">
+                    <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>The timeline for delivering a finished website depends on the complexity and scope of the project:</p>
                         <ul className="list-decimal">
                             <li className="list-decimal">
@@ -49,7 +49,7 @@ const Faq = () => {
 
             <AccordionItem  className="border-none p-4  rounded-2xl" value={'question 6'}>
                 <AccordionTrigger className="lg:text-xl text-left">Can you redesign an existing website?</AccordionTrigger>
-                    <AccordionContent className="text-lg flex flex-col gap-2">
+                    <AccordionContent className="text-base lg:text-lg mt-6 flex flex-col gap-2">
                         <p>We offer a comprehensive redesign service for existing websites to give them a fresh, modern look and improve their performance. Our redesign process starts with an in-depth consultation to understand your goals, brand identity, and what aspects of your current site need improvement.</p>
 
                         <p>We then create a customized redesign plan that could include updating the layout, enhancing the user experience, optimizing for mobile devices, integrating new functionalities, and improving SEO. Throughout the process, we collaborate with you to ensure the new design aligns with your vision and business objectives.</p>
