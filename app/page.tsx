@@ -1,10 +1,7 @@
+"use client"
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
-import  Approach  from "@/components/Approach";
-import Image from "next/image";
-import Link from "next/link";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
 import Navbar from "@/components/Navbar";
 import Companies from "@/components/Companies";
 import CaseStudies from "@/components/CaseStudies";
@@ -13,7 +10,6 @@ import Services from "@/components/Services";
 import CTA from "@/components/CTA";
 import Process from "@/components/Process";
 import '../styles/global.scss';
-import Insights from "@/components/Insights";
 
 
 const Home = () => {
@@ -29,6 +25,7 @@ const Home = () => {
       <Work />
       {/* <Approach /> */}
       <CaseStudies />
+      <div id="faq"></div>
       <Faq />
       {/* <Pricing /> */}
       <CTA />

@@ -19,9 +19,9 @@ const CaseStudies = () => {
     <div className="mt-52">
          <section className="flex flex-col gap-6 items-center mb-10 text-center p-2">
             <h1 className="text-slate-800  text-3xl md:text-6xl font-semibold">Case Studies</h1>
-            <div className="flex w-2/5 gap-8 justify-between items-center">
-                <p className="text-slate-500 lg:text-xl">Find the answers to your questions here</p>
-                <Link href="/work"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">See All Case Studies</button></Link>
+            <div className="flex flex-col md:flex-row gap-2 md:gap-16 md:justify-between items-center">
+                <p className="text-slate-500 lg:text-xl">Explore our case studies for a behind-the-scenes look at our design process</p>
+                <Link href="/portfolio"><button className="w-[180px] h-[48px] p-2 bg-slate-100 rounded-xl">View our case studies</button></Link>
             </div>
         </section>
 
@@ -29,7 +29,7 @@ const CaseStudies = () => {
     
             {caseStudies.slice(1,4).map((card) => (
                 <Link href={card.link}>
-                <Card className="w-[340px] md:w-[400px] md:h-[460px] flex flex-col gap-4 hover:cursor-pointer">
+                <Card className="w-[360px] md:w-[400px] md:h-[460px] flex flex-col gap-4 hover:cursor-pointer">
                     <CardHeader className="bg-slate-100 h-2/3 rounded-lg m-1 overflow-hidden">
                     <div className="w-[250px] h-[250px] bg-gradient-to-r from-green-100 to-green-200 rounded-full absolute z-1 blur-[40px]">
                     </div>
@@ -43,10 +43,10 @@ const CaseStudies = () => {
                         />
                     </div>
                     </CardHeader>
-                    <CardContent className="flex flex-col gap-4 h-1/3 mt-6">
+                    <CardContent className="flex flex-col gap-4 h-1/3 mt-6  w-full">
                         <div className="flex justify-between items-center w-full">
-                            <CardTitle className="text-2xl">{card.title}</CardTitle>
-                            <button className="w-[88px] h-[32px] rounded-3xl border-slate-950 border-2 text-sm">Web App</button>
+                            <CardTitle className="text-xl md:text-2xl">{card.title}</CardTitle>
+                            <button className="h-[32px] rounded-3xl border-slate-950 border-2 text-sm px-4 p-2 flex items-center justify-center">{card.type}</button>
                         </div>
                       
                         <CardDescription>{card.desc}</CardDescription>

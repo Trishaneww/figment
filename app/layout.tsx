@@ -1,22 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Questrial, Roboto, Poppins } from "next/font/google";
+import { Questrial} from "next/font/google";
 import { ThemeProvider } from "next-themes";
-
 import { cn } from "@/lib/utils";
-
-// const fontSans = FontSans({
-//   subsets: ["latin"],
-//   weight: ["300", "400", "500", "600", "700"],
-//   variable: "--font-sans",
-// });
 
 const inter = Questrial({ weight: '400', subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Figment Studios",
   description:
-    "",
+    "Grow your business with a custom website that sets you apart in today's digital landscape. A professionally designed site tailored to your brand not only enhances your online presence but also drives traffic, engages customers, and boosts conversions.",
   icons: {
     icon: "/assets/icons/favicon.ico",
   },
@@ -38,6 +31,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
         </ThemeProvider>
+
       </body>
     </html>
   );
