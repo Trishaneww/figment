@@ -295,7 +295,7 @@ export const pricingData = [
       desc: "Perfect for businesses needing a simple, static one-page website to establish an online presence.",
       price: "$400",
       rate: '/month',
-      link:'https://buy.stripe.com/test_4gw2ao04q6kW2aIaEE',
+      link:'https://buy.stripe.com/9AQ15JgdWdsfbWo4gg',
       packageList: ["Mobile Responsiveness",  "Limited requests and revisions", "Project management in Jira", "Live Progress Updates", "One-page static site", "Free software support"]
     },
     {
@@ -304,7 +304,7 @@ export const pricingData = [
         desc: "For businesses needing a multi-page website with enhanced features for a more dynamic online presence.",
         price: "$800",
         rate: '/month',
-        link:'https://buy.stripe.com/test_cN25mA2cy4cO4iQcMN',
+        link:'https://buy.stripe.com/9AQ4hV4veewj0dG005',
         packageList: ["Mobile Responsiveness", "Unlimited requests and revisions","Project management in Jira", "Live Progress Updates", "Software support", "Up to 10 pages", "Free software support"]
     },
     {
@@ -313,7 +313,7 @@ export const pricingData = [
         desc: "Designed for businesses needing a dynamic website with eCommerce capabilities and seamless third-party integrations.",
         price: "$1200",
         rate: '/month',
-        link:'https://buy.stripe.com/test_5kA9CQ7wS8t49Da28a',
+        link:'https://buy.stripe.com/14kcOr9PygErbWodQS',
         packageList: ["Mobile Responsiveness", "Unlimited requests and revisions", "Project management in Jira", "Unlimited pages", "Free software support", "Accept payments","Standard eCommerce", "Standard manager platform"]
     },
     {
@@ -322,7 +322,7 @@ export const pricingData = [
         desc: "Designed for companies needing to manage everything from products and content to analytics and operations.",
         price: "$1600",
         rate: '/month',
-        link:'https://buy.stripe.com/test_dR6dT6bN8cJk7v26or',
+        link:'https://buy.stripe.com/cN2bKn9Py87VbWo5kn',
         packageList: ["Mobile Responsiveness", "Unlimited requests and revisions", "Project management in Jira", "Unlimited pages", "Free software support", "Accept payments", "Advanced eCommerce", "Advanced manager platform", "AI-tools"]
     }
 ]
