@@ -3,6 +3,12 @@ import Navbar from '@/components/Navbar'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import Image from 'next/image'
 import React from 'react'
+import dg1 from '../../public/assets/images/gallery5.png'
+import dg2 from '../../public/assets/images/dg2.png'
+import dg3 from '../../public/assets/images/dg3.png'
+import dg4 from '../../public/assets/images/dg4.png'
+import dg5 from '../../public/assets/images/dg5.png'
+import dg6 from '../../public/assets/images/dg6.png'
 
 const DigitalWealth = () => {
   return (
@@ -15,11 +21,9 @@ const DigitalWealth = () => {
                 <TextGenerateEffect words="Digital Wealth"/>
                 {/* <p>Whatever your unique idea or needs, weve got the tools and know how to build your custom solution from discovery to deployment.</p> */}
             </div>
-            <div className="bg-blue-800 w-[92%] md:w-[70%] mt-6 md:mt-20">
+            <div className="w-[92%] md:w-[70%] mt-6 md:mt-20">
                 <Image
-                    width={1000}
-                    height={1000}
-                    src='/assets/images/gallery5.png'
+                    src={dg1}
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
@@ -34,9 +38,7 @@ const DigitalWealth = () => {
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/dg2.png'
+                        src={dg2}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
@@ -48,16 +50,12 @@ const DigitalWealth = () => {
                     </div>
 
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/dg3.png'
+                        src={dg3}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/dg4.png'
+                        src={dg4}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
@@ -65,9 +63,7 @@ const DigitalWealth = () => {
 
                 <div className="bg-slate-900 w-full flex justify-center items-center mt-24 p-12">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/dg5.png'
+                        src={dg5}
                         alt="Yasolutions logo banner"
                         className="w-[94%] md:w-[88%]"
                     />

@@ -1,12 +1,10 @@
 import React from 'react'
-import { InfiniteMovingCards } from './ui/infinite-moving-cards'
 import Image from 'next/image';
-import img1 from '../public/assets/images/company10.png';
 
 const Companies = () => {
   
   return (
-    <div className="relative w-full opacity-30 md:-top-20">
+    <div className="relative w-full opacity-30 md:-top-10">
     <div className="logos flex gap-12">
       <div className="logos-slide flex gap-16">
           <div className="flex items-center justify-center w-[210px] h-[200px]">

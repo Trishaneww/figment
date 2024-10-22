@@ -3,6 +3,12 @@ import Navbar from '@/components/Navbar'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import Image from 'next/image'
 import React from 'react'
+import yasolutions1 from '../../public/assets/images/gallery1.png'
+import yasolutions2 from '../../public/assets/images/yasolutions2.png'
+import yasolutions3 from '../../public/assets/images/yasolutions3.png'
+import yasolutions4 from '../../public/assets/images/yasolutions4.png'
+import yasolutions5 from '../../public/assets/images/yasolutions5.png'
+import yasolutions6 from '../../public/assets/images/yasolutions6.png'
 
 const YaSolutions = () => {
   return (
@@ -16,11 +22,9 @@ const YaSolutions = () => {
                 <TextGenerateEffect words="YaSolutions Inc"/>
                 {/* <p>Whatever your unique idea or needs, weve got the tools and know how to build your custom solution from discovery to deployment.</p> */}
             </div>
-            <div className="bg-blue-800 w-[92%] md:w-[70%] mt-6 md:mt-20">
+            <div className="w-[92%] md:w-[70%] mt-6 md:mt-20">
                 <Image
-                    width={1000}
-                    height={1000}
-                    src='/assets/images/gallery1.png'
+                    src={yasolutions1}
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
@@ -34,30 +38,22 @@ const YaSolutions = () => {
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/yasolutions2.png'
+                        src={yasolutions2}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/yasolutions3.png'
+                        src={yasolutions3}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/yasolutions4.png'
+                        src={yasolutions4}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/yasolutions5.png'
+                        src={yasolutions5}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
@@ -65,9 +61,7 @@ const YaSolutions = () => {
 
                 <div className="bg-slate-900 w-full flex justify-center items-center mt-24 py-32">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/yasolutions6.png'
+                        src={yasolutions6}
                         alt="Yasolutions logo banner"
                         className="w-[94%] md:w-[74%]"
                     />

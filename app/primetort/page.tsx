@@ -3,6 +3,12 @@ import Navbar from '@/components/Navbar'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import Image from 'next/image'
 import React from 'react'
+import primetort1 from '../../public/assets/images/gallery3.png'
+import primetort2 from '../../public/assets/images/primetort2.png'
+import primetort3 from '../../public/assets/images/work3.png'
+import primetort4 from '../../public/assets/images/primetort3.png'
+import primetort5 from '../../public/assets/images/primetort4.png'
+import primetort6 from '../../public/assets/images/primetort5.png'
 
 const Primetort = () => {
   return (
@@ -15,11 +21,9 @@ const Primetort = () => {
                 <TextGenerateEffect words="PrimeTort Leads"/>
                 {/* <p>Whatever your unique idea or needs, weve got the tools and know how to build your custom solution from discovery to deployment.</p> */}
             </div>
-            <div className="bg-blue-800 w-[92%] md:w-[70%] mt-6 md:mt-20">
+            <div className="w-[92%] md:w-[70%] mt-6 md:mt-20">
                 <Image
-                    width={1000}
-                    height={1000}
-                    src='/assets/images/gallery3.png'
+                    src={primetort1}
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
@@ -35,31 +39,22 @@ const Primetort = () => {
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/primetort2.png'
-                        alt="Yasolutions logo banner"
-                        className="rounded-lg"
-                    />
-                   
-                    <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/work3.png'
+                        src={primetort2}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/primetort3.png'
+                        src={primetort3}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/primetort4.png'
+                        src={primetort4}
+                        alt="Yasolutions logo banner"
+                        className="rounded-lg"
+                    />
+                    <Image
+                        src={primetort5}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
@@ -67,9 +62,7 @@ const Primetort = () => {
 
                 <div className="bg-slate-900 w-full flex justify-center items-center mt-24 p-12">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/primetort5.png'
+                        src={primetort6}
                         alt="Yasolutions logo banner"
                         className="w-[94%] md:w-[88%]"
                     />

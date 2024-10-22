@@ -1,57 +1,25 @@
 "use client"
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardTitle } from '@/components/ui/card'
 import { devprocess,servicesData} from '@/data'
 import Image from 'next/image'
 import React from 'react'
-import { IoIosArrowForward } from 'react-icons/io'
 import '../../styles/global.scss';
-import { TextGenerateEffect3 } from '@/components/ui/text-generate-effect3'
 
 const Services = () => {
   return (
     <div className="flex flex-col items-center bg-slate-50">
     <Navbar />
-
-    <div>
-      <div className="w-2/5 h-4/5 bg-gradient-to-r from-green-200 to-green-300 rounded-full absolute z-1 top-[50%] left-[80%] translate-x-[-50%] translate-y-[-50%] blur-[90px]"></div>
-      <div className="flex flex-col md:flex-row justify-center md:justify-center items-center gap-10 md:h-[100vh] overflow-hidden">
-        <div className="flex flex-col justify-center items-center md:items-start gap-6 z-10 lg:w-[35%] lg:ml-36 xl:ml-32 mt-48 md:mt-0 text-center md:text-left">
-            <TextGenerateEffect3 words="Start. Scale. Grow"/>
-            <p className="mx-2 md:mx-0 text-lg">Whether you need a stunning custom website, expert UI/UX design, or reliable ongoing maintenance and support, our team is ready to meet all your website needs with precision and expertise."</p>
-            <div className="flex gap-4">
-                <a href="/contact"><Button className="w-[200px] shadow text-base">Start Project</Button></a>
-                <a href="mailto:contact.figmentstudios@gmail.com" className='flex gap-2 justify-center items-center hover:cursor-pointer'>
-                    <p className="text-base">Contact Us</p>
-                    <IoIosArrowForward size={15}/>
-                </a>
-            </div>
-        </div>
-  
-      
-        <Image
-          alt="bg image"
-          height={800}
-          width={800}
-          src="/assets/images/services7.png"
-          className="z-20 w-full md:w-[48%]"
-        />
-      </div>
-    </div>
-
-
-        <div className="-mb-48 md:-mb-20 mt-24 flex flex-col justify-center items-center gap-2">
-            <h1 className="text-slate-800 text-3xl md:text-5xl lg:text-6xl font-semibold">Our Core Services</h1>
+        <div className="-mb-48 md:-mb-20 mt-60 flex flex-col justify-center items-center gap-2" id="services">
+            <h1 className="text-5xl lg:text-7xl xl:text-8xl font-bold text-center">Our Services</h1>
             <p className="text-lg text-center">Discover our core services designed to build, enhance, and grow your online presence.</p>
         </div>
 
         <section className="flex flex-col md:flex-row w-full gap-4 lg:gap-16 p-8 justify-center items-center mt-20">
             <div className="flex justify-center items-center lg:justify-end lg:items-end flex-col gap-4 mt-40 w-full lg:w-2/4">
-                {servicesData.slice(0,3).map((service) => (
-                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
-        
+                {servicesData.slice(0,3).map((service, idx) => (
+                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms" key={idx}>
                     <div className="h-[75%] w-full overflow-hidden rounded-lg">
                         <Image
                             width={1000}
@@ -61,7 +29,6 @@ const Services = () => {
                             className="h-full w-full hover:scale-110 duration-500 transition-transform"
                         />
                     </div>
-
                     <CardContent className="flex flex-col gap-4 h-[25%] mt-6">
                         <div className="flex justify-between items-center w-full">
                             <CardTitle className="text-2xl">{service.name}</CardTitle>
@@ -74,9 +41,8 @@ const Services = () => {
             </div>
 
             <div className="flex justify-center items-center lg:justify-start lg:items-start flex-col gap-4 w-full lg:w-2/4">
-                {servicesData.slice(3,6).map((service) => (
-                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms">
-
+                {servicesData.slice(3,6).map((service, idx) => (
+                    <Card className="w-[340px] xl:w-[550px]  flex flex-col gap-4 p-[0.2rem] hover:cursor-pointer duration-300ms" key={idx}>
                     <div className="h-[75%] w-full overflow-hidden rounded-lg">
                         <Image
                             width={1000}
@@ -86,9 +52,6 @@ const Services = () => {
                             className="h-full w-full hover:scale-110 duration-500 transition-transform"
                         />
                     </div>
-
-                       
-        
                     <CardContent className="flex flex-col gap-4 h-[25%] mt-6">
                         <div className="flex justify-between items-center w-full">
                             <CardTitle className="text-2xl">{service.name}</CardTitle>
@@ -119,7 +82,7 @@ const Services = () => {
                  <div className="flex flex-col lg:flex-row gap-8 lg:gap-2 xl:gap-4 items-center justify-center relative -top-16">
                     <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[33%] xl:w-[26%] rounded-lg shadow-lg py-8 px-8 gap-4 bg-white">
                         <p className="text-2xl font-bold">Stay on top of timelines</p>
-                        <p className="h-[130px] md:h-[100px]">Jira's reporting features give you insights into project timelines and help in managing expectations, ensuring we deliver your project on schedule.</p>
+                        <p className="h-[130px] md:h-[100px]">Jira&apos;s reporting features give you insights into project timelines and help in managing expectations, ensuring we deliver your project on schedule.</p>
                     </div>
                     <div className="flex flex-col items-start justify-center text-left w-[90%] lg:w-[33%] xl:w-[26%] rounded-lg shadow-lg py-8 px-8 gap-4 bg-white">
                         <p className="text-2xl font-bold">Collaborate with our Team</p>
@@ -137,11 +100,11 @@ const Services = () => {
         <section className="flex flex-col items-center w-full mt-60 gap-14 mb-24" id="process">
             <div className="flex flex-col items-center gap-6">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-green-200 bg-black">Our Process</p>
-                <p className="font-bold text-4xl md:text-6xl text-center">Our Essential Development Process</p>
+                <p className="font-bold text-4xl md:text-6xl text-center">Our Development Process</p>
             </div>
             <div className="flex justify-center gap-4 flex-wrap w-full">
             {devprocess.map((phase, index) => (
-                <div className="flex flex-col items-center justify-start text-center w-[90%] lg:w-[42%] xl:w-[35%] h-[380px] md:h-[290px] xl:h-[280px] rounded-lg shadow-lg p-4 px-6 gap-4 bg-white process-card">
+                <div className="flex flex-col items-center justify-start text-center w-[90%] lg:w-[42%] xl:w-[35%] h-[380px] md:h-[290px] xl:h-[280px] rounded-lg shadow-lg p-4 px-6 gap-4 bg-white process-card" key={index}>
                     <div className="flex items-center justify-between w-full h-[30px]">
                         <p className="text-2xl font-bold">{phase.title}</p>
                         <p className="text-2xl font-bold">{index + 1}</p>
