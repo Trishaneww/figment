@@ -13,19 +13,19 @@ const PricingChart = () => {
             </div>
             <div className="h-[70px] w-[18.5%] flex flex-col gap-2  items-center justify-center">
                 <p className="text-2xl text-center">Business Elite</p>
-                <p>$1600</p>
+                
             </div>
             <div className="h-[70px] w-[18.5%] flex flex-col gap-2  items-center justify-center">
                 <p className="text-2xl">Business</p>
-                <p>$1200</p>
+                
             </div>
             <div className="h-[70px] w-[18.5%] flex flex-col gap-2  items-center justify-center">
                 <p className="text-2xl">Core</p>
-                <p>$800</p>
+                
             </div>
             <div className="h-[70px] w-[18.5%] flex flex-col gap-2  items-center justify-center">
                 <p className="text-2xl">Lite</p>
-                <p>$400</p>
+                
             </div>
         </section>
 
@@ -38,8 +38,8 @@ const PricingChart = () => {
             <div className="h-[70px] w-[26%] rowBorder justify-start px-4">
                 <p>{column.name}</p>
             </div>
-            {column.values.map((value) => (
-                <div className="h-[70px] w-[18.5%] rowBorder justify-center">
+            {column.values.map((value, idx) => (
+                <div className="h-[70px] w-[18.5%] rowBorder justify-center" key={idx}>
                     {value === true ? 
                     <div className="w-[26px] h-[22px] flex justify-center items-center bg-green-100 text-green-500 rounded-full">
                         <GiCheckMark size={16}/>
@@ -62,8 +62,8 @@ const PricingChart = () => {
             <div className="h-[70px] w-[26%] rowBorder justify-start px-4">
                 <p>{column.name}</p>
             </div>
-            {column.values.map((value) => (
-                <div className="h-[70px] w-[18.5%] rowBorder justify-center">
+            {column.values.map((value, idx) => (
+                <div className="h-[70px] w-[18.5%] rowBorder justify-center" key={idx}>
                     {value === true ? 
                     <div className="w-[26px] h-[22px] flex justify-center items-center bg-green-100 text-green-500 rounded-full">
                         <GiCheckMark size={16}/>
@@ -77,7 +77,6 @@ const PricingChart = () => {
             </section>
         ))}
 
-
         <div className="flex h-[70px] w-full items-center justify-start px-4 font-bold rowBorder">
             <p>Ecommerce</p>
         </div>
@@ -87,8 +86,8 @@ const PricingChart = () => {
             <div className="h-[70px] w-[26%] rowBorder justify-start px-4">
                 <p>{column.name}</p>
             </div>
-            {column.values.map((value) => (
-                <div className="h-[70px] w-[18.5%] rowBorder justify-center">
+            {column.values.map((value, idx) => (
+                <div className="h-[70px] w-[18.5%] rowBorder justify-center" key={idx}>
                     {value === true ? 
                     <div className="w-[22px] h-[22px] flex justify-center items-center bg-green-100 text-green-500 rounded-full">
                         <GiCheckMark size={16}/>
@@ -112,8 +111,8 @@ const PricingChart = () => {
             <div className="h-[70px] w-[26%] rowBorder justify-start px-4">
                 <p>{column.name}</p>
             </div>
-            {column.values.map((value) => (
-                <div className="h-[70px] w-[18.5%] rowBorder justify-center">
+            {column.values.map((value, idx) => (
+                <div className="h-[70px] w-[18.5%] rowBorder justify-center" key={idx}>
                     {value === true ? 
                     <div className="w-[22px] h-[22px] flex justify-center items-center bg-green-100 text-green-500 rounded-full">
                         <GiCheckMark size={16}/>

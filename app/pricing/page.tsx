@@ -10,7 +10,7 @@ const page = () => {
     <div className="flex flex-col bg-slate-50">
         <Navbar />
         <Pricing />
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full" id="features">
           <PricingChart />
         </div>
         <Faq />

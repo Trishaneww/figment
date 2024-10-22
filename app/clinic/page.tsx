@@ -4,6 +4,12 @@ import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import Image from 'next/image'
 import React from 'react'
 import '../../styles/global.scss';
+import clinic1 from '../../public/assets/images/gallery4.png'
+import clinic2 from '../../public/assets/images/clinic2.png'
+import clinic3 from '../../public/assets/images/clinic3.png'
+import clinic4 from '../../public/assets/images/clinic4.png'
+import clinic5 from '../../public/assets/images/clinic5.png'
+import clinic6 from '../../public/assets/images/clinic6.png'
 
 const Clinic = () => {
   return (
@@ -16,11 +22,9 @@ const Clinic = () => {
                 <TextGenerateEffect words="Clinic Software"/>
                 {/* <p>Whatever your unique idea or needs, weve got the tools and know how to build your custom solution from discovery to deployment.</p> */}
             </div>
-            <div className="bg-blue-800 w-[92%] md:w-[70%] mt-6 md:mt-20">
+            <div className="w-[92%] md:w-[70%] mt-6 md:mt-20">
                 <Image
-                    width={1000}
-                    height={1000}
-                    src='/assets/images/gallery4.png'
+                    src={clinic1}
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
@@ -35,30 +39,22 @@ const Clinic = () => {
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/clinic2.png'
+                        src={clinic2}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/clinic3.png'
+                        src={clinic3}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/clinic4.png'
+                        src={clinic4}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/clinic5.png'
+                        src={clinic5}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
@@ -66,9 +62,7 @@ const Clinic = () => {
 
                 <div className="bg-slate-900 w-full flex justify-center items-center mt-24 p-12">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/clinic6.png'
+                        src={clinic6}
                         alt="Yasolutions logo banner"
                         className="w-[94%] md:w-[88%]"
                     />
@@ -83,10 +77,6 @@ const Clinic = () => {
         </footer>
 
         </div>
-
-
-        {/* <Footer /> */}
-
     </div>
   )
 }

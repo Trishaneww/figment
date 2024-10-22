@@ -33,7 +33,7 @@ const Process = () => {
                         {/* <FaCode size={18} className="text-purple-300 relative -top-3 left-2 opacity-70" /> */}
                     </div>
                     <p className="font-bold mt-2 text-lg">Planning & Wireframing</p>
-                    <p className="text-base h-[120px] lg:h-[200px] xl:h-[170px]">The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements.</p>
+                    <p className="text-base h-[120px] lg:h-[200px] xl:h-[170px]">The website development process begins with discovery and planning, where we collaborate to define the website&apos;s goals, target audience, key functionalities, and content requirements.</p>
                 </div>
                 <div className="flex self-baseline items-center gap-2">
                     <a href="/services/#process">See more</a>

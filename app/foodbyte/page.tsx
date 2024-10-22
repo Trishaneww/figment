@@ -3,6 +3,12 @@ import Navbar from '@/components/Navbar'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import Image from 'next/image'
 import React from 'react'
+import foodbyte1 from '../../public/assets/images/gallery2.png'
+import foodbyte2 from '../../public/assets/images/foodbyte2.png'
+import foodbyte3 from '../../public/assets/images/foodbyte3.png'
+import foodbyte4 from '../../public/assets/images/foodbyte4.png'
+import foodbyte5 from '../../public/assets/images/foodbyte5.png'
+import foodbyte6 from '../../public/assets/images/foodbyte6.png'
 
 const Foodbyte = () => {
   return (
@@ -13,13 +19,10 @@ const Foodbyte = () => {
             <div className="flex flex-col gap-4 w-full md:w-4/6 p-2">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-white bg-slate-900">Business Management</p>
                 <TextGenerateEffect words="Foodbyte"/>
-                {/* <p>Whatever your unique idea or needs, weve got the tools and know how to build your custom solution from discovery to deployment.</p> */}
             </div>
-            <div className="bg-blue-800 w-[92%] md:w-[70%] mt-6 md:mt-20">
+            <div className="w-[92%] md:w-[70%] mt-6 md:mt-20">
                 <Image
-                    width={1000}
-                    height={1000}
-                    src='/assets/images/gallery2.png'
+                    src={foodbyte1}
                     alt="Yasolutions logo banner"
                     className="w-full"
                 />
@@ -36,31 +39,23 @@ const Foodbyte = () => {
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/foodbyte2.png'
+                        src={foodbyte2}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                    
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/foodbyte3.png'
+                        src={foodbyte3}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/foodbyte4.png'
+                        src={foodbyte4}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/foodbyte5.png'
+                        src={foodbyte5}
                         alt="Yasolutions logo banner"
                         className="rounded-lg"
                     />
@@ -68,9 +63,7 @@ const Foodbyte = () => {
 
                 <div className="bg-gray-200 w-full flex justify-center items-center mt-24 p-12">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/foodbyte6.png'
+                        src={foodbyte6}
                         alt="Yasolutions logo banner"
                         className="w-[94%] md:w-[88%]"
                     />

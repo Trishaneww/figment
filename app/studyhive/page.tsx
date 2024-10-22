@@ -5,6 +5,12 @@ import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import { studyHiveFeatures } from '@/data'
 import Image from 'next/image'
 import React from 'react'
+import studyhive1 from '../../public/assets/images/gallery6.png'
+import studyhive2 from '../../public/assets/images/studyhive2.png'
+import studyhive3 from '../../public/assets/images/studyhive3.png'
+import studyhive4 from '../../public/assets/images/studyhive4.png'
+import studyhive5 from '../../public/assets/images/studyhive5.png'
+import studyhive6 from '../../public/assets/images/studyhive6.png'
 
 const StudyHive = () => {
   return (
@@ -15,14 +21,11 @@ const StudyHive = () => {
             <div className="flex flex-col gap-4 w-full md:w-4/6 p-2">
                 <p className="text-sm flex justify-center items-center p-1 rounded-full w-[180px] shadow text-white bg-slate-900">Study Platform</p>
                 <TextGenerateEffect words="StudyHive"/>
-                {/* <p>Whatever your unique idea or needs, weve got the tools and know how to build your custom solution from discovery to deployment.</p> */}
             </div>
-            <div className="bg-blue-800 w-[92%] md:w-[70%] mt-6 md:mt-20">
+            <div className="w-[92%] md:w-[70%] mt-6 md:mt-20">
                 <Image
-                    width={1000}
-                    height={1000}
-                    src='/assets/images/gallery6.png'
-                    alt="Yasolutions logo banner"
+                    src={studyhive1}
+                    alt="studyhive logo banner"
                     className="w-full"
                 />
             </div>
@@ -35,14 +38,6 @@ const StudyHive = () => {
             </div>
 
                 <div className="grid md:grid-cols-2 gap-4 mt-36 w-[92%] md:w-[70%]">
-                    {/* <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/studyhive2.png'
-                        alt="Yasolutions logo banner"
-                        className="rounded-lg"
-                    /> */}
-
                     <div className="bg-black flex justify-center items-center overflow-hidden rounded-lg">
                         <video  autoPlay loop muted className="border-[1px] border-slate-900 rounded-lg w-full">
                             <source src="/assets/videos/video3.mp4" type="video/mp4" />
@@ -52,24 +47,18 @@ const StudyHive = () => {
                     </div>
                    
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/studyhive3.png'
-                        alt="Yasolutions logo banner"
+                        src={studyhive3}
+                        alt="studyhive logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/studyhive4.png'
-                        alt="Yasolutions logo banner"
+                        src={studyhive4}
+                        alt="studyhive logo banner"
                         className="rounded-lg"
                     />
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/studyhive2.png'
-                        alt="Yasolutions logo banner"
+                        src={studyhive2}
+                        alt="studyhive logo banner"
                         className="rounded-lg"
                     />
                 </div>
@@ -78,10 +67,8 @@ const StudyHive = () => {
 
                 <div className="bg-slate-900 w-full flex justify-center items-center mt-24 p-12">
                     <Image
-                        width={1000}
-                        height={1000}
-                        src='/assets/images/studyhive5.png'
-                        alt="Yasolutions logo banner"
+                        src={studyhive5}
+                        alt="studyhive logo banner"
                         className="w-[94%] md:w-[88%]"
                     />
                 </div>

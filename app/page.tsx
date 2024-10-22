@@ -1,36 +1,38 @@
 "use client"
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Companies from "@/components/Companies";
-import CaseStudies from "@/components/CaseStudies";
 import Work from "@/components/Work";
-import Services from "@/components/Services";
-import CTA from "@/components/CTA";
-import Process from "@/components/Process";
 import '../styles/global.scss';
+import Benefits from "@/components/Benefits";
+import Hero2 from "@/components/Hero2";
+import Testimonials from "@/components/Testimonials";
+import { Toaster } from "@/components/ui/toaster";
+import CTA2 from "@/components/CTA2";
+import Features from "@/components/Features";
+import CTA3 from "@/components/CTA3";
+import Services2 from "@/components/Services2";
 
 
 const Home = () => {
-  // const isAdmin = searchParams?.admin === "true";
-
   return (
     <div className="flex flex-col bg-slate-50 scroll-smooth">
       <Navbar />
-      <Hero />
+      <Hero2 />
       <Companies />
-      <Services />
-      <Process  />
-      <Work />
-      {/* <Approach /> */}
-      <CaseStudies />
+      <Features />
+      <Services2 />
+      <Work /> 
+      <CTA3 />
+      <div id="benefits"></div>
+      <Benefits />
+      <Testimonials />
       <div id="faq"></div>
       <Faq />
-      {/* <Pricing /> */}
-      <CTA />
+      <div className="flex w-full justify-center"><CTA2 /></div>
       <Footer />
-
+      <Toaster />
     </div>
   );
 };

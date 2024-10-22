@@ -28,7 +28,7 @@ export const TextGenerateEffect3 = ({
         delay: stagger(0.2),
       }
     );
-  }, [scope.current]);
+  }, []);
 
   const renderWords = () => {
     return (
@@ -53,7 +53,7 @@ export const TextGenerateEffect3 = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className="text-4xl md:text-6xl lg:text-6xl xl:text-7xl font-bold leading-snug tracking-wide">
+        <div className="text-3xl md:text-5xl xl:text-[3.5rem] font-semibold mt-20 leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>

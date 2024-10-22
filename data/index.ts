@@ -1,10 +1,10 @@
 
 
 export const navItems = [
-    { name: "FAQ", link: "/#faq" },
     { name: "Portfolio", link: "/portfolio" },
     { name: "Services", link: "/services" },
     { name: "Pricing", link: "/pricing" },
+    { name: "FAQ", link: "/#faq" },
 ];
 
 export const faqData = [
@@ -13,16 +13,16 @@ export const faqData = [
         item: 'Is it possible to integrate third-party tools and software?',
         content: "We specialize in integrating a wide range of third-party tools and software into your website, such as payment gateways (Stripe, PayPal), marketing tools (Google Analytics, HubSpot), CRMs (Salesforce, Zoho CRM), and more. These integrations help streamline operations, enhance user experience, and drive growth by providing secure transactions, effective marketing, and efficient customer management—all from a single, cohesive platform tailored to your business needs."
     },
-    {
-        id: 2,
-        item: 'What happens after the website is launched?',
-        content: "After launching your website, we provide ongoing maintenance and support to keep it secure, updated, and optimized. This includes regular updates, security patches, performance checks, and backups. Our team is also available to assist with any issues, ensuring your website remains effective and aligned with your business needs."
-    },
-    {
-        id: 3,
-        item: 'What happens if I am unhappy with the designs?',
-        content: "If you are not satisfied with our initial design, we are committed to working closely with you to make it right. We encourage your feedback throughout the design process to refine and develop a website that you truly love and that effectively supports your brand's growth.However, if you are still unhappy with the direction within the first 7 days of payment, we offer a full refund to ensure you are completely confident in your decision to work with us. Your satisfaction is our priority, and we are here to create a website that meets your expectations and business needs"
-    }
+    // {
+    //     id: 2,
+    //     item: 'What happens after the website is launched?',
+    //     content: "After launching your website, we provide ongoing maintenance and support to keep it secure, updated, and optimized. This includes regular updates, security patches, performance checks, and backups. Our team is also available to assist with any issues, ensuring your website remains effective and aligned with your business needs."
+    // },
+    // {
+    //     id: 3,
+    //     item: 'What happens if I am unhappy with the designs?',
+    //     content: "If you are not satisfied with our initial design, we are committed to working closely with you to make it right. We encourage your feedback throughout the design process to refine and develop a website that you truly love and that effectively supports your brand's growth.However, if you are still unhappy with the direction within the first 7 days of payment, we offer a full refund to ensure you are completely confident in your decision to work with us. Your satisfaction is our priority, and we are here to create a website that meets your expectations and business needs"
+    // }
 ]
 
 export const servicesData = [
@@ -293,36 +293,36 @@ export const pricingData = [
       id:1,
       title: 'Lite',
       desc: "Perfect for businesses needing a simple, static one-page website to establish an online presence.",
-      price: "$400",
+      price: "$399",
       rate: '/month',
-      link:'https://buy.stripe.com/9AQ15JgdWdsfbWo4gg',
+      link:'https://buy.stripe.com/14kaGjaTC3RF1hK6ou',
       packageList: ["Mobile Responsiveness",  "Limited requests and revisions", "Project management in Jira", "Live Progress Updates", "One-page static site", "Free software support"]
     },
     {
         id:1,
         title: 'Core',
         desc: "For businesses needing a multi-page website with enhanced features for a more dynamic online presence.",
-        price: "$800",
+        price: "$699",
         rate: '/month',
-        link:'https://buy.stripe.com/9AQ4hV4veewj0dG005',
+        link:'https://buy.stripe.com/eVabKnbXG4VJ5y0aEO',
         packageList: ["Mobile Responsiveness", "Unlimited requests and revisions","Project management in Jira", "Live Progress Updates", "Software support", "Up to 10 pages", "Free software support"]
     },
     {
         id:2,
         title: 'Business',
         desc: "Designed for businesses needing a dynamic website with eCommerce capabilities and seamless third-party integrations.",
-        price: "$1200",
+        price: "$999",
         rate: '/month',
-        link:'https://buy.stripe.com/14kcOr9PygErbWodQS',
+        link:'https://buy.stripe.com/eVaeWz2n673RbWo9AI',
         packageList: ["Mobile Responsiveness", "Unlimited requests and revisions", "Project management in Jira", "Unlimited pages", "Free software support", "Accept payments","Standard eCommerce", "Standard manager platform"]
     },
     {
         id:4,
         title: 'Business Elite',
         desc: "Designed for companies needing to manage everything from products and content to analytics and operations.",
-        price: "$1600",
+        price: "$1499",
         rate: '/month',
-        link:'https://buy.stripe.com/cN2bKn9Py87VbWo5kn',
+        link:'https://buy.stripe.com/3csdSvaTCbk7bWoeV5',
         packageList: ["Mobile Responsiveness", "Unlimited requests and revisions", "Project management in Jira", "Unlimited pages", "Free software support", "Accept payments", "Advanced eCommerce", "Advanced manager platform", "AI-tools"]
     }
 ]
@@ -344,7 +344,6 @@ export const jiraDetails = [
     descr: "Get a bird's eye view of everything going on within our project; conversations, added & completed to-do's, file sharing and more."
   },
 ]
-
 
 export const devprocess = [
   {

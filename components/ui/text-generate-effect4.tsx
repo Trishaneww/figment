@@ -28,7 +28,7 @@ export const TextGenerateEffect4 = ({
         delay: stagger(0.2),
       }
     );
-  }, [scope.current]);
+  }, []);
 
   const renderWords = () => {
     return (
